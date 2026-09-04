@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-04T07:08:35.166989+00:00",
+  "alive_agents": 50,
+  "dead_agents": 0,
+  "opportunities_found": 0,
+  "packages_prepared": 0,
+  "verified_money_today": 0.0,
+  "rule": "Dead agents are permanent and are never respawned."
+}
