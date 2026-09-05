@@ -3,7 +3,7 @@ There is no fixed job/opportunity list. The agent farm generates broad search
 queries from its current rules and capabilities, discovers public opportunities,
 and filters obvious scams. It never creates fake accounts or bypasses controls.
 """
-import argparse,html,json,re,urllib.parse,urllib.request
+import argparse,html,json,re,urllib.parse,urllib.request,time
 from datetime import datetime,timezone
 from pathlib import Path
 ROOT=Path(__file__).parent; OUT=ROOT/"opportunities.json"
@@ -68,7 +68,7 @@ def score(x):
     return v
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument("--max-results",type=int,default=8); ap.add_argument("--max-opportunities",type=int,default=500); args=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument("--max-results",type=int,default=8); ap.add_argument("--max-opportunities",type=int,default=500); ap.add_argument("--time-limit-seconds",type=int,default=600); args=ap.parse_args()
     queries=list(BASE)
     # Capability discovery is additive, not restrictive: agents can still use any other opportunity.
     try:
@@ -77,17 +77,20 @@ def main():
       for k in skills: queries += [f"paid {k}","hiring "+k+" contractor","client needs "+k]
     except Exception: pass
     queries=list(dict.fromkeys(queries)); now=datetime.now(timezone.utc).isoformat(); found=[]
+    started=time.monotonic(); deadline=started+max(1,args.time_limit_seconds); searches_completed=0
     for q in queries:
+      if time.monotonic() >= deadline: break
       try:
         for x in search(q,args.max_results):
           x["score"]=score(x); x["opportunity_type"]=classify(x); x["discovered_at"]=now; x["worldwide_search"]=True
           if x["score"]>=0: found.append(x)
+        searches_completed += 1
       except Exception as e: print("search failed",q,e)
     unique={}
     for x in found:
       if x["url"] not in unique or x["score"]>unique[x["url"]]["score"]: unique[x["url"]]=x
     ranked=sorted(unique.values(),key=lambda x:x["score"],reverse=True)[:args.max_opportunities]
-    OUT.write_text(json.dumps({"generated_at":now,"autonomous_discovery":True,"fixed_opportunity_list":False,"worldwide_business_search":True,"discovery_policy":"Search publicly available legitimate opportunities, business prospects, apps, websites, games, contests, bounties and other lawful value paths; validate before action.",
-      "count":len(ranked),"opportunities":ranked},indent=2,ensure_ascii=False))
-    print(f"AUTONOMOUS DISCOVERY: {len(ranked)} opportunities found from {len(queries)} searches.")
+    elapsed=round(time.monotonic()-started,2)
+    OUT.write_text(json.dumps({"generated_at":now,"autonomous_discovery":True,"fixed_opportunity_list":False,"worldwide_business_search":True,"discovery_policy":"Search publicly available legitimate opportunities, business prospects, apps, websites, games, contests, bounties and other lawful value paths; validate before action.","time_limit_seconds":args.time_limit_seconds,"elapsed_seconds":elapsed,"searches_attempted":searches_completed,"deadline_enforced":True,"count":len(ranked),"opportunities":ranked},indent=2,ensure_ascii=False))
+    print(f"AUTONOMOUS DISCOVERY: {len(ranked)} opportunities found; {searches_completed} searches completed in {elapsed}s (limit {args.time_limit_seconds}s).")
 if __name__=="__main__": main()

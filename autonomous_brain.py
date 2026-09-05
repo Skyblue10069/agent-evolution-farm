@@ -1,11 +1,13 @@
 """Full autonomous brain: memory, self-generated hypotheses, experiments and strategy.
 No fixed earning/action catalogue is exposed to agents. Safety and owner controls remain hard gates.
 """
-import json, math, re, random
+import json, math, re, random, hashlib
 from datetime import datetime, timezone
 from pathlib import Path
 ROOT=Path(__file__).parent
 STATE=ROOT/'state.json'; OPPS=ROOT/'opportunities.json'; OUT=ROOT/'brain_decisions.json'
+CACTUS_MEMORY=ROOT/'cactus_needle_memory.bin'
+CACTUS_MEMORY_BYTES=14_000_000
 BLOCKED=re.compile(r'(credential theft|password theft|phishing|impersonat|captcha bypass|spam|payment fraud|malware|ransomware|steal|hack account|unauthorized account)',re.I)
 
 def load(p,d):
@@ -29,6 +31,29 @@ def reason(agent, opp):
     value=base+fit+prior-random.random()*uncertainty*0.15
     return value
 
+def append_cactus_memory(record):
+    # Persistent 14 MB memory core. It is a bounded append-only journal; the
+    # bytes are intentionally plain JSONL so the farm can inspect and migrate it.
+    line=(json.dumps(record,ensure_ascii=False,separators=(",",":"))+"\n").encode("utf-8")
+    if len(line)>CACTUS_MEMORY_BYTES: return
+    try:
+        existing=CACTUS_MEMORY.read_bytes() if CACTUS_MEMORY.exists() else b""
+    except Exception:
+        existing=b""
+    blob=(existing+line)[-CACTUS_MEMORY_BYTES:]
+    CACTUS_MEMORY.write_bytes(blob)
+
+def improve_agent_model(agent, best):
+    brain=agent.setdefault("brain", {})
+    self_model=brain.setdefault("self_model", {})
+    self_model["last_strategy"]="evidence_first_work_completion"
+    self_model["known_strengths"]=sorted(agent.get("skills",{}), key=agent.get("skills",{}).get, reverse=True)[:5]
+    self_model["weaknesses"]=sorted(agent.get("skills",{}), key=agent.get("skills",{}).get)[:5]
+    plan={"goal":"finish chosen work before leaving it","opportunity":best.get("title",""),"checks":["eligibility","deliverable","QA","submission evidence","payment verification"]}
+    brain.setdefault("plans",[]).append(plan); brain["plans"]=brain["plans"][-100:]
+    brain.setdefault("critic_notes",[]).append({"question":"What could make this work fail?","answer":"Check eligibility, requirements, quality and external dependency before claiming success."})
+    brain["critic_notes"]=brain["critic_notes"][-100:]
+
 def main():
     s=load(STATE,{}); data=load(OPPS,{'opportunities':[]}); now=datetime.now(timezone.utc).isoformat(); decisions=[]
     for a in s.get('agents',[]):
@@ -47,6 +72,9 @@ def main():
         brain['experiments'].append(experiment); brain['experiments']=brain['experiments'][-100:]
         brain['goals'].append({'created_at':now,'goal':hypothesis,'target':best.get('title',''),'target_url':best.get('url','')}); brain['goals']=brain['goals'][-100:]
         brain['memory'].append({'time':now,'observation':best.get('title','No signal'),'type':'market_observation','score':round(scored[0][0],2) if scored else 0}); brain['memory']=brain['memory'][-200:]
+        improve_agent_model(a, best)
+        if a.get('main_character'):
+            append_cactus_memory({'time':now,'agent':'Cactus Needle','observation':best.get('title','No signal'),'score':round(scored[0][0],2) if scored else 0,'lesson':'finish work before leaving','memory_hash':hashlib.sha256((best.get('title','')+best.get('url','')).encode()).hexdigest()})
         decisions.append({'agent_id':a['id'],'agent_name':a['name'],'best_signal':best.get('title',''),'url':best.get('url',''),'decision_score':round(scored[0][0],2) if scored else 0,'hypothesis':hypothesis,'status':'awaiting_review'})
     OUT.write_text(json.dumps({'autonomous_brain':True,'open_ended_reasoning':True,'fixed_action_list':False,'decisions':decisions,'generated_at':now},indent=2,ensure_ascii=False))
     STATE.write_text(json.dumps(s,indent=2,ensure_ascii=False))

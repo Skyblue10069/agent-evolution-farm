@@ -1,3 +1,404 @@
 {
-  "dead_agents": []
+  "dead_agents": [
+    {
+      "name": "Agent-A-186786",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768635+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-L-186354",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768652+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-I-951719",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768659+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-L-500628",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768678+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-D-420535",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768682+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-G-518425",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768687+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-Q-125930",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768691+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-E-485573",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768694+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-F-716452",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768698+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-P-154526",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768702+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-H-142554",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768705+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-F-425147",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768709+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-L-302840",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768712+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-G-232001",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768716+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-B-557700",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768719+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-A-747973",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768723+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-L-643253",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768726+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-R-268932",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768730+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-C-792922",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768733+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-K-742467",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768736+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-G-127211",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768740+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-S-256512",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768743+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-J-658088",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768746+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-C-608624",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768750+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-Q-989669",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768753+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-R-203619",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768757+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-J-415028",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768761+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-K-776827",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768764+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-O-944353",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768768+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-H-308955",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768771+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-H-665305",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768774+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-A-208702",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768778+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-B-732337",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768782+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-S-604198",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768786+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-Q-411312",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768789+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-A-556412",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768793+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-A-562521",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768797+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-D-125111",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768800+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-R-794110",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768803+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-F-260987",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768807+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-I-694035",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768810+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-G-427299",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768814+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-H-380133",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768817+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-J-601602",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768821+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-T-408958",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768824+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-I-744749",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768827+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-T-764339",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768831+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-M-294659",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768834+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Agent-E-547857",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768838+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    },
+    {
+      "name": "Cactus Needle",
+      "generation": 0,
+      "death_day": 3,
+      "died_at": "2026-09-05T16:48:09.768841+00:00",
+      "reason": "survival_resource_reached_zero",
+      "final_survival": 0
+    }
+  ]
 }

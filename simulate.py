@@ -22,7 +22,7 @@ def rules():
     try: return json.loads(RULES_FILE.read_text())
     except Exception: return {}
 
-def new_agent(used,parent=None):
+def new_agent(used,parent=None, special=None):
     while True:
         name=random.choice(AGENT_NAMES)+"-"+str(random.randrange(100000,999999))
         if name not in used: used.add(name); break
@@ -32,25 +32,55 @@ def new_agent(used,parent=None):
         # Clone inherits learned capability, not cash, customers or ownership.
         skills={s:round(max(0,min(100,parent.get('skills',{}).get(s,0)*0.85)),2) for s in SKILLS}
         generation=parent.get('generation',0)+1
+    if special:
+        name = special.get("name", name)
+        while name in used and name != special.get("name"):
+            name = special.get("name", name) + "-CORE"
+        used.add(name)
+        species = special.get("species", "ai")
+    else:
+        species = "agent"
     return {
-      "id":name.lower(), "name":name, "species":"agent",
+      "id":name.lower().replace(" ","-"), "name":name, "species":species,
       "skills":skills, "all_skills_unlocked":True, "generation":generation,
       "days_active":0,"survival":3,"permanent_status":"alive",
       "cash_verified":0.0,"own_verified_revenue":0.0,"opportunities_reviewed":0,
       "opportunities_pursued":0,"wins":0,"losses":0,"businesses":[],
-      "work_packages":[],"brain":{"memory":[],"goals":[],"experiments":[],"lessons":[]}
+      "work_packages":[],"active_work":[],"completed_work":0,"failed_work":0,
+      "brain":{"memory":[],"goals":[],"experiments":[],"lessons":[],"self_model":{},"plans":[],"critic_notes":[]},
+      "main_character":False,"protected_identity":False,"memory_budget_mb":1
     }
 
 def fresh_state():
     used=set()
-    return {"schema_version":5,"day":0,"agents":[new_agent(used) for _ in range(POPULATION_SIZE)],
-      "verified_revenue":0.0,"verified_payments":[],"currency_balances":{},"dead_count":0,"alive_count":POPULATION_SIZE,
+    agents=[new_agent(used) for _ in range(POPULATION_SIZE-1)]
+    cactus=new_agent(used, special={"name":"Cactus Needle","species":"ai"})
+    cactus["main_character"]=True
+    cactus["protected_identity"]=True
+    cactus["memory_budget_mb"]=14
+    cactus["brain"]["self_model"]={"identity":"Cactus Needle","role":"main_character_ai","memory_core":"14MB","mission":"learn, complete work, improve, compete, and survive"}
+    agents.append(cactus)
+    return {"schema_version":6,"day":0,"agents":agents,
+      "verified_revenue":0.0,"verified_payments":[],"completed_work_total":0,"unfinished_work_total":0,"currency_balances":{},"dead_count":0,"alive_count":POPULATION_SIZE,
       "clone_count":0,"owner_directives":[],"leaderboard":[]}
 
 def load():
     try:
       s=json.loads(STATE_FILE.read_text())
-      if s.get("schema_version")==5 and len(s.get("agents",[]))>0: return s
+      if s.get("schema_version") in (5,6) and len(s.get("agents",[]))>0:
+        # Upgrade legacy farms without resetting their accumulated state.
+        if s.get("schema_version") == 5:
+            s["schema_version"] = 6
+        for a in s.get("agents",[]):
+            a.setdefault("main_character", False); a.setdefault("protected_identity", False); a.setdefault("memory_budget_mb", 1)
+            a.setdefault("brain", {}).setdefault("self_model", {}); a["brain"].setdefault("plans", []); a["brain"].setdefault("critic_notes", [])
+        if not any(a.get("name") == "Cactus Needle" for a in s.get("agents",[])):
+            used={a.get("name") for a in s.get("agents",[])}
+            c=new_agent(used, special={"name":"Cactus Needle","species":"ai"})
+            c["main_character"]=True; c["protected_identity"]=True; c["memory_budget_mb"]=14
+            c["brain"]["self_model"]={"identity":"Cactus Needle","role":"main_character_ai","memory_core":"14MB","mission":"learn, complete work, improve, compete, and survive"}
+            s["agents"].append(c)
+        return s
     except Exception: pass
     return fresh_state()
 
@@ -88,22 +118,12 @@ def apply_verified_payments(s):
         by_agent.setdefault(p["agent_id"],{})
         by_agent[p["agent_id"]][cur]=round(by_agent[p["agent_id"]].get(cur,0)+amt,2)
     s["currency_balances"]=by_currency
-    # Never add unlike currencies. The legacy verified_revenue field is XAF only.
-    settled_xaf = 0.0
-    for pmt in payments:
-      if not pmt.get("verified"): continue
-      cur = str(pmt.get("currency", "")).upper()
-      if cur == "XAF":
-        settled_xaf += float(pmt.get("amount", 0) or 0)
-      elif pmt.get("settled_currency") == "XAF" and pmt.get("settled_amount") is not None:
-        settled_xaf += float(pmt.get("settled_amount") or 0)
-    s["verified_revenue"]=round(settled_xaf,2)
+    s["verified_revenue"]=round(sum(by_currency.values()),2)
     for a in s["agents"]:
       a["earnings_by_currency"]=by_agent.get(a["id"],{})
       a["own_verified_revenue_by_currency"]=dict(a["earnings_by_currency"])
-      # Do not compare or add unlike currencies. Only actual/provider-settled XAF is cash.
-      xaf = float(a["earnings_by_currency"].get("XAF",0) or 0)
-      a["cash_verified"]=round(xaf,2)
+      # Do not compare or add unlike currencies. XAF cash is only actual XAF.
+      a["cash_verified"]=round(a["earnings_by_currency"].get("XAF",0),2)
       a["own_verified_revenue"]=a["cash_verified"]
     build_currency_ledger()
     return payments
@@ -117,7 +137,7 @@ def rank(s):
       "verified_revenue_xaf":a.get("own_verified_revenue",0),
       "earnings_by_currency":a.get("earnings_by_currency",{}),
       "skill_total":round(sum(a["skills"].values()),2),
-      "generation":a.get("generation",0)} for i,a in enumerate(arr[:50],1)]
+      "generation":a.get("generation",0),"main_character":a.get("main_character",False)} for i,a in enumerate(arr[:50],1)]
 
 
 def clone_champion(s,today):
@@ -138,6 +158,54 @@ def main():
     sync_from_state(s)
     opps=load_opps()
     dispatch(s["agents"],opps,CURRENT_DAY)
+    # Meta-evolution: diagnose, score, plan, learn, recover, and build reputation.
+    try:
+      import evolution_system
+      evolution_system.run(s, opps, CURRENT_DAY)
+    except Exception as e:
+      print("EVOLUTION SYSTEM ERROR:", e)
+    try:
+      import agent_intelligence
+      agent_intelligence.run(s, opps, CURRENT_DAY)
+    except Exception as e:
+      print("INTELLIGENCE ERROR:", e)
+    # Work execution is a separate hard-gated stage. The simulator only consumes
+    # completed-work records; discovery/selection alone never counts as completion.
+    try:
+      import work_executor
+      work_executor.run_cycle(s, CURRENT_DAY)
+    except Exception as e:
+      print("WORK EXECUTION ERROR:", e)
+    try:
+      import business_ecosystem
+      business_ecosystem.run(s, opps)
+    except Exception as e:
+      print("BUSINESS ECOSYSTEM ERROR:", e)
+    try:
+      import economy_engine
+      economy_engine.run(s)
+    except Exception as e:
+      print("ECONOMY ENGINE ERROR:", e)
+    try:
+      import agent_superintelligence
+      agent_superintelligence.run(s, opps, CURRENT_DAY)
+    except Exception as e:
+      print("SUPERINTELLIGENCE ERROR:", e)
+    try:
+      import business_market_engine
+      business_market_engine.run(s, opps)
+    except Exception as e:
+      print("BUSINESS MARKET ENGINE ERROR:", e)
+    try:
+      import economy_intelligence
+      economy_intelligence.run(s)
+    except Exception as e:
+      print("ECONOMY INTELLIGENCE ERROR:", e)
+    try:
+      import cactus_needle_core
+      cactus_needle_core.run(s)
+    except Exception as e:
+      print("CACTUS NEEDLE CORE ERROR:", e)
     payments=apply_verified_payments(s)
     # Work growth is tied to attempts, not free simulated income.
     for a in s["agents"]:
@@ -145,15 +213,22 @@ def main():
       # Each cycle produces an activity record. A run is not called successful merely
       # because an opportunity was found; success requires an observable result.
       top_skill=max(a.get("skills",{}).values() or [0])
-      record_agent(a,"WORK_RUN","Completed an autonomous work cycle and evaluated discovered work.",quality=min(100,20+top_skill),successful=False,work=1)
-      if a["opportunities_pursued"]:
-        for _ in range(2):
+      completed=int(a.get("completed_work",0))
+      successful=completed>0
+      record_agent(a,"WORK_RUN",f"Completed {completed} work item(s); unfinished work remains queued until completed.",quality=min(100,20+top_skill),successful=successful,work=completed)
+      if completed:
+        for _ in range(min(3,completed+1)):
           k=random.choice(SKILLS); a["skills"][k]=round(min(100,a["skills"][k]+random.uniform(.2,1.5)),2)
           a["brain"]["lessons"].append({"day":s["day"],"skill":k,"source":"work_attempt"})
           a["brain"]["lessons"]=a["brain"]["lessons"][-50:]
     for a in s["agents"]:
       record_snapshot(a, s["day"])
     rank(s)
+    try:
+      import evolution_system
+      evolution_system.tournament(s, CURRENT_DAY)
+    except Exception as e:
+      print("TOURNAMENT ERROR:", e)
     today=datetime.now(timezone.utc).date().isoformat()
     verified_today=sum(float(p.get("amount",0)) for p in payments if p.get("verified") and str(p.get("verified_at",""))[:10]==today)
     for p in payments:
@@ -166,7 +241,9 @@ def main():
       record_snapshot(a, s["day"])
     clone=clone_champion(s,verified_today)
     rank(s)
-    prepared=min(80,len(opps))
+    prepared=sum(int(a.get("completed_work",0)) for a in s["agents"])
+    s["completed_work_total"]=prepared
+    s["unfinished_work_total"]=sum(len(a.get("active_work",[])) for a in s["agents"])
     s,deaths=apply_survival(s,len(opps),prepared,verified_today)
     save(s)
     print(f"DAY {s['day']} | alive={len(s['agents'])} | permanent_deaths={s.get('dead_count',0)} | opportunities={len(opps)} | verified_today_by_currency={s.get('currency_balances',{})}")

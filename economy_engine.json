@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "ledger": [],
+  "currency_totals": {},
+  "agent_totals": {},
+  "risk": {
+    "verified_xaf": 0,
+    "average_daily_verified_xaf": 0.0,
+    "concentration_top_agent_pct": 0,
+    "fake_money_events": 0,
+    "unverified_money_events": 0
+  },
+  "reserve_policy": {
+    "owner_reserve_required": true,
+    "minimum_reserve_xaf": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "runs": 2,
+  "created_at": "2026-09-05T16:45:47.325215+00:00",
+  "features": {
+    "self_diagnosis": true,
+    "strategy_memory": true,
+    "opportunity_scoring": true,
+    "experiments": true,
+    "earned_specialization": true,
+    "failure_recovery": true,
+    "resource_planning": true,
+    "knowledge_sharing": true,
+    "reputation": true,
+    "economic_intelligence": true,
+    "time_aware_planning": true,
+    "evolution_tournaments": true,
+    "cactus_needle_mentor": true,
+    "no_abandoned_work": true
+  },
+  "last_diagnosis_day": 3,
+  "knowledge_shared": 0
+}
