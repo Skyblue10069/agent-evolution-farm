@@ -1,1 +1,28 @@
-{"leads":[],"payments":[]}
+{
+  "stages": [
+    "opportunity_discovery",
+    "work_preparation",
+    "verified_payment",
+    "original_currency_balance",
+    "fx_quote",
+    "provider_confirmed_xaf_settlement",
+    "owner_approval",
+    "fonlok_cameroon_payout"
+  ],
+  "earning_currencies": "any_3_letter_currency_supported_by_the_payment_provider_and_fx_provider",
+  "payout_currency": "XAF",
+  "conversion": {
+    "enabled": true,
+    "quote_provider": "currency_rate_provider.py",
+    "quote_is_not_cash": true,
+    "settlement_must_be_provider_confirmed": true,
+    "never_invent_rates": true
+  },
+  "payout": {
+    "provider": "fonlok",
+    "country": "CM",
+    "mobile_money_networks": ["MTN", "ORANGE"],
+    "owner_approval_required": true
+  },
+  "payments": []
+}

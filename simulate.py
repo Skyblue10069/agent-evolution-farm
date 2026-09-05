@@ -88,12 +88,22 @@ def apply_verified_payments(s):
         by_agent.setdefault(p["agent_id"],{})
         by_agent[p["agent_id"]][cur]=round(by_agent[p["agent_id"]].get(cur,0)+amt,2)
     s["currency_balances"]=by_currency
-    s["verified_revenue"]=round(sum(by_currency.values()),2)
+    # Never add unlike currencies. The legacy verified_revenue field is XAF only.
+    settled_xaf = 0.0
+    for pmt in payments:
+      if not pmt.get("verified"): continue
+      cur = str(pmt.get("currency", "")).upper()
+      if cur == "XAF":
+        settled_xaf += float(pmt.get("amount", 0) or 0)
+      elif pmt.get("settled_currency") == "XAF" and pmt.get("settled_amount") is not None:
+        settled_xaf += float(pmt.get("settled_amount") or 0)
+    s["verified_revenue"]=round(settled_xaf,2)
     for a in s["agents"]:
       a["earnings_by_currency"]=by_agent.get(a["id"],{})
       a["own_verified_revenue_by_currency"]=dict(a["earnings_by_currency"])
-      # Do not compare or add unlike currencies. XAF cash is only actual XAF.
-      a["cash_verified"]=round(a["earnings_by_currency"].get("XAF",0),2)
+      # Do not compare or add unlike currencies. Only actual/provider-settled XAF is cash.
+      xaf = float(a["earnings_by_currency"].get("XAF",0) or 0)
+      a["cash_verified"]=round(xaf,2)
       a["own_verified_revenue"]=a["cash_verified"]
     build_currency_ledger()
     return payments

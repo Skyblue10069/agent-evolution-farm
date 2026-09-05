@@ -19,10 +19,15 @@ def record_agent(agent, event_type, summary, *, quality=0, successful=False, rev
     data=load(); aid=agent['id']; x=data['agents'].setdefault(aid,{"name":agent.get('name',aid),"trust_score":0.0,"completed_work":0,"successful_runs":0,"verified_revenue":0.0,"failures":0,"funding_requests":0,"approved_requests":0,"rejected_requests":0,"events":[]})
     x['name']=agent.get('name',x['name']); x['completed_work'] += int(work); x['successful_runs'] += int(successful); x['failures'] += int(failure)
     x.setdefault('earnings_by_currency', {})
+    x.setdefault('verified_revenue_xaf', 0.0)
     if currency:
         cur=str(currency).upper(); x['earnings_by_currency'][cur]=round(x['earnings_by_currency'].get(cur,0)+float(revenue),2)
+        if cur == 'XAF':
+            x['verified_revenue_xaf']=round(x.get('verified_revenue_xaf',0)+float(revenue),2)
+            x['verified_revenue']=x['verified_revenue_xaf']
     else:
-        x['verified_revenue']=round(x.get('verified_revenue',0)+float(revenue),2)
+        x['verified_revenue_xaf']=round(x.get('verified_revenue_xaf',0)+float(revenue),2)
+        x['verified_revenue']=x['verified_revenue_xaf']
     delta=score_from_metrics(int(work),int(successful),float(revenue),int(failure),float(quality)); x['trust_score']=round(max(0,min(100,x['trust_score']+delta)),2)
     x['events'].append({'timestamp':now(),'type':event_type,'summary':summary,'quality':quality,'trust_delta':delta,'trust_after':x['trust_score']})
     x['events']=x['events'][-100:]; save(data); return x
@@ -36,7 +41,8 @@ def record_snapshot(agent, day=None):
     snap={
       'timestamp':now(), 'day':int(day if day is not None else agent.get('days_active',0)),
       'trust':round(float(x.get('trust_score',0)),2),
-      'earnings':round(float(x.get('verified_revenue',agent.get('own_verified_revenue',0))),2),
+      'earnings':round(float(x.get('verified_revenue_xaf',x.get('verified_revenue',agent.get('own_verified_revenue',0)))),2),
+      'earnings_by_currency':dict(x.get('earnings_by_currency',agent.get('earnings_by_currency',{}))),
       'skills':{k:round(float(v),2) for k,v in agent.get('skills',{}).items()}
     }
     x['snapshots'].append(snap); x['snapshots']=x['snapshots'][-180:]; save(data); return snap

@@ -1,5 +1,7 @@
 {
   "by_currency": {},
   "by_agent": {},
-  "settled_xaf_by_agent": {}
+  "settled_xaf_by_agent": {},
+  "payout_currency": "XAF",
+  "note": "Unlike-currency balances are never added together; quote-only FX is never treated as cash."
 }

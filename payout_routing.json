@@ -1,9 +1,14 @@
 {
-  "provider": "flutterwave",
-  "receive_only": true,
-  "no_withdrawals": true,
+  "provider": "fonlok",
+  "environment": "sandbox_by_default",
+  "receive_only_for_incoming": true,
   "destination_type": "cameroon_mobile_money",
-  "payments": [],
+  "networks": ["MTN", "ORANGE"],
+  "payout_currency": "XAF",
+  "outgoing_payouts": "owner_approved_only",
+  "execution": "explicit_approval_then_provider_api",
   "approval_required_before_any_use": true,
-  "approved_proposals_available": []
+  "phone_ui": "approval_system.py",
+  "non_xaf_rule": "provider_confirmed_xaf_settlement_required",
+  "notes": "Agents cannot initiate an outgoing payout directly. The owner must approve the proposal and the system must have a provider-confirmed XAF balance before execution."
 }

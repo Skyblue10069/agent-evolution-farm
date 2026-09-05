@@ -1,0 +1,15 @@
+{
+  "base_payout_currency": "XAF",
+  "supported_earning_currencies": "ANY_VALID_ISO_4217_CODE_SUPPORTED_BY_THE_RATE_PROVIDER",
+  "conversion_mode": "quote_then_explicit_settlement",
+  "auto_convert": true,
+  "allow_cross_currency_ranking": false,
+  "rounding_decimals": 2,
+  "minimum_xaf_payout": 100,
+  "rate_max_age_seconds": 86400,
+  "rate_provider": "open_er_api",
+  "rate_url_template": "https://open.er-api.com/v6/latest/{base}",
+  "require_real_provider_confirmation_for_payout": true,
+  "never_invent_rate": true,
+  "never_treat_quote_as_cash": true
+}

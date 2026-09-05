@@ -16,6 +16,7 @@ def main():
     run('work_preparer.py','--limit','500')
     run('business_factory.py')
     run('business_evolution.py')
+    run('currency_ledger.py')
     run('payout_router.py')
     print('FULL AUTONOMOUS CYCLE COMPLETE: discovery + brain + competition + business evolution.')
 if __name__=='__main__':main()
