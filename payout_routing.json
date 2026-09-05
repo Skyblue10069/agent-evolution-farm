@@ -1,0 +1,11 @@
+{
+  "provider": "flutterwave",
+  "receive_only_for_incoming": true,
+  "destination_type": "cameroon_mobile_money",
+  "networks": ["MTN", "ORANGEMONEY"],
+  "outgoing_payouts": "owner_approved_only",
+  "execution": "explicit_approval_then_provider_api",
+  "approval_required_before_any_use": true,
+  "phone_ui": "approval_system.py",
+  "notes": "Agents cannot initiate an outgoing payout directly. The owner must approve the proposal in the phone UI, then explicitly press Execute approved payout."
+}
