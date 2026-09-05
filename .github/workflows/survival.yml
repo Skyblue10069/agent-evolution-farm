@@ -1,18 +1,14 @@
 name: Agent Evolution - Autonomous Agent Real-Money Survival Farm
-
 on:
   schedule:
     - cron: '17 0,4,8,12,16,20 * * *'
   workflow_dispatch: {}
-
 permissions:
   contents: write
-
 jobs:
   farm-run:
     runs-on: ubuntu-latest
     timeout-minutes: 55
-
     env:
       FONLOK_API_KEY: ${{ secrets.FONLOK_API_KEY }}
       FONLOK_ENV: ${{ vars.FONLOK_ENV || 'sandbox' }}
@@ -21,41 +17,38 @@ jobs:
       FONLOK_PAYOUT_URL: ${{ vars.FONLOK_PAYOUT_URL }}
       PAYOUT_DESTINATION_ID: ${{ secrets.PAYOUT_DESTINATION_ID }}
       PAYOUT_MOBILE_MONEY_NETWORK: ${{ secrets.PAYOUT_MOBILE_MONEY_NETWORK }}
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Worldwide autonomous discovery
-        run: python worldwide_discovery.py --max-results 6 --max-opportunities 1000
-
-      - name: Autonomous brain
+      - name: Worldwide autonomous discovery (10 minute hard limit)
+        run: python worldwide_discovery.py --max-results 6 --max-opportunities 1000 --time-limit-seconds 600
+      - name: Autonomous brain + Cactus Needle 14MB memory core
         run: python autonomous_brain.py
-
+      - name: Advanced agent intelligence and decision planning
+        run: python agent_intelligence.py
       - name: Competitive work allocation
         run: python work_preparer.py --limit 500
-
+      - name: Execute and finish work (never silently abandon)
+        run: python work_executor.py
       - name: Build agent-owned businesses
         run: python business_factory.py
-
       - name: Evolve agent-owned businesses
         run: python business_evolution.py
 
+      - name: Advanced business ecosystem and offer strategy
+        run: python business_ecosystem.py
       - name: Validate multi-currency accounting
         run: python multi_currency_tests.py
-
+      - name: Strengthen economy ledger and risk metrics
+        run: python economy_engine.py
       - name: Build currency ledger
         run: python currency_ledger.py
-
       - name: Route verified incoming payments (receive-only)
         run: python payout_router.py
-
       - name: Run survival and competition
         run: python simulate.py
-
       - name: Persist farm state
         run: |
           git config user.name 'agent-evolution-bot'
@@ -63,3 +56,4 @@ jobs:
           git add .
           git diff --cached --quiet || git commit -m "Autonomous agent farm cycle: $(date -u +%Y-%m-%d-%H%M)"
           git push
+          
