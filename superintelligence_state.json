@@ -1230,6 +1230,211 @@
           "chosen": null
         }
       ]
+    },
+    {
+      "day": 3,
+      "agents": [
+        {
+          "id": "agent-q-586915",
+          "chosen": null
+        },
+        {
+          "id": "agent-k-429958",
+          "chosen": null
+        },
+        {
+          "id": "agent-a-274767",
+          "chosen": null
+        },
+        {
+          "id": "agent-b-582995",
+          "chosen": null
+        },
+        {
+          "id": "agent-d-847222",
+          "chosen": null
+        },
+        {
+          "id": "agent-q-366761",
+          "chosen": null
+        },
+        {
+          "id": "agent-h-766687",
+          "chosen": null
+        },
+        {
+          "id": "agent-s-716151",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-459221",
+          "chosen": null
+        },
+        {
+          "id": "agent-h-880186",
+          "chosen": null
+        },
+        {
+          "id": "agent-i-137117",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-564824",
+          "chosen": null
+        },
+        {
+          "id": "agent-l-495422",
+          "chosen": null
+        },
+        {
+          "id": "agent-f-626932",
+          "chosen": null
+        },
+        {
+          "id": "agent-r-382191",
+          "chosen": null
+        },
+        {
+          "id": "agent-q-486203",
+          "chosen": null
+        },
+        {
+          "id": "agent-b-435068",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-232781",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-869833",
+          "chosen": null
+        },
+        {
+          "id": "agent-l-509764",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-131914",
+          "chosen": null
+        },
+        {
+          "id": "agent-a-326617",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-349249",
+          "chosen": null
+        },
+        {
+          "id": "agent-d-405116",
+          "chosen": null
+        },
+        {
+          "id": "agent-m-406322",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-624602",
+          "chosen": null
+        },
+        {
+          "id": "agent-b-105557",
+          "chosen": null
+        },
+        {
+          "id": "agent-g-414635",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-170852",
+          "chosen": null
+        },
+        {
+          "id": "agent-k-593304",
+          "chosen": null
+        },
+        {
+          "id": "agent-s-789189",
+          "chosen": null
+        },
+        {
+          "id": "agent-l-433567",
+          "chosen": null
+        },
+        {
+          "id": "agent-e-918118",
+          "chosen": null
+        },
+        {
+          "id": "agent-p-285213",
+          "chosen": null
+        },
+        {
+          "id": "agent-m-223687",
+          "chosen": null
+        },
+        {
+          "id": "agent-e-979988",
+          "chosen": null
+        },
+        {
+          "id": "agent-m-222523",
+          "chosen": null
+        },
+        {
+          "id": "agent-t-111600",
+          "chosen": null
+        },
+        {
+          "id": "agent-p-247771",
+          "chosen": null
+        },
+        {
+          "id": "agent-r-449489",
+          "chosen": null
+        },
+        {
+          "id": "agent-q-304332",
+          "chosen": null
+        },
+        {
+          "id": "agent-e-966054",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-373088",
+          "chosen": null
+        },
+        {
+          "id": "agent-m-334695",
+          "chosen": null
+        },
+        {
+          "id": "agent-a-549350",
+          "chosen": null
+        },
+        {
+          "id": "agent-i-524550",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-614102",
+          "chosen": null
+        },
+        {
+          "id": "agent-c-335503",
+          "chosen": null
+        },
+        {
+          "id": "agent-a-232153",
+          "chosen": null
+        },
+        {
+          "id": "cactus-needle",
+          "chosen": null
+        }
+      ]
     }
   ],
   "agents": {
@@ -1528,7 +1733,7 @@
       "strategies": {}
     },
     "cactus-needle": {
-      "attempts": 6,
+      "attempts": 7,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
@@ -1828,295 +2033,295 @@
       "strategies": {}
     },
     "agent-q-586915": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-k-429958": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-a-274767": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-b-582995": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-d-847222": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-366761": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-766687": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-s-716151": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-459221": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-880186": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-i-137117": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-564824": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-l-495422": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-f-626932": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-382191": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-486203": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-b-435068": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-o-232781": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-o-869833": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-l-509764": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-131914": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-a-326617": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-o-349249": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-d-405116": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-m-406322": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-624602": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-b-105557": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-g-414635": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-170852": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-k-593304": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-s-789189": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-l-433567": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-e-918118": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-p-285213": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-m-223687": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-e-979988": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-m-222523": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-t-111600": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-p-247771": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-449489": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-304332": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-e-966054": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-373088": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-m-334695": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-a-549350": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-i-524550": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-614102": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-c-335503": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-a-232153": {
-      "attempts": 2,
+      "attempts": 3,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
