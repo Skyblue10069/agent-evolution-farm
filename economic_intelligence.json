@@ -35,6 +35,12 @@
       "alive": 50,
       "verified_revenue_xaf": 0.0,
       "unfinished_work": 0
+    },
+    {
+      "day": 1,
+      "alive": 50,
+      "verified_revenue_xaf": 0.0,
+      "unfinished_work": 0
     }
   ]
 }

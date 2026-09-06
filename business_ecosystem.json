@@ -2277,6 +2277,1133 @@
         "no fake invoices",
         "qualify -> scope -> deliver -> verify payment -> retain/expand"
       ]
+    },
+    "agent-q-586915": {
+      "owner": "Agent-Q-586915",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-k-429958": {
+      "owner": "Agent-K-429958",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-a-274767": {
+      "owner": "Agent-A-274767",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-b-582995": {
+      "owner": "Agent-B-582995",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-d-847222": {
+      "owner": "Agent-D-847222",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-q-366761": {
+      "owner": "Agent-Q-366761",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-h-766687": {
+      "owner": "Agent-H-766687",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-s-716151": {
+      "owner": "Agent-S-716151",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-459221": {
+      "owner": "Agent-N-459221",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-h-880186": {
+      "owner": "Agent-H-880186",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-i-137117": {
+      "owner": "Agent-I-137117",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-564824": {
+      "owner": "Agent-N-564824",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-l-495422": {
+      "owner": "Agent-L-495422",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-f-626932": {
+      "owner": "Agent-F-626932",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-r-382191": {
+      "owner": "Agent-R-382191",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-q-486203": {
+      "owner": "Agent-Q-486203",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-b-435068": {
+      "owner": "Agent-B-435068",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-o-232781": {
+      "owner": "Agent-O-232781",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-o-869833": {
+      "owner": "Agent-O-869833",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-l-509764": {
+      "owner": "Agent-L-509764",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-131914": {
+      "owner": "Agent-N-131914",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-a-326617": {
+      "owner": "Agent-A-326617",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-o-349249": {
+      "owner": "Agent-O-349249",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-d-405116": {
+      "owner": "Agent-D-405116",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-m-406322": {
+      "owner": "Agent-M-406322",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-624602": {
+      "owner": "Agent-N-624602",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-b-105557": {
+      "owner": "Agent-B-105557",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-g-414635": {
+      "owner": "Agent-G-414635",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-170852": {
+      "owner": "Agent-N-170852",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-k-593304": {
+      "owner": "Agent-K-593304",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-s-789189": {
+      "owner": "Agent-S-789189",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-l-433567": {
+      "owner": "Agent-L-433567",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-e-918118": {
+      "owner": "Agent-E-918118",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-p-285213": {
+      "owner": "Agent-P-285213",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-m-223687": {
+      "owner": "Agent-M-223687",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-e-979988": {
+      "owner": "Agent-E-979988",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-m-222523": {
+      "owner": "Agent-M-222523",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-t-111600": {
+      "owner": "Agent-T-111600",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-p-247771": {
+      "owner": "Agent-P-247771",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-r-449489": {
+      "owner": "Agent-R-449489",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-q-304332": {
+      "owner": "Agent-Q-304332",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-e-966054": {
+      "owner": "Agent-E-966054",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-373088": {
+      "owner": "Agent-N-373088",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-m-334695": {
+      "owner": "Agent-M-334695",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-a-549350": {
+      "owner": "Agent-A-549350",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-i-524550": {
+      "owner": "Agent-I-524550",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-n-614102": {
+      "owner": "Agent-N-614102",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-c-335503": {
+      "owner": "Agent-C-335503",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
+    },
+    "agent-a-232153": {
+      "owner": "Agent-A-232153",
+      "stage": "idea",
+      "offers": [],
+      "pipeline": [],
+      "experiments": [],
+      "metrics": {
+        "verified_revenue": 0.0,
+        "completed_work": 0,
+        "reputation": 50.0
+      },
+      "unit_economics": {
+        "revenue": "provider_verified_only",
+        "costs": "recorded_only",
+        "margin": "computed only from observed values"
+      },
+      "pipeline_rules": [
+        "no invented leads",
+        "no invented sales",
+        "no fake invoices",
+        "qualify -> scope -> deliver -> verify payment -> retain/expand"
+      ]
     }
   },
   "market_tests": []
