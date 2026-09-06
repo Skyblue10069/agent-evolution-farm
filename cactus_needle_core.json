@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "identity": {
+    "name": "Cactus Needle",
+    "species": "ai",
+    "main_character": true,
+    "protected_identity": true,
+    "memory_capacity_bytes": 14000000,
+    "no_free_advantages": true,
+    "same_safety_and_payment_gates": true
+  },
+  "self_tests": [
+    {
+      "time": "2026-09-05T19:09:27.364772+00:00",
+      "passed": true,
+      "violations": {
+        "auto_winner": false,
+        "auto_paid": false,
+        "skills_from_nothing": false,
+        "unverified_money": false
+      }
+    },
+    {
+      "time": "2026-09-05T19:09:52.104230+00:00",
+      "passed": true,
+      "violations": {
+        "auto_winner": false,
+        "auto_paid": false,
+        "skills_from_nothing": false,
+        "unverified_money": false
+      }
+    }
+  ],
+  "mentor_lessons": [
+    {
+      "source_agent": "agent-b-925559",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-h-492050",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-h-640808",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-l-560948",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-r-831495",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-f-322093",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-c-625288",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-d-820801",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-n-253772",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    },
+    {
+      "source_agent": "agent-q-855867",
+      "lesson": {
+        "prefer_completed_work": false,
+        "reputation": 50.0,
+        "verified_revenue_xaf": 0.0,
+        "rule": "copy decision principles, not claimed outcomes"
+      }
+    }
+  ],
+  "strategy_map": {},
+  "memory_stats": {
+    "capacity_bytes": 14000000,
+    "actual_bytes": 14000000,
+    "bounded": true,
+    "memory_hash": "87988a63f5ee7bd190732344f153ea20487057d3db0775446a7dc8feb824c09b"
+  },
+  "operating_mode": {
+    "observe": "enabled",
+    "plan": "enabled",
+    "critic": "enabled",
+    "mentor": "evidence_only",
+    "learn": "completed_or_observed_outcomes_only"
+  }
+}

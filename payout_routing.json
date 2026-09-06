@@ -1,14 +1,22 @@
 {
   "provider": "fonlok",
-  "environment": "sandbox_by_default",
+  "environment": "sandbox",
   "receive_only_for_incoming": true,
   "destination_type": "cameroon_mobile_money",
-  "networks": ["MTN", "ORANGE"],
+  "networks": [
+    "MTN",
+    "ORANGE"
+  ],
   "payout_currency": "XAF",
-  "outgoing_payouts": "owner_approved_only",
-  "execution": "explicit_approval_then_provider_api",
+  "balances": {
+    "by_currency": {},
+    "by_agent": {},
+    "settled_xaf_by_agent": {},
+    "payout_currency": "XAF",
+    "note": "Unlike-currency balances are never added together; quote-only FX is never treated as cash."
+  },
+  "payments": [],
   "approval_required_before_any_use": true,
-  "phone_ui": "approval_system.py",
-  "non_xaf_rule": "provider_confirmed_xaf_settlement_required",
-  "notes": "Agents cannot initiate an outgoing payout directly. The owner must approve the proposal and the system must have a provider-confirmed XAF balance before execution."
+  "approved_proposals_available": [],
+  "notes": "Non-XAF earnings must have a provider-confirmed XAF settlement before payout eligibility."
 }

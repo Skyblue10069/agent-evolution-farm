@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "days": [
+    {
+      "day": 3,
+      "verified_income_count": 0,
+      "verified_xaf": 0,
+      "currencies": {}
+    },
+    {
+      "day": 1,
+      "verified_income_count": 0,
+      "verified_xaf": 0,
+      "currencies": {}
+    }
+  ],
+  "currency_exposure": {},
+  "agent_health": {},
+  "controls": {
+    "verified_cash_only": true,
+    "unverified_receivables_excluded": true,
+    "owner_approval_for_outflow": true,
+    "minimum_reserve_xaf": 100,
+    "reserve_target_xaf": 100,
+    "liquidity_xaf": 0,
+    "average_daily_verified_xaf": 0.0,
+    "top_agent_concentration_pct": 0,
+    "currency_conversion_requires_live_rate": true,
+    "payout_requires_provider_confirmation": true
+  }
+}

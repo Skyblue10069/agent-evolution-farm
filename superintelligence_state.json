@@ -207,211 +207,6 @@
       ]
     },
     {
-      "day": 3,
-      "agents": [
-        {
-          "id": "agent-a-186786",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-186354",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-951719",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-500628",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-420535",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-518425",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-125930",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-485573",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-716452",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-154526",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-142554",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-425147",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-302840",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-232001",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-557700",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-747973",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-643253",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-268932",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-792922",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-742467",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-127211",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-256512",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-658088",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-608624",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-989669",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-203619",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-415028",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-776827",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-944353",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-308955",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-665305",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-208702",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-732337",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-604198",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-411312",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-556412",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-562521",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-125111",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-794110",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-260987",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-694035",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-427299",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-380133",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-601602",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-408958",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-744749",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-764339",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-294659",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-547857",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
       "day": 1,
       "agents": [
         {
@@ -617,501 +412,600 @@
       ]
     }
   ],
-  "agent_profiles": {
+  "agents": {
     "agent-a-186786": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-l-186354": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-951719": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-l-500628": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-d-420535": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-g-518425": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-125930": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-e-485573": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-f-716452": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-p-154526": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-142554": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-f-425147": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-l-302840": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-g-232001": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-b-557700": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-a-747973": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-l-643253": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-268932": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-c-792922": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-k-742467": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-g-127211": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-s-256512": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-j-658088": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-c-608624": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-989669": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-203619": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-j-415028": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-k-776827": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-o-944353": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-308955": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-665305": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-a-208702": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-b-732337": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-s-604198": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-411312": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-a-556412": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-a-562521": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-d-125111": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-794110": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-f-260987": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-694035": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-g-427299": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-380133": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-j-601602": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-t-408958": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-744749": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-t-764339": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-m-294659": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-e-547857": {
-      "decisions": 2,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "cactus-needle": {
-      "decisions": 3,
-      "wins": 0,
-      "replans": 0
+      "attempts": 2,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-b-925559": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-492050": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-640808": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-l-560948": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-831495": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-f-322093": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-c-625288": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-d-820801": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-n-253772": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-855867": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-t-537495": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-569255": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-g-198835": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-589027": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-t-139331": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-k-403088": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-667471": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-k-416779": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-m-324425": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-809646": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-t-536326": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-936882": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-461485": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-690534": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-498479": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-914584": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-f-352980": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-t-293693": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-a-825835": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-b-353273": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-195745": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-j-955989": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-c-326698": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-e-910864": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-o-806089": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-k-571517": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-o-362783": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-h-592523": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-n-913115": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-n-970148": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-510159": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-305382": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-739420": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-b-762104": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-891986": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-q-989138": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-i-999125": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-r-270879": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     },
     "agent-c-993371": {
-      "decisions": 1,
-      "wins": 0,
-      "replans": 0
+      "attempts": 1,
+      "calibration_error": 0,
+      "regret": 0,
+      "strategies": {}
     }
   }
 }
