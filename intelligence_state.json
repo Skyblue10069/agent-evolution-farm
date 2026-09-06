@@ -3280,6 +3280,211 @@
           "chosen": null
         }
       ]
+    },
+    {
+      "day": 3,
+      "agents": [
+        {
+          "id": "agent-m-259575",
+          "chosen": null
+        },
+        {
+          "id": "agent-f-825580",
+          "chosen": null
+        },
+        {
+          "id": "agent-t-874677",
+          "chosen": null
+        },
+        {
+          "id": "agent-t-874351",
+          "chosen": null
+        },
+        {
+          "id": "agent-c-773345",
+          "chosen": null
+        },
+        {
+          "id": "agent-j-424685",
+          "chosen": null
+        },
+        {
+          "id": "agent-i-814134",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-939955",
+          "chosen": null
+        },
+        {
+          "id": "agent-f-178800",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-155210",
+          "chosen": null
+        },
+        {
+          "id": "agent-r-173968",
+          "chosen": null
+        },
+        {
+          "id": "agent-j-215725",
+          "chosen": null
+        },
+        {
+          "id": "agent-b-829566",
+          "chosen": null
+        },
+        {
+          "id": "agent-b-435626",
+          "chosen": null
+        },
+        {
+          "id": "agent-r-267234",
+          "chosen": null
+        },
+        {
+          "id": "agent-t-811223",
+          "chosen": null
+        },
+        {
+          "id": "agent-d-948614",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-358548",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-488547",
+          "chosen": null
+        },
+        {
+          "id": "agent-e-449808",
+          "chosen": null
+        },
+        {
+          "id": "agent-h-390221",
+          "chosen": null
+        },
+        {
+          "id": "agent-f-235090",
+          "chosen": null
+        },
+        {
+          "id": "agent-j-545876",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-591148",
+          "chosen": null
+        },
+        {
+          "id": "agent-k-365603",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-184339",
+          "chosen": null
+        },
+        {
+          "id": "agent-g-775975",
+          "chosen": null
+        },
+        {
+          "id": "agent-s-456835",
+          "chosen": null
+        },
+        {
+          "id": "agent-i-180760",
+          "chosen": null
+        },
+        {
+          "id": "agent-l-141850",
+          "chosen": null
+        },
+        {
+          "id": "agent-h-782845",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-724850",
+          "chosen": null
+        },
+        {
+          "id": "agent-t-267595",
+          "chosen": null
+        },
+        {
+          "id": "agent-e-257451",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-850018",
+          "chosen": null
+        },
+        {
+          "id": "agent-p-998489",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-789144",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-265063",
+          "chosen": null
+        },
+        {
+          "id": "agent-t-688239",
+          "chosen": null
+        },
+        {
+          "id": "agent-o-151694",
+          "chosen": null
+        },
+        {
+          "id": "agent-n-897462",
+          "chosen": null
+        },
+        {
+          "id": "agent-r-200534",
+          "chosen": null
+        },
+        {
+          "id": "agent-a-177925",
+          "chosen": null
+        },
+        {
+          "id": "agent-p-283203",
+          "chosen": null
+        },
+        {
+          "id": "agent-p-839656",
+          "chosen": null
+        },
+        {
+          "id": "agent-m-449873",
+          "chosen": null
+        },
+        {
+          "id": "agent-k-871995",
+          "chosen": null
+        },
+        {
+          "id": "agent-k-319604",
+          "chosen": null
+        },
+        {
+          "id": "agent-p-596893",
+          "chosen": null
+        },
+        {
+          "id": "cactus-needle",
+          "chosen": null
+        }
+      ]
     }
   ],
   "agent_profiles": {
@@ -3529,7 +3734,7 @@
       "replans": 0
     },
     "cactus-needle": {
-      "decisions": 16,
+      "decisions": 17,
       "wins": 0,
       "replans": 0
     },
@@ -4514,247 +4719,247 @@
       "replans": 0
     },
     "agent-m-259575": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-f-825580": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-t-874677": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-t-874351": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-c-773345": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-j-424685": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-i-814134": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-o-939955": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-f-178800": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-o-155210": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-r-173968": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-j-215725": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-b-829566": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-b-435626": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-r-267234": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-t-811223": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-d-948614": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-o-358548": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-488547": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-e-449808": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-h-390221": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-f-235090": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-j-545876": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-591148": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-k-365603": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-184339": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-g-775975": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-s-456835": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-i-180760": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-l-141850": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-h-782845": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-724850": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-t-267595": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-e-257451": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-850018": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-p-998489": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-o-789144": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-265063": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-t-688239": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-o-151694": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-n-897462": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-r-200534": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-a-177925": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-p-283203": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-p-839656": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-m-449873": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-k-871995": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-k-319604": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     },
     "agent-p-596893": {
-      "decisions": 2,
+      "decisions": 3,
       "wins": 0,
       "replans": 0
     }
