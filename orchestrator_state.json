@@ -1,147 +1,147 @@
 {
-  "cycle": 3,
-  "finished_at": "2026-09-06T12:11:31.303420+00:00",
+  "cycle": 4,
+  "finished_at": "2026-09-06T15:33:08.712277+00:00",
   "last_failure": null,
   "last_success": {
-    "at": "2026-09-06T12:11:31.303420+00:00",
-    "cycle": 3
+    "at": "2026-09-06T15:33:08.712277+00:00",
+    "cycle": 4
   },
   "stages": {
     "accounts": {
-      "at": "2026-09-06T12:11:18.574736+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.07,
+      "at": "2026-09-06T15:32:52.675617+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.102,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "ACCOUNT REGISTRY: 148 agent account profiles ready; credentials are external secrets.\n"
+      "stdout_tail": "ACCOUNT REGISTRY: 197 agent account profiles ready; credentials are external secrets.\n"
     },
     "brain": {
-      "at": "2026-09-06T12:11:21.173988+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.043,
+      "at": "2026-09-06T15:32:54.212592+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.055,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "BRAIN: 50 living agents produced independent decisions, memories and experiments.\n"
     },
     "business_ecosystem": {
-      "at": "2026-09-06T12:11:21.418979+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.02,
+      "at": "2026-09-06T15:32:54.417618+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.027,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "business_evolution": {
-      "at": "2026-09-06T12:11:21.398345+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.03,
+      "at": "2026-09-06T15:32:54.389828+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.041,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "BUSINESS EVOLUTION: 50 businesses autonomously adapted.\n"
     },
     "business_factory": {
-      "at": "2026-09-06T12:11:21.367670+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.026,
+      "at": "2026-09-06T15:32:54.347978+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.036,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "BUSINESS STRATEGY: 50 agent business strategies updated from real discovered business signals.\n"
     },
     "currency_ledger": {
-      "at": "2026-09-06T12:11:21.502629+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.019,
+      "at": "2026-09-06T15:32:54.531454+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.026,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{\n  \"by_currency\": {},\n  \"by_agent\": {},\n  \"settled_xaf_by_agent\": {},\n  \"payout_currency\": \"XAF\",\n  \"note\": \"Unlike-currency balances are never added together; quote-only FX is never treated as cash.\"\n}\n"
     },
     "currency_tests": {
-      "at": "2026-09-06T12:11:21.460966+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.042,
+      "at": "2026-09-06T15:32:54.474999+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.057,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "multi_currency_tests: PASS\n"
     },
     "discovery": {
-      "at": "2026-09-06T12:11:21.095507+00:00",
-      "cycle": 3,
-      "elapsed_s": 2.52,
+      "at": "2026-09-06T15:32:54.110962+00:00",
+      "cycle": 4,
+      "elapsed_s": 1.435,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "WORLDWIDE DISCOVERY: 0 unique public signals; elapsed 2.44s (limit 540s).\n"
+      "stdout_tail": "WORLDWIDE DISCOVERY: 0 unique public signals; elapsed 1.33s (limit 540s).\n"
     },
     "economy": {
-      "at": "2026-09-06T12:11:21.483202+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.022,
+      "at": "2026-09-06T15:32:54.505290+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.03,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "intelligence": {
-      "at": "2026-09-06T12:11:21.197726+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.023,
+      "at": "2026-09-06T15:32:54.243132+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.03,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "internet_capability": {
-      "at": "2026-09-06T12:11:21.130484+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.035,
+      "at": "2026-09-06T15:32:54.156964+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.045,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{\n  \"internet_capabilities\": {\n    \"browser\": true,\n    \"search_and_read\": true,\n    \"navigate\": true,\n    \"click\": true,\n    \"type_and_select\": true,\n    \"upload\": true,\n    \"download\": true,\n    \"http_api\": true,\n    \"public_https_only\": true,\n    \"bounded_actions\": 80,\n    \"bounded_seconds\": 540,\n    \"no_security_bypass\": true\n  }\n}\n"
     },
     "survival": {
-      "at": "2026-09-06T12:11:31.303135+00:00",
-      "cycle": 3,
-      "elapsed_s": 9.779,
+      "at": "2026-09-06T15:33:08.711841+00:00",
+      "cycle": 4,
+      "elapsed_s": 14.152,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "WORK EXECUTION: 0 items completed; active work is persisted and cannot be silently abandoned.\nCACTUS NEEDLE: self-test=True mentor_lessons=10 memory=14000000/14000000 bytes\nDAY 2 | alive=50 | permanent_deaths=200 | opportunities=0 | verified_today_by_currency={}\nNUMBER ONE: {'rank': 1, 'id': 'agent-p-888354', 'name': 'Agent-P-888354', 'species': 'agent', 'verified_revenue_xaf': 0, 'earnings_by_currency': {}, 'skill_total': 0.0, 'generation': 0, 'main_character': False}\n"
+      "stdout_tail": "WORK EXECUTION: 0 items completed; active work is persisted and cannot be silently abandoned.\nCACTUS NEEDLE: self-test=True mentor_lessons=10 memory=14000000/14000000 bytes\nDAY 2 | alive=50 | permanent_deaths=250 | opportunities=0 | verified_today_by_currency={}\nNUMBER ONE: {'rank': 1, 'id': 'agent-s-225807', 'name': 'Agent-S-225807', 'species': 'agent', 'verified_revenue_xaf': 0, 'earnings_by_currency': {}, 'skill_total': 0.0, 'generation': 0, 'main_character': False}\n"
     },
     "verified_payments": {
-      "at": "2026-09-06T12:11:21.523673+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.021,
+      "at": "2026-09-06T15:32:54.559738+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.028,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "FONLOK ROUTER: 0 verified payment records mapped; only confirmed XAF is payout-eligible.\n"
     },
     "work_execute": {
-      "at": "2026-09-06T12:11:21.341193+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.023,
+      "at": "2026-09-06T15:32:54.311884+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.031,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "work_prepare": {
-      "at": "2026-09-06T12:11:21.317801+00:00",
-      "cycle": 3,
-      "elapsed_s": 0.029,
+      "at": "2026-09-06T15:32:54.280569+00:00",
+      "cycle": 4,
+      "elapsed_s": 0.037,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "Prepared 0 opportunities after competition across 50 living agents.\n"
     }
   },
-  "started_at": "2026-09-06T12:11:18.503888+00:00"
+  "started_at": "2026-09-06T15:32:52.572808+00:00"
 }
