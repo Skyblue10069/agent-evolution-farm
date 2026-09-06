@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-06T12:11:43.371204+00:00",
-  "alive_agents": 0,
+  "timestamp": "2026-09-06T12:11:55.053221+00:00",
+  "alive_agents": 50,
   "dead_agents": 250,
   "opportunities_found": 0,
   "packages_prepared": 0,

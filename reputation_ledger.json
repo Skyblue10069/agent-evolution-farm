@@ -248,7 +248,7 @@
     "cactus-needle": {
       "name": "Cactus Needle",
       "reputation": 50.0,
-      "updated_day": 3
+      "updated_day": 1
     },
     "agent-b-925559": {
       "name": "Agent-B-925559",
@@ -984,6 +984,251 @@
       "name": "Agent-B-322022",
       "reputation": 50.0,
       "updated_day": 3
+    },
+    "agent-s-225807": {
+      "name": "Agent-S-225807",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-h-957368": {
+      "name": "Agent-H-957368",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-d-711767": {
+      "name": "Agent-D-711767",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-h-160902": {
+      "name": "Agent-H-160902",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-c-397703": {
+      "name": "Agent-C-397703",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-b-426744": {
+      "name": "Agent-B-426744",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-e-372573": {
+      "name": "Agent-E-372573",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-d-810860": {
+      "name": "Agent-D-810860",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-t-462286": {
+      "name": "Agent-T-462286",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-j-902622": {
+      "name": "Agent-J-902622",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-j-618166": {
+      "name": "Agent-J-618166",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-h-678163": {
+      "name": "Agent-H-678163",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-b-112807": {
+      "name": "Agent-B-112807",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-c-618182": {
+      "name": "Agent-C-618182",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-s-669967": {
+      "name": "Agent-S-669967",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-k-437299": {
+      "name": "Agent-K-437299",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-r-229821": {
+      "name": "Agent-R-229821",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-h-540300": {
+      "name": "Agent-H-540300",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-d-386210": {
+      "name": "Agent-D-386210",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-j-758087": {
+      "name": "Agent-J-758087",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-k-958187": {
+      "name": "Agent-K-958187",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-e-463997": {
+      "name": "Agent-E-463997",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-s-524900": {
+      "name": "Agent-S-524900",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-b-935457": {
+      "name": "Agent-B-935457",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-e-405431": {
+      "name": "Agent-E-405431",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-c-650692": {
+      "name": "Agent-C-650692",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-r-352322": {
+      "name": "Agent-R-352322",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-s-396348": {
+      "name": "Agent-S-396348",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-f-834242": {
+      "name": "Agent-F-834242",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-d-539772": {
+      "name": "Agent-D-539772",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-s-931422": {
+      "name": "Agent-S-931422",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-t-105831": {
+      "name": "Agent-T-105831",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-f-124634": {
+      "name": "Agent-F-124634",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-h-469433": {
+      "name": "Agent-H-469433",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-t-763361": {
+      "name": "Agent-T-763361",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-d-278363": {
+      "name": "Agent-D-278363",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-e-920081": {
+      "name": "Agent-E-920081",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-g-232413": {
+      "name": "Agent-G-232413",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-a-175088": {
+      "name": "Agent-A-175088",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-q-613980": {
+      "name": "Agent-Q-613980",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-q-399103": {
+      "name": "Agent-Q-399103",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-b-287995": {
+      "name": "Agent-B-287995",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-c-646671": {
+      "name": "Agent-C-646671",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-p-350965": {
+      "name": "Agent-P-350965",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-n-846067": {
+      "name": "Agent-N-846067",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-i-876625": {
+      "name": "Agent-I-876625",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-t-449400": {
+      "name": "Agent-T-449400",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-k-441961": {
+      "name": "Agent-K-441961",
+      "reputation": 50.0,
+      "updated_day": 1
+    },
+    "agent-r-479970": {
+      "name": "Agent-R-479970",
+      "reputation": 50.0,
+      "updated_day": 1
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "runs": 12,
+  "runs": 13,
   "created_at": "2026-09-05T16:45:47.325215+00:00",
   "features": {
     "self_diagnosis": true,
@@ -17,6 +17,6 @@
     "cactus_needle_mentor": true,
     "no_abandoned_work": true
   },
-  "last_diagnosis_day": 3,
+  "last_diagnosis_day": 1,
   "knowledge_shared": 0
 }
