@@ -1,10 +1,17 @@
 name: Agent Evolution - Autonomous Agent Real-Money Survival Farm
+
 on:
   schedule:
     - cron: '17 0,4,8,12,16,20 * * *'
   workflow_dispatch: {}
+
 permissions:
   contents: write
+
+concurrency:
+  group: agent-evolution-farm
+  cancel-in-progress: false
+
 jobs:
   farm-run:
     runs-on: ubuntu-latest
@@ -17,23 +24,35 @@ jobs:
       FONLOK_PAYOUT_URL: ${{ vars.FONLOK_PAYOUT_URL }}
       PAYOUT_DESTINATION_ID: ${{ secrets.PAYOUT_DESTINATION_ID }}
       PAYOUT_MOBILE_MONEY_NETWORK: ${{ secrets.PAYOUT_MOBILE_MONEY_NETWORK }}
+      EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      - name: Worldwide autonomous discovery (10 minute hard limit)
-        run: python worldwide_discovery.py --max-results 6 --max-opportunities 1000
-      - name: Autonomous brain + Cactus Needle 14MB memory core
-        run: python autonomous_brain.py
-      - name: Advanced agent intelligence and decision planning
-        run: python agent_intelligence.py
-      - name: Competitive work allocation
-        run: python work_preparer.py --limit 500
-      - name: Execute and finish work (never silently abandon)
-        run: python work_executor.py
-      - name: Build agent-owned businesses
-        run: python business_factory.py
+
+      - name: Install Internet capability
+        run: |
+          python -m pip install --disable-pip-version-check -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Preflight integrity and security checks
+        run: python integrity_check.py
+
+      - name: Run complete autonomous farm cycle
+        run: python farm_orchestrator.py
+
+      - name: Persist farm state and audit trail
+        if: always()
+        run: |
+          git config user.name 'agent-evolution-bot'
+          git config user.email 'actions@github.com'
+          git add .
+          git diff --cached --quiet || git commit -m "Autonomous agent farm cycle: $(date -u +%Y-%m-%d-%H%M)"
+          git push
       - name: Evolve agent-owned businesses
         run: python business_evolution.py
 
