@@ -18,6 +18,12 @@
       "verified_income_count": 0,
       "verified_xaf": 0,
       "currencies": {}
+    },
+    {
+      "day": 3,
+      "verified_income_count": 0,
+      "verified_xaf": 0,
+      "currencies": {}
     }
   ],
   "currency_exposure": {},
