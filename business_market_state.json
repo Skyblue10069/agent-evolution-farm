@@ -35,6 +35,11 @@
       "day": 3,
       "portfolios": 148,
       "observed_opportunities": 0
+    },
+    {
+      "day": 1,
+      "portfolios": 197,
+      "observed_opportunities": 0
     }
   ],
   "portfolios": {
@@ -1410,6 +1415,12 @@
         },
         {
           "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 1,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5232,6 +5243,1329 @@
         },
         {
           "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-a-172968": {
+      "owner": "Agent-A-172968",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-o-270165": {
+      "owner": "Agent-O-270165",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-p-888354": {
+      "owner": "Agent-P-888354",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-i-761324": {
+      "owner": "Agent-I-761324",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-f-291027": {
+      "owner": "Agent-F-291027",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-m-507148": {
+      "owner": "Agent-M-507148",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-k-362383": {
+      "owner": "Agent-K-362383",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-l-773588": {
+      "owner": "Agent-L-773588",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-o-371079": {
+      "owner": "Agent-O-371079",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-c-299709": {
+      "owner": "Agent-C-299709",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-p-175496": {
+      "owner": "Agent-P-175496",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-o-205613": {
+      "owner": "Agent-O-205613",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-a-649599": {
+      "owner": "Agent-A-649599",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-m-837850": {
+      "owner": "Agent-M-837850",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-o-485906": {
+      "owner": "Agent-O-485906",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-i-136111": {
+      "owner": "Agent-I-136111",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-a-357414": {
+      "owner": "Agent-A-357414",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-a-670599": {
+      "owner": "Agent-A-670599",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-k-192218": {
+      "owner": "Agent-K-192218",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-n-337928": {
+      "owner": "Agent-N-337928",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-f-588472": {
+      "owner": "Agent-F-588472",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-a-947891": {
+      "owner": "Agent-A-947891",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-o-810362": {
+      "owner": "Agent-O-810362",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-s-685055": {
+      "owner": "Agent-S-685055",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-o-309713": {
+      "owner": "Agent-O-309713",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-f-506410": {
+      "owner": "Agent-F-506410",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-p-563014": {
+      "owner": "Agent-P-563014",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-n-441743": {
+      "owner": "Agent-N-441743",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-h-679429": {
+      "owner": "Agent-H-679429",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-p-906273": {
+      "owner": "Agent-P-906273",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-i-684242": {
+      "owner": "Agent-I-684242",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-s-875569": {
+      "owner": "Agent-S-875569",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-h-401638": {
+      "owner": "Agent-H-401638",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-s-363790": {
+      "owner": "Agent-S-363790",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-b-749321": {
+      "owner": "Agent-B-749321",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-b-755081": {
+      "owner": "Agent-B-755081",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-r-187090": {
+      "owner": "Agent-R-187090",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-s-588893": {
+      "owner": "Agent-S-588893",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-b-244828": {
+      "owner": "Agent-B-244828",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-h-311053": {
+      "owner": "Agent-H-311053",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-k-904946": {
+      "owner": "Agent-K-904946",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-j-357504": {
+      "owner": "Agent-J-357504",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-k-212792": {
+      "owner": "Agent-K-212792",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-l-601007": {
+      "owner": "Agent-L-601007",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-s-138337": {
+      "owner": "Agent-S-138337",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-n-125663": {
+      "owner": "Agent-N-125663",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-p-224812": {
+      "owner": "Agent-P-224812",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-f-975496": {
+      "owner": "Agent-F-975496",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        }
+      ],
+      "portfolio_policy": [
+        "test small",
+        "measure completion quality",
+        "verify payment externally",
+        "scale winners",
+        "retire weak offers",
+        "protect capacity"
+      ]
+    },
+    "agent-b-322022": {
+      "owner": "Agent-B-322022",
+      "offers": {},
+      "capacity": {
+        "parallel_limit": 2,
+        "active": 0,
+        "queued": 0,
+        "available_slots": 2
+      },
+      "experiments": [],
+      "history": [
+        {
+          "day": 1,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
