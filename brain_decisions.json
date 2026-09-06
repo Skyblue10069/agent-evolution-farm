@@ -2,6 +2,457 @@
   "autonomous_brain": true,
   "open_ended_reasoning": true,
   "fixed_action_list": false,
-  "decisions": [],
-  "generated_at": "2026-09-05T19:09:36.055346+00:00"
+  "decisions": [
+    {
+      "agent_id": "agent-b-925559",
+      "agent_name": "Agent-B-925559",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-h-492050",
+      "agent_name": "Agent-H-492050",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-h-640808",
+      "agent_name": "Agent-H-640808",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-l-560948",
+      "agent_name": "Agent-L-560948",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-r-831495",
+      "agent_name": "Agent-R-831495",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-f-322093",
+      "agent_name": "Agent-F-322093",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-c-625288",
+      "agent_name": "Agent-C-625288",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-d-820801",
+      "agent_name": "Agent-D-820801",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-n-253772",
+      "agent_name": "Agent-N-253772",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-855867",
+      "agent_name": "Agent-Q-855867",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-t-537495",
+      "agent_name": "Agent-T-537495",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-h-569255",
+      "agent_name": "Agent-H-569255",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-g-198835",
+      "agent_name": "Agent-G-198835",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-589027",
+      "agent_name": "Agent-Q-589027",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-t-139331",
+      "agent_name": "Agent-T-139331",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-k-403088",
+      "agent_name": "Agent-K-403088",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-i-667471",
+      "agent_name": "Agent-I-667471",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-k-416779",
+      "agent_name": "Agent-K-416779",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-m-324425",
+      "agent_name": "Agent-M-324425",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-i-809646",
+      "agent_name": "Agent-I-809646",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-t-536326",
+      "agent_name": "Agent-T-536326",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-r-936882",
+      "agent_name": "Agent-R-936882",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-461485",
+      "agent_name": "Agent-Q-461485",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-r-690534",
+      "agent_name": "Agent-R-690534",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-498479",
+      "agent_name": "Agent-Q-498479",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-h-914584",
+      "agent_name": "Agent-H-914584",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-f-352980",
+      "agent_name": "Agent-F-352980",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-t-293693",
+      "agent_name": "Agent-T-293693",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-a-825835",
+      "agent_name": "Agent-A-825835",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-b-353273",
+      "agent_name": "Agent-B-353273",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-r-195745",
+      "agent_name": "Agent-R-195745",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-j-955989",
+      "agent_name": "Agent-J-955989",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-c-326698",
+      "agent_name": "Agent-C-326698",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-e-910864",
+      "agent_name": "Agent-E-910864",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-o-806089",
+      "agent_name": "Agent-O-806089",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-k-571517",
+      "agent_name": "Agent-K-571517",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-o-362783",
+      "agent_name": "Agent-O-362783",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-h-592523",
+      "agent_name": "Agent-H-592523",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-n-913115",
+      "agent_name": "Agent-N-913115",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-n-970148",
+      "agent_name": "Agent-N-970148",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-510159",
+      "agent_name": "Agent-Q-510159",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-i-305382",
+      "agent_name": "Agent-I-305382",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-739420",
+      "agent_name": "Agent-Q-739420",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-b-762104",
+      "agent_name": "Agent-B-762104",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-891986",
+      "agent_name": "Agent-Q-891986",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-q-989138",
+      "agent_name": "Agent-Q-989138",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-i-999125",
+      "agent_name": "Agent-I-999125",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-r-270879",
+      "agent_name": "Agent-R-270879",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "agent-c-993371",
+      "agent_name": "Agent-C-993371",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    },
+    {
+      "agent_id": "cactus-needle",
+      "agent_name": "Cactus Needle",
+      "best_signal": "",
+      "url": "",
+      "decision_score": 0,
+      "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+      "status": "awaiting_review"
+    }
+  ],
+  "generated_at": "2026-09-06T03:36:20.954155+00:00"
 }
