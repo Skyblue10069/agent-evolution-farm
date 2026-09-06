@@ -45,6 +45,11 @@
       "day": 2,
       "portfolios": 197,
       "observed_opportunities": 0
+    },
+    {
+      "day": 3,
+      "portfolios": 197,
+      "observed_opportunities": 0
     }
   ],
   "portfolios": {
@@ -1432,6 +1437,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5290,6 +5301,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5320,6 +5337,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5356,6 +5379,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5386,6 +5415,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5422,6 +5457,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5452,6 +5493,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5488,6 +5535,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5518,6 +5571,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5554,6 +5613,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5584,6 +5649,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5620,6 +5691,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5650,6 +5727,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5686,6 +5769,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5716,6 +5805,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5752,6 +5847,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5782,6 +5883,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5818,6 +5925,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5848,6 +5961,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5884,6 +6003,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5914,6 +6039,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -5950,6 +6081,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -5980,6 +6117,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6016,6 +6159,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6046,6 +6195,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6082,6 +6237,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6112,6 +6273,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6148,6 +6315,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6178,6 +6351,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6214,6 +6393,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6244,6 +6429,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6280,6 +6471,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6310,6 +6507,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6346,6 +6549,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6376,6 +6585,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6412,6 +6627,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6442,6 +6663,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6478,6 +6705,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6508,6 +6741,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6544,6 +6783,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6574,6 +6819,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6610,6 +6861,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6640,6 +6897,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6676,6 +6939,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6706,6 +6975,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6742,6 +7017,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6772,6 +7053,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
@@ -6808,6 +7095,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6841,6 +7134,12 @@
           "completed_work": 0,
           "active_work": 0,
           "offers": 0
+        },
+        {
+          "day": 3,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
         }
       ],
       "portfolio_policy": [
@@ -6871,6 +7170,12 @@
         },
         {
           "day": 2,
+          "completed_work": 0,
+          "active_work": 0,
+          "offers": 0
+        },
+        {
+          "day": 3,
           "completed_work": 0,
           "active_work": 0,
           "offers": 0

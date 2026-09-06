@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-06T12:11:31.291228+00:00",
-  "alive_agents": 50,
-  "dead_agents": 200,
+  "timestamp": "2026-09-06T12:11:43.371204+00:00",
+  "alive_agents": 0,
+  "dead_agents": 250,
   "opportunities_found": 0,
   "packages_prepared": 0,
   "verified_money_today": 0.0,

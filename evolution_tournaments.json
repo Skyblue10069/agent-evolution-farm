@@ -2540,6 +2540,237 @@
         }
       ],
       "rule": "earned performance only"
+    },
+    {
+      "day": 3,
+      "rounds": [
+        {
+          "a": "agent-s-685055",
+          "b": "agent-m-507148",
+          "winner": "agent-s-685055",
+          "scores": [
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-o-205613",
+          "b": "agent-s-138337",
+          "winner": "agent-o-205613",
+          "scores": [
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "a": "agent-h-679429",
+          "b": "agent-a-649599",
+          "winner": "agent-h-679429",
+          "scores": [
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "a": "agent-o-810362",
+          "b": "cactus-needle",
+          "winner": "agent-o-810362",
+          "scores": [
+            12.0,
+            10.0
+          ]
+        },
+        {
+          "a": "agent-k-192218",
+          "b": "agent-a-670599",
+          "winner": "agent-k-192218",
+          "scores": [
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "a": "agent-a-357414",
+          "b": "agent-b-322022",
+          "winner": "agent-a-357414",
+          "scores": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "a": "agent-b-755081",
+          "b": "agent-l-601007",
+          "winner": "agent-l-601007",
+          "scores": [
+            10.0,
+            12.0
+          ]
+        },
+        {
+          "a": "agent-p-888354",
+          "b": "agent-i-136111",
+          "winner": "agent-p-888354",
+          "scores": [
+            14.0,
+            10.0
+          ]
+        },
+        {
+          "a": "agent-i-684242",
+          "b": "agent-o-485906",
+          "winner": "agent-i-684242",
+          "scores": [
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-p-563014",
+          "b": "agent-n-125663",
+          "winner": "agent-n-125663",
+          "scores": [
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-r-187090",
+          "b": "agent-p-906273",
+          "winner": "agent-r-187090",
+          "scores": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "a": "agent-h-401638",
+          "b": "agent-l-773588",
+          "winner": "agent-l-773588",
+          "scores": [
+            10.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-s-363790",
+          "b": "agent-k-212792",
+          "winner": "agent-k-212792",
+          "scores": [
+            10.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-b-244828",
+          "b": "agent-h-311053",
+          "winner": "agent-b-244828",
+          "scores": [
+            14.0,
+            12.0
+          ]
+        },
+        {
+          "a": "agent-s-588893",
+          "b": "agent-f-975496",
+          "winner": "agent-s-588893",
+          "scores": [
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-k-904946",
+          "b": "agent-f-506410",
+          "winner": "agent-k-904946",
+          "scores": [
+            14.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-f-588472",
+          "b": "agent-b-749321",
+          "winner": "agent-b-749321",
+          "scores": [
+            10.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-o-371079",
+          "b": "agent-m-837850",
+          "winner": "agent-o-371079",
+          "scores": [
+            10.0,
+            10.0
+          ]
+        },
+        {
+          "a": "agent-a-947891",
+          "b": "agent-f-291027",
+          "winner": "agent-f-291027",
+          "scores": [
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-s-875569",
+          "b": "agent-p-224812",
+          "winner": "agent-p-224812",
+          "scores": [
+            12.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-i-761324",
+          "b": "agent-n-337928",
+          "winner": "agent-i-761324",
+          "scores": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "a": "agent-k-362383",
+          "b": "agent-n-441743",
+          "winner": "agent-n-441743",
+          "scores": [
+            10.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-o-309713",
+          "b": "agent-c-299709",
+          "winner": "agent-c-299709",
+          "scores": [
+            10.0,
+            14.0
+          ]
+        },
+        {
+          "a": "agent-j-357504",
+          "b": "agent-p-175496",
+          "winner": "agent-j-357504",
+          "scores": [
+            12.0,
+            12.0
+          ]
+        },
+        {
+          "a": "agent-o-270165",
+          "b": "agent-a-172968",
+          "winner": "agent-o-270165",
+          "scores": [
+            10.0,
+            10.0
+          ]
+        }
+      ],
+      "rule": "earned performance only"
     }
   ]
 }
