@@ -1,21 +1,5883 @@
 {
   "schema_version": 6,
-  "day": 3,
-  "agents": [],
+  "day": 1,
+  "agents": [
+    {
+      "id": "agent-p-538815",
+      "name": "Agent-P-538815",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 26,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.060976+00:00"
+    },
+    {
+      "id": "agent-b-913209",
+      "name": "Agent-B-913209",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 1,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.060990+00:00"
+    },
+    {
+      "id": "agent-h-393558",
+      "name": "Agent-H-393558",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 27,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.060993+00:00"
+    },
+    {
+      "id": "agent-b-775126",
+      "name": "Agent-B-775126",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 2,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.060995+00:00"
+    },
+    {
+      "id": "agent-f-147021",
+      "name": "Agent-F-147021",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 28,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.060997+00:00"
+    },
+    {
+      "id": "agent-g-639783",
+      "name": "Agent-G-639783",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 3,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.060998+00:00"
+    },
+    {
+      "id": "agent-k-275342",
+      "name": "Agent-K-275342",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 29,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061000+00:00"
+    },
+    {
+      "id": "agent-m-618515",
+      "name": "Agent-M-618515",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 30,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061005+00:00"
+    },
+    {
+      "id": "agent-l-854720",
+      "name": "Agent-L-854720",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 31,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061008+00:00"
+    },
+    {
+      "id": "agent-i-818125",
+      "name": "Agent-I-818125",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 32,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061010+00:00"
+    },
+    {
+      "id": "agent-s-236587",
+      "name": "Agent-S-236587",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 33,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061011+00:00"
+    },
+    {
+      "id": "agent-r-311643",
+      "name": "Agent-R-311643",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 34,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061013+00:00"
+    },
+    {
+      "id": "agent-n-196166",
+      "name": "Agent-N-196166",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 4,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061014+00:00"
+    },
+    {
+      "id": "agent-m-556579",
+      "name": "Agent-M-556579",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 35,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061016+00:00"
+    },
+    {
+      "id": "agent-p-528350",
+      "name": "Agent-P-528350",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 5,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061017+00:00"
+    },
+    {
+      "id": "agent-i-672312",
+      "name": "Agent-I-672312",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 6,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061019+00:00"
+    },
+    {
+      "id": "agent-a-367223",
+      "name": "Agent-A-367223",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 36,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061020+00:00"
+    },
+    {
+      "id": "agent-n-557886",
+      "name": "Agent-N-557886",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 37,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061021+00:00"
+    },
+    {
+      "id": "agent-e-428274",
+      "name": "Agent-E-428274",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 7,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061023+00:00"
+    },
+    {
+      "id": "agent-g-985498",
+      "name": "Agent-G-985498",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 8,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061025+00:00"
+    },
+    {
+      "id": "agent-d-778352",
+      "name": "Agent-D-778352",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 38,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061026+00:00"
+    },
+    {
+      "id": "agent-q-184251",
+      "name": "Agent-Q-184251",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 9,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061027+00:00"
+    },
+    {
+      "id": "agent-o-816190",
+      "name": "Agent-O-816190",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 10,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061029+00:00"
+    },
+    {
+      "id": "agent-j-675505",
+      "name": "Agent-J-675505",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 11,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061030+00:00"
+    },
+    {
+      "id": "agent-a-116665",
+      "name": "Agent-A-116665",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 12,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061031+00:00"
+    },
+    {
+      "id": "agent-g-751630",
+      "name": "Agent-G-751630",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 39,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061033+00:00"
+    },
+    {
+      "id": "agent-s-754899",
+      "name": "Agent-S-754899",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 13,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061035+00:00"
+    },
+    {
+      "id": "agent-j-402109",
+      "name": "Agent-J-402109",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 40,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061036+00:00"
+    },
+    {
+      "id": "agent-m-785643",
+      "name": "Agent-M-785643",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 41,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061037+00:00"
+    },
+    {
+      "id": "agent-m-614499",
+      "name": "Agent-M-614499",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 42,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061039+00:00"
+    },
+    {
+      "id": "agent-r-936654",
+      "name": "Agent-R-936654",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 14,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061040+00:00"
+    },
+    {
+      "id": "agent-q-286863",
+      "name": "Agent-Q-286863",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 15,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061042+00:00"
+    },
+    {
+      "id": "agent-d-606239",
+      "name": "Agent-D-606239",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 16,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061043+00:00"
+    },
+    {
+      "id": "agent-o-631775",
+      "name": "Agent-O-631775",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 17,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061045+00:00"
+    },
+    {
+      "id": "agent-q-736292",
+      "name": "Agent-Q-736292",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 18,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061046+00:00"
+    },
+    {
+      "id": "agent-d-143171",
+      "name": "Agent-D-143171",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 19,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061047+00:00"
+    },
+    {
+      "id": "agent-d-957018",
+      "name": "Agent-D-957018",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 20,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061049+00:00"
+    },
+    {
+      "id": "agent-n-215620",
+      "name": "Agent-N-215620",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 43,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061050+00:00"
+    },
+    {
+      "id": "agent-s-872688",
+      "name": "Agent-S-872688",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 44,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061052+00:00"
+    },
+    {
+      "id": "agent-d-378417",
+      "name": "Agent-D-378417",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 21,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061053+00:00"
+    },
+    {
+      "id": "agent-g-497093",
+      "name": "Agent-G-497093",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 22,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061054+00:00"
+    },
+    {
+      "id": "agent-d-714436",
+      "name": "Agent-D-714436",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 23,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061056+00:00"
+    },
+    {
+      "id": "agent-b-832092",
+      "name": "Agent-B-832092",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 45,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061057+00:00"
+    },
+    {
+      "id": "agent-k-648578",
+      "name": "Agent-K-648578",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 46,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061059+00:00"
+    },
+    {
+      "id": "agent-e-268608",
+      "name": "Agent-E-268608",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 47,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061060+00:00"
+    },
+    {
+      "id": "agent-g-200682",
+      "name": "Agent-G-200682",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 48,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061061+00:00"
+    },
+    {
+      "id": "agent-a-372621",
+      "name": "Agent-A-372621",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 24,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061062+00:00"
+    },
+    {
+      "id": "agent-l-957474",
+      "name": "Agent-L-957474",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 49,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061064+00:00"
+    },
+    {
+      "id": "agent-f-704116",
+      "name": "Agent-F-704116",
+      "species": "agent",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 1,
+      "losses": 0,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {},
+        "plans": [],
+        "critic_notes": [],
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": false,
+      "protected_identity": false,
+      "memory_budget_mb": 1,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 25,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061065+00:00"
+    },
+    {
+      "id": "cactus-needle",
+      "name": "Cactus Needle",
+      "species": "ai",
+      "skills": {
+        "coding": 0.0,
+        "engineering": 0.0,
+        "mathematics": 0.0,
+        "science": 0.0,
+        "research": 0.0,
+        "robotics": 0.0,
+        "cybersecurity": 0.0,
+        "writing": 0.0,
+        "art": 0.0,
+        "design": 0.0,
+        "music": 0.0,
+        "storytelling": 0.0,
+        "languages": 0.0,
+        "diplomacy": 0.0,
+        "gathering": 0.0,
+        "farming": 0.0,
+        "crafting": 0.0,
+        "building": 0.0,
+        "medicine": 0.0,
+        "cooking": 0.0,
+        "combat": 0.0,
+        "strategy": 0.0,
+        "leadership": 0.0,
+        "trading": 0.0,
+        "exploration": 0.0,
+        "teaching": 0.0,
+        "sales": 0.0,
+        "marketing": 0.0,
+        "video_editing": 0.0,
+        "project_management": 0.0,
+        "communication": 0.0,
+        "analysis": 0.0
+      },
+      "all_skills_unlocked": true,
+      "generation": 0,
+      "days_active": 1,
+      "survival": 2,
+      "permanent_status": "alive",
+      "cash_verified": 0,
+      "own_verified_revenue": 0,
+      "opportunities_reviewed": 0,
+      "opportunities_pursued": 0,
+      "wins": 0,
+      "losses": 1,
+      "businesses": [],
+      "work_packages": [],
+      "active_work": [],
+      "completed_work": 0,
+      "failed_work": 0,
+      "brain": {
+        "memory": [],
+        "goals": [],
+        "experiments": [],
+        "lessons": [],
+        "self_model": {
+          "identity": "Cactus Needle",
+          "role": "main_character_ai",
+          "memory_core": "14MB",
+          "mission": "learn, complete work, improve, compete, and survive"
+        },
+        "plans": [],
+        "critic_notes": [],
+        "mentor_mode": {
+          "enabled": true,
+          "teaches_by_evidence": true,
+          "does_not_grant_skill": true,
+          "does_not_auto_win": true
+        },
+        "decision_stack": {
+          "day": 1,
+          "options": [],
+          "chosen": null,
+          "uncertainty": 100
+        },
+        "counterfactuals": [
+          {
+            "if": "requirements fail",
+            "then": "switch to next ranked opportunity"
+          },
+          {
+            "if": "work blocks externally",
+            "then": "persist BLOCKED_EXTERNAL and retry next cycle"
+          }
+        ],
+        "memory_retrieval": [],
+        "superintelligence": {
+          "objective": "discover and validate a new legitimate opportunity",
+          "primary": null,
+          "fallbacks": [],
+          "preflight": [
+            "source quality",
+            "eligibility",
+            "scope"
+          ],
+          "stop_conditions": [
+            "unsafe/unauthorized"
+          ],
+          "learning_rule": "record evidence before changing strategy"
+        },
+        "calibration": {
+          "confidence_is_not_success": true,
+          "success_requires_completion_and_evidence": true
+        }
+      },
+      "main_character": true,
+      "protected_identity": true,
+      "memory_budget_mb": 14,
+      "reputation": 50.0,
+      "quality_score": 0.0,
+      "resource_state": {
+        "time_units": 6,
+        "energy": 100,
+        "focus": 100
+      },
+      "specialization": null,
+      "specialization_evidence": [],
+      "failures_recovered": 0,
+      "earnings_by_currency": {},
+      "own_verified_revenue_by_currency": {},
+      "rank": 50,
+      "survival_days": 1,
+      "last_survival_update": "2026-09-06T18:24:40.061067+00:00"
+    }
+  ],
   "verified_revenue": 0,
   "verified_payments": [],
   "completed_work_total": 0,
   "unfinished_work_total": 0,
   "currency_balances": {},
   "dead_count": 350,
-  "alive_count": 0,
+  "alive_count": 50,
   "clone_count": 0,
   "owner_directives": [],
   "leaderboard": [
     {
       "rank": 1,
-      "id": "agent-o-155210",
-      "name": "Agent-O-155210",
+      "id": "agent-b-913209",
+      "name": "Agent-B-913209",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -25,8 +5887,8 @@
     },
     {
       "rank": 2,
-      "id": "agent-r-173968",
-      "name": "Agent-R-173968",
+      "id": "agent-b-775126",
+      "name": "Agent-B-775126",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -36,8 +5898,8 @@
     },
     {
       "rank": 3,
-      "id": "agent-j-215725",
-      "name": "Agent-J-215725",
+      "id": "agent-g-639783",
+      "name": "Agent-G-639783",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -47,8 +5909,8 @@
     },
     {
       "rank": 4,
-      "id": "agent-b-829566",
-      "name": "Agent-B-829566",
+      "id": "agent-n-196166",
+      "name": "Agent-N-196166",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -58,8 +5920,8 @@
     },
     {
       "rank": 5,
-      "id": "agent-t-811223",
-      "name": "Agent-T-811223",
+      "id": "agent-p-528350",
+      "name": "Agent-P-528350",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -69,8 +5931,8 @@
     },
     {
       "rank": 6,
-      "id": "agent-n-488547",
-      "name": "Agent-N-488547",
+      "id": "agent-i-672312",
+      "name": "Agent-I-672312",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -80,8 +5942,8 @@
     },
     {
       "rank": 7,
-      "id": "agent-n-591148",
-      "name": "Agent-N-591148",
+      "id": "agent-e-428274",
+      "name": "Agent-E-428274",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -91,8 +5953,8 @@
     },
     {
       "rank": 8,
-      "id": "agent-s-456835",
-      "name": "Agent-S-456835",
+      "id": "agent-g-985498",
+      "name": "Agent-G-985498",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -102,8 +5964,8 @@
     },
     {
       "rank": 9,
-      "id": "agent-i-180760",
-      "name": "Agent-I-180760",
+      "id": "agent-q-184251",
+      "name": "Agent-Q-184251",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -113,8 +5975,8 @@
     },
     {
       "rank": 10,
-      "id": "agent-n-850018",
-      "name": "Agent-N-850018",
+      "id": "agent-o-816190",
+      "name": "Agent-O-816190",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -124,8 +5986,8 @@
     },
     {
       "rank": 11,
-      "id": "agent-p-998489",
-      "name": "Agent-P-998489",
+      "id": "agent-j-675505",
+      "name": "Agent-J-675505",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -135,8 +5997,8 @@
     },
     {
       "rank": 12,
-      "id": "agent-o-151694",
-      "name": "Agent-O-151694",
+      "id": "agent-a-116665",
+      "name": "Agent-A-116665",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -146,8 +6008,8 @@
     },
     {
       "rank": 13,
-      "id": "agent-p-283203",
-      "name": "Agent-P-283203",
+      "id": "agent-s-754899",
+      "name": "Agent-S-754899",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -157,8 +6019,8 @@
     },
     {
       "rank": 14,
-      "id": "agent-k-319604",
-      "name": "Agent-K-319604",
+      "id": "agent-r-936654",
+      "name": "Agent-R-936654",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -168,8 +6030,8 @@
     },
     {
       "rank": 15,
-      "id": "agent-p-596893",
-      "name": "Agent-P-596893",
+      "id": "agent-q-286863",
+      "name": "Agent-Q-286863",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -179,19 +6041,19 @@
     },
     {
       "rank": 16,
-      "id": "cactus-needle",
-      "name": "Cactus Needle",
-      "species": "ai",
+      "id": "agent-d-606239",
+      "name": "Agent-D-606239",
+      "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
       "skill_total": 0.0,
       "generation": 0,
-      "main_character": true
+      "main_character": false
     },
     {
       "rank": 17,
-      "id": "agent-t-874351",
-      "name": "Agent-T-874351",
+      "id": "agent-o-631775",
+      "name": "Agent-O-631775",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -201,8 +6063,8 @@
     },
     {
       "rank": 18,
-      "id": "agent-b-435626",
-      "name": "Agent-B-435626",
+      "id": "agent-q-736292",
+      "name": "Agent-Q-736292",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -212,8 +6074,8 @@
     },
     {
       "rank": 19,
-      "id": "agent-h-390221",
-      "name": "Agent-H-390221",
+      "id": "agent-d-143171",
+      "name": "Agent-D-143171",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -223,8 +6085,8 @@
     },
     {
       "rank": 20,
-      "id": "agent-k-365603",
-      "name": "Agent-K-365603",
+      "id": "agent-d-957018",
+      "name": "Agent-D-957018",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -234,8 +6096,8 @@
     },
     {
       "rank": 21,
-      "id": "agent-h-782845",
-      "name": "Agent-H-782845",
+      "id": "agent-d-378417",
+      "name": "Agent-D-378417",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -245,8 +6107,8 @@
     },
     {
       "rank": 22,
-      "id": "agent-e-257451",
-      "name": "Agent-E-257451",
+      "id": "agent-g-497093",
+      "name": "Agent-G-497093",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -256,8 +6118,8 @@
     },
     {
       "rank": 23,
-      "id": "agent-r-200534",
-      "name": "Agent-R-200534",
+      "id": "agent-d-714436",
+      "name": "Agent-D-714436",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -267,8 +6129,8 @@
     },
     {
       "rank": 24,
-      "id": "agent-p-839656",
-      "name": "Agent-P-839656",
+      "id": "agent-a-372621",
+      "name": "Agent-A-372621",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -278,8 +6140,8 @@
     },
     {
       "rank": 25,
-      "id": "agent-m-259575",
-      "name": "Agent-M-259575",
+      "id": "agent-f-704116",
+      "name": "Agent-F-704116",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -289,8 +6151,8 @@
     },
     {
       "rank": 26,
-      "id": "agent-f-825580",
-      "name": "Agent-F-825580",
+      "id": "agent-p-538815",
+      "name": "Agent-P-538815",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -300,8 +6162,8 @@
     },
     {
       "rank": 27,
-      "id": "agent-t-874677",
-      "name": "Agent-T-874677",
+      "id": "agent-h-393558",
+      "name": "Agent-H-393558",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -311,8 +6173,8 @@
     },
     {
       "rank": 28,
-      "id": "agent-j-424685",
-      "name": "Agent-J-424685",
+      "id": "agent-f-147021",
+      "name": "Agent-F-147021",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -322,8 +6184,8 @@
     },
     {
       "rank": 29,
-      "id": "agent-o-939955",
-      "name": "Agent-O-939955",
+      "id": "agent-k-275342",
+      "name": "Agent-K-275342",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -333,8 +6195,8 @@
     },
     {
       "rank": 30,
-      "id": "agent-d-948614",
-      "name": "Agent-D-948614",
+      "id": "agent-m-618515",
+      "name": "Agent-M-618515",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -344,8 +6206,8 @@
     },
     {
       "rank": 31,
-      "id": "agent-n-184339",
-      "name": "Agent-N-184339",
+      "id": "agent-l-854720",
+      "name": "Agent-L-854720",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -355,8 +6217,8 @@
     },
     {
       "rank": 32,
-      "id": "agent-n-724850",
-      "name": "Agent-N-724850",
+      "id": "agent-i-818125",
+      "name": "Agent-I-818125",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -366,8 +6228,8 @@
     },
     {
       "rank": 33,
-      "id": "agent-o-789144",
-      "name": "Agent-O-789144",
+      "id": "agent-s-236587",
+      "name": "Agent-S-236587",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -377,8 +6239,8 @@
     },
     {
       "rank": 34,
-      "id": "agent-n-265063",
-      "name": "Agent-N-265063",
+      "id": "agent-r-311643",
+      "name": "Agent-R-311643",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -388,8 +6250,8 @@
     },
     {
       "rank": 35,
-      "id": "agent-t-688239",
-      "name": "Agent-T-688239",
+      "id": "agent-m-556579",
+      "name": "Agent-M-556579",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -399,8 +6261,8 @@
     },
     {
       "rank": 36,
-      "id": "agent-c-773345",
-      "name": "Agent-C-773345",
+      "id": "agent-a-367223",
+      "name": "Agent-A-367223",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -410,8 +6272,8 @@
     },
     {
       "rank": 37,
-      "id": "agent-i-814134",
-      "name": "Agent-I-814134",
+      "id": "agent-n-557886",
+      "name": "Agent-N-557886",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -421,8 +6283,8 @@
     },
     {
       "rank": 38,
-      "id": "agent-f-178800",
-      "name": "Agent-F-178800",
+      "id": "agent-d-778352",
+      "name": "Agent-D-778352",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -432,8 +6294,8 @@
     },
     {
       "rank": 39,
-      "id": "agent-r-267234",
-      "name": "Agent-R-267234",
+      "id": "agent-g-751630",
+      "name": "Agent-G-751630",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -443,8 +6305,8 @@
     },
     {
       "rank": 40,
-      "id": "agent-o-358548",
-      "name": "Agent-O-358548",
+      "id": "agent-j-402109",
+      "name": "Agent-J-402109",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -454,8 +6316,8 @@
     },
     {
       "rank": 41,
-      "id": "agent-e-449808",
-      "name": "Agent-E-449808",
+      "id": "agent-m-785643",
+      "name": "Agent-M-785643",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -465,8 +6327,8 @@
     },
     {
       "rank": 42,
-      "id": "agent-f-235090",
-      "name": "Agent-F-235090",
+      "id": "agent-m-614499",
+      "name": "Agent-M-614499",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -476,8 +6338,8 @@
     },
     {
       "rank": 43,
-      "id": "agent-j-545876",
-      "name": "Agent-J-545876",
+      "id": "agent-n-215620",
+      "name": "Agent-N-215620",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -487,8 +6349,8 @@
     },
     {
       "rank": 44,
-      "id": "agent-g-775975",
-      "name": "Agent-G-775975",
+      "id": "agent-s-872688",
+      "name": "Agent-S-872688",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -498,8 +6360,8 @@
     },
     {
       "rank": 45,
-      "id": "agent-l-141850",
-      "name": "Agent-L-141850",
+      "id": "agent-b-832092",
+      "name": "Agent-B-832092",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -509,8 +6371,8 @@
     },
     {
       "rank": 46,
-      "id": "agent-t-267595",
-      "name": "Agent-T-267595",
+      "id": "agent-k-648578",
+      "name": "Agent-K-648578",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -520,8 +6382,8 @@
     },
     {
       "rank": 47,
-      "id": "agent-n-897462",
-      "name": "Agent-N-897462",
+      "id": "agent-e-268608",
+      "name": "Agent-E-268608",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -531,8 +6393,8 @@
     },
     {
       "rank": 48,
-      "id": "agent-a-177925",
-      "name": "Agent-A-177925",
+      "id": "agent-g-200682",
+      "name": "Agent-G-200682",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -542,8 +6404,8 @@
     },
     {
       "rank": 49,
-      "id": "agent-m-449873",
-      "name": "Agent-M-449873",
+      "id": "agent-l-957474",
+      "name": "Agent-L-957474",
       "species": "agent",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
@@ -553,14 +6415,14 @@
     },
     {
       "rank": 50,
-      "id": "agent-k-871995",
-      "name": "Agent-K-871995",
-      "species": "agent",
+      "id": "cactus-needle",
+      "name": "Cactus Needle",
+      "species": "ai",
       "verified_revenue_xaf": 0,
       "earnings_by_currency": {},
       "skill_total": 0.0,
       "generation": 0,
-      "main_character": false
+      "main_character": true
     }
   ]
 }

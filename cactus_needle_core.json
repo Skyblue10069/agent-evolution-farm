@@ -169,11 +169,21 @@
         "skills_from_nothing": false,
         "unverified_money": false
       }
+    },
+    {
+      "time": "2026-09-06T18:24:21.697064+00:00",
+      "passed": true,
+      "violations": {
+        "auto_winner": false,
+        "auto_paid": false,
+        "skills_from_nothing": false,
+        "unverified_money": false
+      }
     }
   ],
   "mentor_lessons": [
     {
-      "source_agent": "agent-m-259575",
+      "source_agent": "agent-p-538815",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -182,7 +192,7 @@
       }
     },
     {
-      "source_agent": "agent-f-825580",
+      "source_agent": "agent-b-913209",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -191,7 +201,7 @@
       }
     },
     {
-      "source_agent": "agent-t-874677",
+      "source_agent": "agent-h-393558",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -200,7 +210,7 @@
       }
     },
     {
-      "source_agent": "agent-t-874351",
+      "source_agent": "agent-b-775126",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -209,7 +219,7 @@
       }
     },
     {
-      "source_agent": "agent-c-773345",
+      "source_agent": "agent-f-147021",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -218,7 +228,7 @@
       }
     },
     {
-      "source_agent": "agent-j-424685",
+      "source_agent": "agent-g-639783",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -227,7 +237,7 @@
       }
     },
     {
-      "source_agent": "agent-i-814134",
+      "source_agent": "agent-k-275342",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -236,7 +246,7 @@
       }
     },
     {
-      "source_agent": "agent-o-939955",
+      "source_agent": "agent-m-618515",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -245,7 +255,7 @@
       }
     },
     {
-      "source_agent": "agent-f-178800",
+      "source_agent": "agent-l-854720",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -254,7 +264,7 @@
       }
     },
     {
-      "source_agent": "agent-o-155210",
+      "source_agent": "agent-i-818125",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
