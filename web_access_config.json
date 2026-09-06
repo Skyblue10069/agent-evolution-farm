@@ -1,0 +1,7 @@
+{
+  "providers": ["exa", "duckduckgo"],
+  "exa_endpoint": "https://api.exa.ai/search",
+  "timeout_seconds": 8,
+  "max_results": 8,
+  "notes": "Set EXA_API_KEY as a GitHub Actions secret for stronger, higher-capacity web research. DuckDuckGo remains a public fallback. Never bypass access controls."
+}

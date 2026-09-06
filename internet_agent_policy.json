@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "max_actions_per_task": 80,
+  "max_task_seconds": 540,
+  "request_timeout_seconds": 15,
+  "browser_timeout_seconds": 20,
+  "allowed_schemes": ["https"],
+  "allow_browser_navigation": true,
+  "allow_form_interaction": true,
+  "allow_file_uploads": true,
+  "allow_file_downloads": true,
+  "allow_public_http": true,
+  "allow_api_calls": true,
+  "require_explicit_account_authorization": true,
+  "blocked_action_patterns": ["captcha", "credential theft", "password dump", "bypass login", "bypass paywall", "rate limit bypass", "spam", "mass unsolicited", "impersonate", "payment fraud", "steal session", "cookie theft"]
+}

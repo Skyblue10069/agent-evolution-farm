@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "max_steps_per_session": 300,
+  "step_delay_seconds": 0.35,
+  "exploration": 0.20,
+  "allowed_packages": [],
+  "allow_touch_gestures": true,
+  "allow_screen_observation": true,
+  "respect_game_rules": true,
+  "no_anti_cheat_bypass": true,
+  "no_memory_editing": true,
+  "no_network_packet_manipulation": true
+}

@@ -1,0 +1,15 @@
+{
+  "requests": 2,
+  "provider_stats": {
+    "duckduckgo": {
+      "ok": 0,
+      "fail": 2
+    }
+  },
+  "last_event": {
+    "provider": "duckduckgo",
+    "ok": false,
+    "query": "business needs help Africa",
+    "error": "URLError"
+  }
+}

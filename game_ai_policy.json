@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "max_actions_per_episode": 300,
+  "max_episode_seconds": 900,
+  "learning_rate": 0.15,
+  "exploration": 0.12,
+  "allowed_action_types": ["tap", "swipe", "back", "wait"],
+  "forbidden_targets": ["captcha", "password", "security_challenge"]
+}

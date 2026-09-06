@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "allowed_roots": [],
+  "max_file_mb": 32,
+  "backup_before_edit": true,
+  "allowed_extensions": [
+    ".json",
+    ".json5",
+    ".txt",
+    ".ini",
+    ".cfg",
+    ".conf",
+    ".xml",
+    ".yaml",
+    ".yml",
+    ".properties",
+    ".mcfunction",
+    ".mcstructure",
+    ".dat",
+    ".sav",
+    ".save"
+  ],
+  "blocked_extensions": [
+    ".apk",
+    ".aab",
+    ".dex",
+    ".jar",
+    ".so",
+    ".exe",
+    ".dll",
+    ".elf"
+  ],
+  "auto_discover": true,
+  "max_discovery_files": 5000,
+  "max_discovery_depth": 8,
+  "experiment_on_copies": false,
+  "learn_field_meanings": true
+}

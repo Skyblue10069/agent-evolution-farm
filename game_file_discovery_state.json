@@ -1,0 +1,118 @@
+{
+  "runs": 1,
+  "files": {
+    "/tmp/ae_game_test/save.json": {
+      "sha256": "da05b8f72bf9556aaf294626500232f3c5bdc55f44986487e6f8befaa7c03e68",
+      "size": 133,
+      "field_count": 9,
+      "last_seen": 1788664441.7763221
+    }
+  },
+  "hypotheses": [
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "player",
+      "type": "object",
+      "possible_meanings": [
+        "name",
+        "position"
+      ],
+      "confidence": 0.71,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "player.level",
+      "type": "integer",
+      "possible_meanings": [
+        "level",
+        "name",
+        "position"
+      ],
+      "confidence": 0.79,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "player.xp",
+      "type": "integer",
+      "possible_meanings": [
+        "experience",
+        "name",
+        "position"
+      ],
+      "confidence": 0.79,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "player.health",
+      "type": "integer",
+      "possible_meanings": [
+        "health",
+        "name",
+        "position"
+      ],
+      "confidence": 0.79,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "player.coins",
+      "type": "integer",
+      "possible_meanings": [
+        "currency",
+        "name",
+        "position"
+      ],
+      "confidence": 0.79,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "player.inventory",
+      "type": "array",
+      "possible_meanings": [
+        "inventory",
+        "name",
+        "position"
+      ],
+      "confidence": 0.79,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "settings",
+      "type": "object",
+      "possible_meanings": [
+        "settings"
+      ],
+      "confidence": 0.63,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "settings.difficulty",
+      "type": "string",
+      "possible_meanings": [
+        "difficulty",
+        "position",
+        "settings"
+      ],
+      "confidence": 0.79,
+      "evidence": "name/type heuristic"
+    },
+    {
+      "file": "/tmp/ae_game_test/save.json",
+      "field": "settings.musicVolume",
+      "type": "number",
+      "possible_meanings": [
+        "settings"
+      ],
+      "confidence": 0.63,
+      "evidence": "name/type heuristic"
+    }
+  ],
+  "last_run": 1788664441.7763238,
+  "file_count": 1
+}

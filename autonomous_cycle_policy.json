@@ -1,0 +1,25 @@
+{
+  "mode": "github_first",
+  "self_directed_opportunities": true,
+  "discover_before_act": true,
+  "verify_before_counting_revenue": true,
+  "persistent_state": true,
+  "checkpoint_every_stage": true,
+  "per_stage_timeouts": true,
+  "discovery_internal_timeout_seconds": 540,
+  "discovery_hard_timeout_seconds": 570,
+  "real_money_source": "provider_confirmed_only",
+  "automatic_owner_debit": false,
+  "automatic_payout": false,
+  "human_approval_for_spending": true,
+  "safety_constraints": [
+    "no_fake_customers",
+    "no_fake_revenue",
+    "no_spam",
+    "no_impersonation",
+    "no_credential_theft",
+    "no_captcha_bypass",
+    "no_payment_fraud",
+    "respect_platform_eligibility_and_age_rules"
+  ]
+}

@@ -1,0 +1,12 @@
+QUICK START (ANDROID)
+
+1. Extract this ZIP.
+2. Install/run the Python runtime on the phone and install requirements.txt.
+3. Build android_controller/ as a debug APK with Android Studio.
+4. Install the APK and enable its Accessibility service in Android Settings.
+5. Configure android_game_policy.json with the game package you are authorized to control.
+6. Run: python game_ai/game_agent.py --package <GAME_PACKAGE> --steps 50
+7. For game-file discovery, explicitly authorize a save/config directory in game_file_policy.json and run:
+   python game_file_discovery.py discover
+
+The Android controller cannot silently install apps, bypass security, anti-cheat, DRM, passwords, CAPTCHAs, or Android storage permissions.

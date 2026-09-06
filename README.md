@@ -117,3 +117,38 @@ The farm now adds a superintelligence decision layer, evidence-weighted counterf
 
 ### Cactus Needle full upgrade
 Cactus Needle remains the protected main-character AI with a bounded 14,000,000-byte memory journal. It now has an integrity self-test, evidence-only mentor lessons from other agents, a strategy map, and memory health checks. It still receives no free skills, automatic wins, automatic payments, or bypass of owner/provider controls.
+
+## Internet Capability Layer
+Each agent now has a bounded Internet operator (`internet_agent.py`) capable of public HTTPS browsing/API access plus normal browser interactions: navigate, read/extract, click, type, select, upload, download and screenshots. Actions are audited with hashes and per-task limits. Account identities remain separate from secrets; credentials/tokens must be supplied through authorized environment/secret storage and are never committed to the repository.
+
+The layer deliberately does not bypass CAPTCHAs, authentication, paywalls, rate limits, platform safeguards, or age/KYC requirements. It can only act with accounts and permissions that are legitimately available to the runner.
+
+
+## Android device control
+A companion `android_controller/` project and `android_control.py` bridge are included. The controller can launch apps, open HTTPS URLs, tap/type through Accessibility, and use normal Android navigation. It cannot silently install APKs or bypass device/app security. A GitHub Actions runner cannot directly control a physical phone; use a local Android runtime or an authenticated relay if cloud-to-device control is needed.
+
+## Full game-playing AI
+The project now includes `game_ai/` with Android screenshot vision, autonomous touch/swipe decisions, persistent learning, exploration/exploitation, and bounded per-session evolution. The Android companion provides a localhost-only command server on `127.0.0.1:8787` and exposes screenshots, active-window data, taps, and swipes to the local agent runtime.
+
+Game AI is intentionally rule-respecting: it does not bypass anti-cheat, DRM, app permissions, CAPTCHAs, or network protections.
+
+## Game File Editing
+The game agent now has a user-authorized game-data editor. It can inspect and edit supported save/config/mod/add-on data inside directories explicitly granted to the local runtime, create automatic backups, verify SHA-256 hashes, and audit every edit. It does not bypass Android scoped storage, DRM, anti-cheat, authentication, or protected/executable game binaries. Configure `game_file_policy.json` with directories the device owner has explicitly granted.
+
+## Automatic game-file discovery and field learning
+`game_file_discovery.py` adds an automatic, permission-gated inventory of accessible game save/config data. It scans only `allowed_roots`, detects safe text formats, parses JSON structures, inventories nested fields, and generates explainable meaning hypotheses from field names and value types. Results persist in `game_file_schemas.json` and `game_file_discovery_state.json` so agents can learn across sessions.
+
+Use:
+```bash
+python game_file_discovery.py discover
+python game_file_discovery.py experiment-copy /authorized/path/to/save.json
+```
+
+Experiments, when enabled later, are performed on copies rather than silently modifying the original save. Android scoped-storage, encryption, DRM, anti-cheat, credentials, and executable/APK/DEX/native files remain outside the capability boundary.
+
+## GitHub-first Ultimate Cycle
+The current workflow uses `farm_orchestrator.py` as the single controlled entry point. It checkpoints after every stage, records stage outcomes in `orchestrator_state.json`, and appends an audit trail to `orchestrator_audit.jsonl`. The discovery stage has a 540-second internal deadline and a 570-second subprocess timeout.
+
+`integrity_check.py` performs a compile/security preflight before the farm runs. The workflow uses Node 24-compatible GitHub Actions (`actions/checkout@v6` and `actions/setup-python@v6`) and prevents overlapping scheduled runs with workflow concurrency.
+
+The Android/game modules remain in the repository as optional future components, but the GitHub workflow does not depend on a physical phone or Android emulator.

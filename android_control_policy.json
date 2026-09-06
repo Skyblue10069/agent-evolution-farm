@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "host": "127.0.0.1",
+  "port": 8787,
+  "allow_launch_package": true,
+  "allow_open_https": true,
+  "allow_tap_text": true,
+  "allow_type_text": true,
+  "allow_navigation": true,
+  "max_actions_per_task": 50,
+  "request_timeout_seconds": 5,
+  "allowed_packages": []
+}
