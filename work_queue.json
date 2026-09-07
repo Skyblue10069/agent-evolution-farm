@@ -1,3 +1,8 @@
 {
-  "items": []
+  "items": [],
+  "multitask_summary": {
+    "last_run": "2026-09-07T20:05:17.011636+00:00",
+    "created": 0,
+    "max_capacity": 1
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "features": {
+    "discipline_vs_observed_outcome": 0.0,
+    "skill_total_vs_observed_outcome": 0.0
+  },
+  "comparisons": [
+    {
+      "day": 1,
+      "sample_size": 50,
+      "note": "observational; not proof of causality"
+    }
+  ]
+}

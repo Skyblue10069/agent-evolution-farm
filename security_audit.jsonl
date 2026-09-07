@@ -1,0 +1,1 @@
+{"at": "2026-09-07T20:10:14.915672+00:00", "findings": [{"file": "integrity_check.py", "signal": "api_key="}, {"file": "integrity_check.py", "signal": "password="}, {"file": "integrity_check.py", "signal": "secret="}], "status": "review"}

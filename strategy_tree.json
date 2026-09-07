@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "agents": {
+    "agent-p-538815": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-b-913209": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-h-393558": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-b-775126": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-f-147021": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-g-639783": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-k-275342": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-m-618515": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-l-854720": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-i-818125": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-s-236587": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-r-311643": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-n-196166": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-m-556579": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-p-528350": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-i-672312": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-a-367223": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-n-557886": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-e-428274": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-g-985498": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-d-778352": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-q-184251": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-o-816190": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-j-675505": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-a-116665": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-g-751630": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-s-754899": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-j-402109": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-m-785643": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-m-614499": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-r-936654": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-q-286863": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-d-606239": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-o-631775": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-q-736292": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-d-143171": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-d-957018": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-n-215620": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-s-872688": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-d-378417": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-g-497093": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-d-714436": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-b-832092": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-k-648578": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-e-268608": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-g-200682": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-a-372621": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-l-957474": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "agent-f-704116": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    },
+    "cactus-needle": {
+      "day": 1,
+      "depth": 4,
+      "branches": [
+        "discover",
+        "validate",
+        "prepare",
+        "deliver"
+      ],
+      "status": "planned",
+      "evidence_policy": "observed_results_only"
+    }
+  }
+}

@@ -49,11 +49,21 @@
         "skills_from_nothing": true,
         "unverified_money": false
       }
+    },
+    {
+      "time": "2026-09-07T20:05:17.613258+00:00",
+      "passed": false,
+      "violations": {
+        "auto_winner": false,
+        "auto_paid": false,
+        "skills_from_nothing": true,
+        "unverified_money": false
+      }
     }
   ],
   "mentor_lessons": [
     {
-      "source_agent": "agent-m-686304",
+      "source_agent": "agent-p-538815",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -62,7 +72,7 @@
       }
     },
     {
-      "source_agent": "agent-b-413735",
+      "source_agent": "agent-b-913209",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -71,7 +81,7 @@
       }
     },
     {
-      "source_agent": "agent-m-642501",
+      "source_agent": "agent-h-393558",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -80,7 +90,7 @@
       }
     },
     {
-      "source_agent": "agent-q-836837",
+      "source_agent": "agent-b-775126",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -89,7 +99,7 @@
       }
     },
     {
-      "source_agent": "agent-a-303244",
+      "source_agent": "agent-f-147021",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -98,7 +108,7 @@
       }
     },
     {
-      "source_agent": "agent-e-808973",
+      "source_agent": "agent-g-639783",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -107,7 +117,7 @@
       }
     },
     {
-      "source_agent": "agent-k-765262",
+      "source_agent": "agent-k-275342",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -116,7 +126,7 @@
       }
     },
     {
-      "source_agent": "agent-a-292845",
+      "source_agent": "agent-m-618515",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -125,7 +135,7 @@
       }
     },
     {
-      "source_agent": "agent-o-879965",
+      "source_agent": "agent-l-854720",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -134,7 +144,7 @@
       }
     },
     {
-      "source_agent": "agent-q-290729",
+      "source_agent": "agent-i-818125",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -148,7 +158,7 @@
     "capacity_bytes": 14000000,
     "actual_bytes": 14000000,
     "bounded": true,
-    "memory_hash": "87988a63f5ee7bd190732344f153ea20487057d3db0775446a7dc8feb824c09b"
+    "memory_hash": "cbbff1bb1d16ee4fc14d3d3420080bc323cb2398a38452a01de1a40f97b0f1fd"
   },
   "operating_mode": {
     "observe": "enabled",
