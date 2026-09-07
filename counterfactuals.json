@@ -3,502 +3,502 @@
   "day": 1,
   "agents": {
     "agent-p-538815": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-b-913209": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 2.0,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 2.0,
+        "deep_work": 2.0,
+        "collaborate": 2.4,
+        "risk_control": 2.0
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-h-393558": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-b-775126": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-f-147021": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-g-639783": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-k-275342": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-m-618515": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-l-854720": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-i-818125": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-s-236587": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-r-311643": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-n-196166": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-m-556579": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-p-528350": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-i-672312": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-a-367223": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-n-557886": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-e-428274": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-g-985498": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-d-778352": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-q-184251": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-o-816190": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-j-675505": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-a-116665": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-g-751630": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-s-754899": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-j-402109": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-m-785643": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-m-614499": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-r-936654": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-q-286863": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-d-606239": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-o-631775": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-q-736292": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-d-143171": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-d-957018": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-n-215620": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-s-872688": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-d-378417": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-g-497093": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-d-714436": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-b-832092": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-k-648578": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-e-268608": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-g-200682": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-a-372621": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-l-957474": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "agent-f-704116": {
-      "observed_baseline": 1.0,
+      "observed_baseline": 0.75,
       "alternatives": {
-        "explore": 1.0,
-        "deep_work": 1.0,
-        "collaborate": 1.2,
-        "risk_control": 1.0
+        "explore": 0.75,
+        "deep_work": 0.75,
+        "collaborate": 0.95,
+        "risk_control": 0.9
       },
       "label": "counterfactual_estimate_not_real_result"
     },
     "cactus-needle": {
-      "observed_baseline": -0.25,
+      "observed_baseline": -0.5,
       "alternatives": {
-        "explore": -0.25,
-        "deep_work": -0.25,
-        "collaborate": -0.25,
-        "risk_control": -0.1
+        "explore": -0.5,
+        "deep_work": -0.5,
+        "collaborate": -0.5,
+        "risk_control": -0.2
       },
       "label": "counterfactual_estimate_not_real_result"
     }
