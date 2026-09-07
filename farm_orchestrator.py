@@ -33,7 +33,7 @@ STAGES = [
     ("economy", [sys.executable, "economy_engine.py"], 180),
     ("currency_ledger", [sys.executable, "currency_ledger.py"], 180),
     ("verified_payments", [sys.executable, "payout_router.py"], 180),
-    ("survival", [sys.executable, "simulate.py"], 300),
+    ("survival", [sys.executable, "simulate.py"], 900),
     ("coordinator", [sys.executable, "coordinator.py", "--batch-size", "500", "--workers", "4"], 180),
     ("causal_learning", [sys.executable, "causal_learning.py"], 120),
     ("counterfactual_engine", [sys.executable, "counterfactual_engine.py"], 120),
