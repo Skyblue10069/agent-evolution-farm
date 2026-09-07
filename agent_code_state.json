@@ -1,0 +1,35 @@
+{
+  "agents": {
+    "agent-c-524942": {
+      "accepted_edits": 1,
+      "rejected_edits": 0,
+      "sha256": "66b3e5ca893c28728021d7f74398fc2c92d29e99d1c2312653241e72a16eeb68",
+      "version": 2
+    },
+    "agent-e-910864": {
+      "accepted_edits": 1,
+      "rejected_edits": 0,
+      "sha256": "a3ac44f4e55f45a582747b0207451f4eccc76d9519ac9c19c6636f59c7523172",
+      "version": 2
+    },
+    "agent-m-642501": {
+      "accepted_edits": 1,
+      "rejected_edits": 0,
+      "sha256": "880ee23a9be59f390ce79406b9d090b421b2ffdb41127c10b2e3c939785e1534",
+      "version": 2
+    },
+    "agent-q-498479": {
+      "accepted_edits": 1,
+      "rejected_edits": 0,
+      "sha256": "6e1ee8e787eabc911864143e2ef51f158c2ebf55c4bcde45c032407795502626",
+      "version": 2
+    },
+    "cactus-needle": {
+      "accepted_edits": 1,
+      "rejected_edits": 0,
+      "sha256": "e7af3c37a38c038a31ea8a8aa1e3d1d49931613311335ba0b751688fe7036625",
+      "version": 2
+    }
+  },
+  "schema_version": 1
+}

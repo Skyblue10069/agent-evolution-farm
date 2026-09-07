@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "purpose": "Provider adapter registry. Adapters never fabricate payment verification.",
+  "adapters": [
+    {"name":"exa_search","kind":"discovery","credential_env":"EXA_API_KEY","enabled_by_env":"EXA_API_KEY"},
+    {"name":"mtn_momo_payments","kind":"payments","credential_env":"MTN_API_KEY","requires_provider_approval":true},
+    {"name":"frankfurter_fx","kind":"exchange_rates","credential_env":null,"verified_rates_only":true}
+  ]
+}

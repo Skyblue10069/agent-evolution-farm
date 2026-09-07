@@ -1,8 +1,8 @@
-"""Owner approval queue and optional Fonlok Cameroon payout executor.
+"""Owner approval queue and optional MTN Cameroon payout executor.
 
 Safety model: agents can propose spending, but only an explicit owner approval
 can move a proposal to APPROVED. The executor will only submit an outgoing
-Fonlok Cameroon mobile-money payout for an approved proposal when the required
+MTN Cameroon mobile-money payout for an approved proposal when the required
 server-side credentials and destination are configured. It never exposes the
 secret key to the phone UI.
 """
@@ -69,26 +69,27 @@ def decide(proposal_id, action):
             save(data); return p
     raise KeyError("pending proposal not found")
 
-def execute_fonlok(p):
-    """Execute one already-approved XAF payout through Fonlok.
+def execute_mtn(p):
+    """Execute one already-approved XAF payout through MTN MoMo Withdrawals.
 
-    Production payouts are disabled unless FONLOK_LIVE_PAYOUT_ENABLED=true.
-    The API key is server-side only. No non-XAF amount is converted here;
-    conversion/settlement must already be recorded as provider-confirmed.
+    Live execution is disabled by default. The exact MTN endpoint is supplied
+    through MTN_WITHDRAWALS_URL so the deployment uses the endpoint assigned
+    by the approved MTN application rather than assuming a production URL.
     """
     if p.get("status") != "APPROVED":
         raise ValueError("proposal is not approved")
     if p.get("execution_status") in {"SUBMITTED", "EXECUTED"}:
         return p
     if str(p.get("currency", "")).upper() != "XAF":
-        raise RuntimeError("Fonlok Cameroon payout requires an XAF amount. Settle non-XAF earnings to XAF with provider confirmation first.")
-    key = os.getenv("FONLOK_API_KEY", "")
-    env = os.getenv("FONLOK_ENV", "sandbox").lower()
-    live_enabled = os.getenv("FONLOK_LIVE_PAYOUT_ENABLED", "false").lower() == "true"
+        raise RuntimeError("MTN Cameroon payout requires an XAF amount. Settle non-XAF earnings to XAF with provider confirmation first.")
+    client_id = os.getenv("MTN_CLIENT_ID", "")
+    client_secret = os.getenv("MTN_CLIENT_SECRET", "")
+    env = os.getenv("MTN_ENV", "sandbox").lower()
+    live_enabled = os.getenv("MTN_LIVE_PAYOUT_ENABLED", "false").lower() == "true"
     if env == "production" and not live_enabled:
-        raise RuntimeError("Production Fonlok payouts are disabled. Set FONLOK_LIVE_PAYOUT_ENABLED=true only for an approved, compliant live integration.")
-    if not key:
-        raise RuntimeError("FONLOK_API_KEY is not configured")
+        raise RuntimeError("Production MTN payouts are disabled. Enable MTN_LIVE_PAYOUT_ENABLED only after MTN approval and required verification.")
+    if not client_id or not client_secret:
+        raise RuntimeError("MTN_CLIENT_ID and MTN_CLIENT_SECRET are not configured")
     phone = p.get("recipient", {}).get("msisdn") or os.getenv("PAYOUT_MOBILE_MONEY_MSISDN", "")
     if not phone:
         raise RuntimeError("A Cameroon Mobile Money destination is required")
@@ -96,35 +97,37 @@ def execute_fonlok(p):
     if not (phone.startswith("237") and len(phone) == 12 and phone.isdigit()):
         raise RuntimeError("Payout phone must be a 12-digit Cameroon number starting with 237")
     amount = int(p["amount"])
-    if amount < 100:
-        raise RuntimeError("Fonlok wallet withdrawals require at least 100 XAF")
-    if env == "sandbox":
-        url = os.getenv("FONLOK_PAYOUT_URL", "https://api.fonlok.com/sandbox/momo/withdraw")
-        payload = {"phone_number": phone, "amount": amount, "description": p.get("title", "Agent Evolution payout")[:200]}
-    else:
-        url = os.getenv("FONLOK_PAYOUT_URL", "https://fonlok-backend-production.up.railway.app/v1/wallet/withdraw")
-        user_ref = p.get("recipient", {}).get("user_ref") or os.getenv("FONLOK_USER_REF", "")
-        if not user_ref:
-            raise RuntimeError("FONLOK_USER_REF is required for the production wallet withdrawal route")
-        payload = {"amount": amount, "phone": phone, "user_ref": user_ref, "description": p.get("title", "Agent Evolution payout")[:200]}
-    req = urllib.request.Request(url, data=json.dumps(payload).encode(), headers={"Authorization": "Bearer " + key, "Content-Type": "application/json", "Idempotency-Key": p["proposal_id"]}, method="POST")
+    if amount <= 0:
+        raise RuntimeError("Payout amount must be positive")
+    token_url = os.getenv("MTN_TOKEN_URL", "https://api.mtn.com/oauth/client_credential/accesstoken?grant_type=client_credentials")
+    withdrawal_url = os.getenv("MTN_WITHDRAWALS_URL", "")
+    if not withdrawal_url:
+        raise RuntimeError("MTN_WITHDRAWALS_URL is not configured; use the endpoint provided by the approved MTN Withdrawals V1 application")
+    token_req = urllib.request.Request(token_url, data=b"", headers={"Authorization":"Basic " + __import__('base64').b64encode((client_id+":"+client_secret).encode()).decode(), "Content-Type":"application/x-www-form-urlencoded"}, method="POST")
+    try:
+        with urllib.request.urlopen(token_req, timeout=30) as r:
+            token_data=json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"MTN OAuth error {e.code}: {e.read().decode()[:500]}")
+    access_token=token_data.get("access_token")
+    if not access_token:
+        raise RuntimeError("MTN OAuth response did not contain an access_token")
+    payload={"amount":amount,"currency":"XAF","externalId":p["proposal_id"],"payee":{"partyIdType":"MSISDN","partyId":phone}}
+    req=urllib.request.Request(withdrawal_url,data=json.dumps(payload).encode(),headers={"Authorization":"Bearer "+access_token,"Content-Type":"application/json","X-Reference-Id":p["proposal_id"]},method="POST")
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            result = json.loads(r.read().decode())
+            raw=r.read().decode(); result=json.loads(raw) if raw else {}
     except urllib.error.HTTPError as e:
-        raise RuntimeError(f"Fonlok API error {e.code}: {e.read().decode()[:500]}")
-    status = str(result.get("status", "")).lower()
-    if status not in {"success", "completed", "pending"}:
-        raise RuntimeError(str(result))
-    data = load()
+        raise RuntimeError(f"MTN Withdrawals API error {e.code}: {e.read().decode()[:500]}")
+    data=load()
     for x in data["proposals"]:
-        if x["proposal_id"] == p["proposal_id"]:
-            x["execution_status"] = "SUBMITTED"
-            x["executed_at"] = now()
-            x["provider_transfer_id"] = result.get("transaction_id") or result.get("reference") or result.get("id")
-            x["error"] = None
-            x["provider"] = "fonlok"
-            x["provider_environment"] = env
+        if x["proposal_id"]==p["proposal_id"]:
+            x["execution_status"]="SUBMITTED"
+            x["executed_at"]=now()
+            x["provider_transfer_id"]=result.get("referenceId") or result.get("transaction_id") or result.get("externalId") or p["proposal_id"]
+            x["error"]=None
+            x["provider"]="mtn"
+            x["provider_environment"]=env
             save(data)
             return x
     return p
@@ -177,7 +180,7 @@ class Handler(BaseHTTPRequestHandler):
         try:
             if self.path=="/api/decision": self.send_json(decide(body["proposal_id"][0],body["action"][0])); return
             if self.path=="/api/execute":
-                pid=body["proposal_id"][0]; p=next(x for x in load()["proposals"] if x["proposal_id"]==pid); self.send_json(execute_fonlok(p)); return
+                pid=body["proposal_id"][0]; p=next(x for x in load()["proposals"] if x["proposal_id"]==pid); self.send_json(execute_mtn(p)); return
             self.send_error(404)
         except Exception as e: self.send_json({"error":str(e)},400)
     def log_message(self,*args): pass
@@ -195,5 +198,5 @@ if __name__=="__main__":
     if a.cmd=="create": print(json.dumps(create_proposal(a.agent_id,a.title,a.amount,a.currency,a.reason,{"name":a.recipient_name,"msisdn":a.recipient_msisdn}),indent=2))
     elif a.cmd=="decide": print(json.dumps(decide(a.proposal_id,a.action),indent=2))
     elif a.cmd=="execute":
-        p=next(x for x in load()["proposals"] if x["proposal_id"]==a.proposal_id); print(json.dumps(execute_fonlok(p),indent=2))
+        p=next(x for x in load()["proposals"] if x["proposal_id"]==a.proposal_id); print(json.dumps(execute_mtn(p),indent=2))
     else: serve(os.getenv("APPROVAL_HOST","127.0.0.1"),int(os.getenv("APPROVAL_PORT","8080")))

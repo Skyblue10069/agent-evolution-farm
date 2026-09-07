@@ -1,0 +1,2 @@
+# Optional browser automation. Installed only when ENABLE_BROWSER_AUTOMATION=true.
+playwright>=1.50,<2

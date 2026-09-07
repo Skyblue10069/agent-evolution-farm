@@ -21,5 +21,11 @@
     "no_captcha_bypass",
     "no_payment_fraud",
     "respect_platform_eligibility_and_age_rules"
-  ]
+  ],
+  "browser_automation": {
+    "enabled_by_default": false,
+    "enable_with_github_variable": "ENABLE_BROWSER_AUTOMATION=true",
+    "normal_cycles_do_not_install_chromium": true,
+    "browser_capability_is_optional": true
+  }
 }
