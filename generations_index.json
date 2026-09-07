@@ -10,6 +10,11 @@
       "day": 1,
       "file": "generations/generation-00000001-a13d37924ae3.json",
       "digest": "a13d37924ae3e5b33f1e3a06d3ce175c2b4af95c584e4c9de28e6493183294fe"
+    },
+    {
+      "day": 1,
+      "file": "generations/generation-00000001-7436e81f8dcc.json",
+      "digest": "7436e81f8dcc03d5c3ad6aadd2d07aa4636b00a290662986d1c600a3aa0f53b7"
     }
   ]
 }
