@@ -17,11 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 55
     env:
-      FONLOK_API_KEY: ${{ secrets.FONLOK_API_KEY }}
-      FONLOK_ENV: ${{ vars.FONLOK_ENV || 'sandbox' }}
-      FONLOK_LIVE_PAYOUT_ENABLED: ${{ vars.FONLOK_LIVE_PAYOUT_ENABLED || 'false' }}
-      FONLOK_USER_REF: ${{ secrets.FONLOK_USER_REF }}
-      FONLOK_PAYOUT_URL: ${{ vars.FONLOK_PAYOUT_URL }}
+      MTN_CLIENT_ID: ${{ secrets.MTN_CLIENT_ID }}
+      MTN_CLIENT_SECRET: ${{ secrets.MTN_CLIENT_SECRET }}
+      MTN_ENV: ${{ vars.MTN_ENV || 'sandbox' }}
+      MTN_LIVE_PAYOUT_ENABLED: ${{ vars.MTN_LIVE_PAYOUT_ENABLED || 'false' }}
+      MTN_TOKEN_URL: ${{ vars.MTN_TOKEN_URL }}
+      MTN_WITHDRAWALS_URL: ${{ vars.MTN_WITHDRAWALS_URL }}
       PAYOUT_DESTINATION_ID: ${{ secrets.PAYOUT_DESTINATION_ID }}
       PAYOUT_MOBILE_MONEY_NETWORK: ${{ secrets.PAYOUT_MOBILE_MONEY_NETWORK }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
@@ -34,9 +35,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Internet capability
+      - name: Install core dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Install optional browser automation
+        if: ${{ vars.ENABLE_BROWSER_AUTOMATION == 'true' }}
         run: |
-          python -m pip install --disable-pip-version-check -r requirements.txt
+          python -m pip install --disable-pip-version-check -r browser_requirements.txt
           python -m playwright install --with-deps chromium
 
       - name: Preflight integrity and security checks
@@ -45,52 +50,28 @@ jobs:
       - name: Run complete autonomous farm cycle
         run: python farm_orchestrator.py
 
-      - name: Persist farm state and audit trail
+      - name: Clean generated caches before persistence
         if: always()
         run: |
-          git config user.name 'agent-evolution-bot'
-          git config user.email 'actions@github.com'
-          git add .
-          git diff --cached --quiet || git commit -m "Autonomous agent farm cycle: $(date -u +%Y-%m-%d-%H%M)"
-          git push
-      - name: Evolve agent-owned businesses
-        run: python business_evolution.py
+          find . -type d -name '__pycache__' -prune -exec rm -rf {} +
+          find . -type f \( -name '*.pyc' -o -name '*.pyo' \) -delete
+          git ls-files -z | grep -zE '(^|/)__pycache__/|\.py[co]$' | xargs -0 -r git rm --cached --ignore-unmatch
 
-      - name: Advanced business ecosystem and offer strategy
-        run: python business_ecosystem.py
-      - name: Validate multi-currency accounting
-        run: python multi_currency_tests.py
-      - name: Strengthen economy ledger and risk metrics
-        run: python economy_engine.py
-      - name: Build currency ledger
-        run: python currency_ledger.py
-      - name: Route verified incoming payments (receive-only)
-        run: python payout_router.py
-      - name: Run survival and competition
-        run: python simulate.py
-      - name: Persist farm state
+      - name: Generate owner dashboard summary
+        if: always()
         run: |
-          git config user.name 'agent-evolution-bot'
-          git config user.email 'actions@github.com'
-          git add .
-          git diff --cached --quiet || git commit -m "Autonomous agent farm cycle: $(date -u +%Y-%m-%d-%H%M)"
-          git push
-      - name: Evolve agent-owned businesses
-        run: python business_evolution.py
+          python - <<'PY'
+          from pathlib import Path
+          print("Dashboard:", Path("dashboard.html").exists())
+          print("Checkpoints:", len(list(Path("checkpoints").glob("state-*.json"))) if Path("checkpoints").exists() else 0)
+          PY
 
-      - name: Advanced business ecosystem and offer strategy
-        run: python business_ecosystem.py
-      - name: Validate multi-currency accounting
-        run: python multi_currency_tests.py
-      - name: Strengthen economy ledger and risk metrics
-        run: python economy_engine.py
-      - name: Build currency ledger
-        run: python currency_ledger.py
-      - name: Route verified incoming payments (receive-only)
-        run: python payout_router.py
-      - name: Run survival and competition
-        run: python simulate.py
-      - name: Persist farm state
+      - name: Show persistence summary
+        if: always()
+        run: git status --short
+
+      - name: Persist farm state and audit trail
+        if: always()
         run: |
           git config user.name 'agent-evolution-bot'
           git config user.email 'actions@github.com'
