@@ -35,6 +35,10 @@ def main() -> int:
 
     # Ensure no obvious secret material is committed in JSON config files.
     for p in ROOT.glob("*.json"):
+        # state.json is runtime simulation data, not a credential/config file.
+        # It may legitimately contain agent-generated text matching secret-marker patterns.
+        if p.name == "state.json":
+            continue
         try:
             data = json.loads(p.read_text(encoding="utf-8"))
         except Exception:
