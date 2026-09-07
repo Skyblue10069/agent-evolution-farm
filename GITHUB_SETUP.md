@@ -8,8 +8,8 @@ Add only the credentials you are legitimately authorized to use as GitHub Action
 
 Typical optional secrets/variables used by this build include:
 - `EXA_API_KEY`
-- `FONLOK_API_KEY`
-- `FONLOK_USER_REF`
+- `MTN_CLIENT_ID`
+- `MTN_CLIENT_SECRET`
 - `PAYOUT_DESTINATION_ID`
 - `PAYOUT_MOBILE_MONEY_NETWORK`
 

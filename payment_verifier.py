@@ -1,4 +1,4 @@
-"""Provider-neutral verified payment ledger with Fonlok support.
+"""Provider-neutral verified payment ledger with MTN support.
 
 Only externally verified, completed/paid provider events are recorded. No
 payment, customer, exchange rate, or balance is fabricated by this module.
@@ -48,11 +48,11 @@ def record_provider_payment(provider, event_id, amount, currency, reference="", 
     return True
 
 
-def process_fonlok_confirmed_event(event):
-    """Accept a Fonlok payment event only when it is explicitly paid/confirmed."""
+def process_mtn_confirmed_event(event):
+    """Accept an MTN payment event only when it is explicitly paid/confirmed."""
     if not isinstance(event, dict):
         return False
-    if str(event.get("provider", "fonlok")).lower() != "fonlok":
+    if str(event.get("provider", "mtn")).lower() != "mtn":
         return False
     event_type = str(event.get("type", "")).lower()
     status = str(event.get("status", "")).lower()
@@ -60,7 +60,7 @@ def process_fonlok_confirmed_event(event):
     if not confirmed:
         return False
     return record_provider_payment(
-        "fonlok",
+        "mtn",
         event.get("event_id") or event.get("reference") or event.get("invoice_id") or "",
         event.get("amount") or event.get("gross_amount") or event.get("seller_receives") or 0,
         event.get("currency", "XAF"),
@@ -72,13 +72,13 @@ def process_fonlok_confirmed_event(event):
 
 
 def provider_status():
-    env = os.getenv("FONLOK_ENV", "sandbox").lower()
+    env = os.getenv("MTN_ENV", "sandbox").lower()
     return {
-        "provider": "fonlok",
-        "configured": bool(os.getenv("FONLOK_API_KEY")),
+        "provider": "mtn",
+        "configured": bool(os.getenv("MTN_CLIENT_ID")),
         "environment": env,
         "country": "CM",
         "currency": "XAF",
         "mobile_money_networks": ["MTN", "ORANGE"],
-        "note": "Fonlok live API supports XAF. Sandbox credentials must remain sandbox-only; live access requires provider approval and compliant account/KYC requirements."
+        "note": "MTN Withdrawals V1 supports XAF. Sandbox credentials must remain sandbox-only; live access requires provider approval and compliant account/KYC requirements."
     }

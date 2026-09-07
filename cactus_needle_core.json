@@ -31,7 +31,7 @@
       }
     },
     {
-      "time": "2026-09-06T03:36:21.558112+00:00",
+      "time": "2026-09-07T10:04:12.033608+00:00",
       "passed": true,
       "violations": {
         "auto_winner": false,
@@ -41,149 +41,19 @@
       }
     },
     {
-      "time": "2026-09-06T03:36:28.542678+00:00",
-      "passed": true,
+      "time": "2026-09-07T10:12:27.206822+00:00",
+      "passed": false,
       "violations": {
         "auto_winner": false,
         "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T03:36:36.094156+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T04:48:42.772445+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T04:48:52.596477+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T04:49:03.081425+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T12:11:21.623960+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T12:11:33.484195+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T12:11:45.135242+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T15:32:54.716979+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T15:33:11.250054+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T15:33:29.289311+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T18:23:48.375791+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T18:24:05.467959+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
-        "unverified_money": false
-      }
-    },
-    {
-      "time": "2026-09-06T18:24:21.697064+00:00",
-      "passed": true,
-      "violations": {
-        "auto_winner": false,
-        "auto_paid": false,
-        "skills_from_nothing": false,
+        "skills_from_nothing": true,
         "unverified_money": false
       }
     }
   ],
   "mentor_lessons": [
     {
-      "source_agent": "agent-p-538815",
+      "source_agent": "agent-m-686304",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -192,7 +62,7 @@
       }
     },
     {
-      "source_agent": "agent-b-913209",
+      "source_agent": "agent-b-413735",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -201,7 +71,7 @@
       }
     },
     {
-      "source_agent": "agent-h-393558",
+      "source_agent": "agent-m-642501",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -210,7 +80,7 @@
       }
     },
     {
-      "source_agent": "agent-b-775126",
+      "source_agent": "agent-q-836837",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -219,7 +89,7 @@
       }
     },
     {
-      "source_agent": "agent-f-147021",
+      "source_agent": "agent-a-303244",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -228,7 +98,7 @@
       }
     },
     {
-      "source_agent": "agent-g-639783",
+      "source_agent": "agent-e-808973",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -237,7 +107,7 @@
       }
     },
     {
-      "source_agent": "agent-k-275342",
+      "source_agent": "agent-k-765262",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -246,7 +116,7 @@
       }
     },
     {
-      "source_agent": "agent-m-618515",
+      "source_agent": "agent-a-292845",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -255,7 +125,7 @@
       }
     },
     {
-      "source_agent": "agent-l-854720",
+      "source_agent": "agent-o-879965",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -264,7 +134,7 @@
       }
     },
     {
-      "source_agent": "agent-i-818125",
+      "source_agent": "agent-q-290729",
       "lesson": {
         "prefer_completed_work": false,
         "reputation": 50.0,
@@ -278,7 +148,7 @@
     "capacity_bytes": 14000000,
     "actual_bytes": 14000000,
     "bounded": true,
-    "memory_hash": "ee2c932bf839ab99adb4e04d7957028dcba6d6cf217a7ddaf464045b1298afcf"
+    "memory_hash": "87988a63f5ee7bd190732344f153ea20487057d3db0775446a7dc8feb824c09b"
   },
   "operating_mode": {
     "observe": "enabled",

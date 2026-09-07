@@ -1,1 +1,2 @@
-playwright>=1.50,<2
+# Agent Evolution core uses Python's standard library in GitHub Actions.
+# Optional browser automation lives in browser_requirements.txt and is disabled by default.

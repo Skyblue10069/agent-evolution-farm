@@ -3,7 +3,7 @@ Every agent starts with nothing, has every skill available at level 0, discovers
 its own opportunities, competes, prepares work, owns businesses, and can earn
 only through externally verified payments. Owner rules are editable in rules.json.
 """
-import json, random, copy
+import json, random, copy, os
 from datetime import datetime, timezone
 from pathlib import Path
 from survival_core import apply_survival
@@ -13,8 +13,9 @@ from currency_ledger import build as build_currency_ledger
 ROOT=Path(__file__).parent
 STATE_FILE=ROOT/"state.json"
 RULES_FILE=ROOT/"rules.json"
-POPULATION_SIZE=50
-CLONE_CAP=1000
+POPULATION_SIZE=int(os.getenv("AGENT_POPULATION_SIZE", "7777"))
+CLONE_CAP=max(POPULATION_SIZE, int(os.getenv("AGENT_CLONE_CAP", "12000")))
+SUBAGENT_CAP=max(POPULATION_SIZE, int(os.getenv("SUBAGENT_CAP", "20000")))
 SKILLS=['coding','engineering','mathematics','science','research','robotics','cybersecurity','writing','art','design','music','storytelling','languages','diplomacy','gathering','farming','crafting','building','medicine','cooking','combat','strategy','leadership','trading','exploration','teaching','sales','marketing','video_editing','project_management','communication','analysis']
 AGENT_NAMES=['Agent-A','Agent-B','Agent-C','Agent-D','Agent-E','Agent-F','Agent-G','Agent-H','Agent-I','Agent-J','Agent-K','Agent-L','Agent-M','Agent-N','Agent-O','Agent-P','Agent-Q','Agent-R','Agent-S','Agent-T']
 
@@ -48,6 +49,8 @@ def new_agent(used,parent=None, special=None):
       "opportunities_pursued":0,"wins":0,"losses":0,"businesses":[],
       "work_packages":[],"active_work":[],"completed_work":0,"failed_work":0,
       "brain":{"memory":[],"goals":[],"experiments":[],"lessons":[],"self_model":{},"plans":[],"critic_notes":[]},
+      "traits":{},"genome":{"traits":{},"mutations":0,"lineage":[]},
+      "hierarchy":{"parent_id": parent.get("id") if parent else None, "children":[], "spawned_subagents":0, "wants_subagents":False, "depth": int(parent.get("hierarchy",{}).get("depth",0))+1 if parent else 0},
       "main_character":False,"protected_identity":False,"memory_budget_mb":1
     }
 
@@ -74,6 +77,17 @@ def load():
         for a in s.get("agents",[]):
             a.setdefault("main_character", False); a.setdefault("protected_identity", False); a.setdefault("memory_budget_mb", 1)
             a.setdefault("brain", {}).setdefault("self_model", {}); a["brain"].setdefault("plans", []); a["brain"].setdefault("critic_notes", [])
+        # Scale an existing population forward without resetting accumulated state.
+        target = max(1, POPULATION_SIZE)
+        if len(s.get("agents", [])) < target:
+            used={a.get("name") for a in s.get("agents", [])}
+            while len(s["agents"]) < target:
+                s["agents"].append(new_agent(used))
+            s["alive_count"] = sum(1 for a in s["agents"] if a.get("permanent_status") == "alive")
+        elif len(s.get("agents", [])) > target:
+            # Never delete agents from an existing farm just because the target changed.
+            # A larger population can be requested later without losing history.
+            pass
         if not any(a.get("name") == "Cactus Needle" for a in s.get("agents",[])):
             used={a.get("name") for a in s.get("agents",[])}
             c=new_agent(used, special={"name":"Cactus Needle","species":"ai"})
@@ -94,9 +108,15 @@ def dispatch(agents,opps,day):
     # Everyone can compete for the whole discovered pool; no role whitelist.
     ranked=sorted(opps,key=lambda x:float(x.get("score",0)),reverse=True)
     for a in agents:
+      if a.get("permanent_status") != "alive": continue
       if not ranked: continue
       choices=ranked[:min(100,len(ranked))]
-      fit=max(choices,key=lambda x:float(x.get("score",0))+random.random()*10)
+      try:
+        import agent_self_modification
+        bonus=agent_self_modification.score_bonus(a,{"skill_total":sum(float(v or 0) for v in a.get("skills",{}).values()),"recent_success":float(a.get("wins",0) or 0)})
+      except Exception:
+        bonus=0.0
+      fit=max(choices,key=lambda x:float(x.get("score",0))+bonus+random.random()*10)
       a["opportunities_reviewed"]+=len(ranked)
       a["opportunities_pursued"]+=1
       a["brain"]["goals"].append({"day":day,"opportunity":fit.get("title",""),"url":fit.get("url",""),"agent_id":a["id"]})
@@ -147,6 +167,11 @@ def clone_champion(s,today):
     champ=max(s["agents"],key=lambda a:(a.get("own_verified_revenue",0),sum(a["skills"].values()),a.get("wins",0)))
     used={a["name"] for a in s["agents"]}
     c=new_agent(used,champ)
+    try:
+      import evolution_genetics
+      evolution_genetics.inherit(champ, c)
+    except Exception:
+      pass
     c["parent"]=champ["id"]
     s["agents"].append(c); s["clone_count"]=s.get("clone_count",0)+1
     return c
@@ -157,8 +182,49 @@ def main():
     s=load(); s["day"]+=1; CURRENT_DAY=s["day"]
     sync_from_state(s)
     opps=load_opps()
+    # The world itself evolves before agents choose work. This changes demand,
+    # competition, resource pressure and opportunity conditions from observed
+    # activity without inventing revenue or customers.
+    try:
+      import environment_engine
+      world=environment_engine.evolve_world(s)
+      opps=load_opps()
+      print("WORLD:", {k: round(v,3) for k,v in world.get("conditions",{}).items()})
+    except Exception as e:
+      print("ENVIRONMENT ENGINE ERROR:", e)
+    try:
+      import opportunity_intelligence
+      opportunity_intelligence.run(opps)
+      opps=load_opps()
+    except Exception as e:
+      print("OPPORTUNITY INTELLIGENCE ERROR:", e)
+    try:
+      import adversarial_guard
+      guard=adversarial_guard.run(s)
+      if guard.get("status") != "clean":
+        print("ADVERSARIAL GUARD QUARANTINE:", len(guard.get("findings",[])))
+    except Exception as e:
+      print("ADVERSARIAL GUARD ERROR:", e)
     dispatch(s["agents"],opps,CURRENT_DAY)
+    # Optional recursive agent hierarchy: an agent may choose to create sub-agents.
+    # Sub-agents make their own decisions and may later create their own sub-agents.
+    try:
+      import agent_hierarchy
+      created=agent_hierarchy.run(s, max_new=int(os.getenv("SUBAGENT_BATCH", "50")))
+      if created: print(f"SUB-AGENTS: {len(created)} created this cycle")
+    except Exception as e:
+      print("AGENT HIERARCHY ERROR:", e)
     # Meta-evolution: diagnose, score, plan, learn, recover, and build reputation.
+    try:
+      import evolution_genetics
+      evolution_genetics.run(s)
+    except Exception as e:
+      print("GENETICS ERROR:", e)
+    try:
+      import agent_skill_engine
+      agent_skill_engine.run(s)
+    except Exception as e:
+      print("SKILL ENGINE ERROR:", e)
     try:
       import evolution_system
       evolution_system.run(s, opps, CURRENT_DAY)
@@ -169,6 +235,33 @@ def main():
       agent_intelligence.run(s, opps, CURRENT_DAY)
     except Exception as e:
       print("INTELLIGENCE ERROR:", e)
+    try:
+      import experiment_lab
+      experiment_lab.run(s)
+    except Exception as e:
+      print("EXPERIMENT LAB ERROR:", e)
+    try:
+      import agent_marketplace
+      agent_marketplace.run(s)
+    except Exception as e:
+      print("MARKETPLACE ERROR:", e)
+    try:
+      import agent_self_modification
+      edits=agent_self_modification.run(s, max_agents=int(os.getenv("SELF_MOD_BATCH", "100")))
+      accepted=sum(1 for x in edits if x.get("status")=="accepted")
+      print(f"SELF-MODIFICATION: {accepted}/{len(edits)} agent code edits accepted this cycle")
+    except Exception as e:
+      print("SELF-MODIFICATION ERROR:", e)
+    try:
+      import team_engine
+      team_engine.run(s)
+    except Exception as e:
+      print("TEAM ENGINE ERROR:", e)
+    try:
+      import multitask_engine
+      multitask_engine.run(s)
+    except Exception as e:
+      print("MULTITASK ENGINE ERROR:", e)
     # Work execution is a separate hard-gated stage. The simulator only consumes
     # completed-work records; discovery/selection alone never counts as completion.
     try:
@@ -206,6 +299,16 @@ def main():
       cactus_needle_core.run(s)
     except Exception as e:
       print("CACTUS NEEDLE CORE ERROR:", e)
+    try:
+      import farm_dashboard
+      farm_dashboard.main()
+    except Exception as e:
+      print("DASHBOARD ERROR:", e)
+    try:
+      import recovery_manager
+      recovery_manager.run(s, ROOT)
+    except Exception as e:
+      print("RECOVERY ERROR:", e)
     payments=apply_verified_payments(s)
     # Work growth is tied to attempts, not free simulated income.
     for a in s["agents"]:
@@ -224,6 +327,16 @@ def main():
     for a in s["agents"]:
       record_snapshot(a, s["day"])
     rank(s)
+    try:
+      import evolution_lab_max
+      evolution_lab_max.run(s)
+    except Exception as e:
+      print("MAX EVOLUTION LAB ERROR:", e)
+    try:
+      import lineage_replay
+      lineage_replay.record(s, label="pre-survival")
+    except Exception as e:
+      print("LINEAGE REPLAY ERROR:", e)
     try:
       import evolution_system
       evolution_system.tournament(s, CURRENT_DAY)

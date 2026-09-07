@@ -7,7 +7,7 @@
     "fx_quote",
     "provider_confirmed_xaf_settlement",
     "owner_approval",
-    "fonlok_cameroon_payout"
+    "mtn_cameroon_payout"
   ],
   "earning_currencies": "any_3_letter_currency_supported_by_the_payment_provider_and_fx_provider",
   "payout_currency": "XAF",
@@ -19,7 +19,7 @@
     "never_invent_rates": true
   },
   "payout": {
-    "provider": "fonlok",
+    "provider": "mtn",
     "country": "CM",
     "mobile_money_networks": ["MTN", "ORANGE"],
     "owner_approval_required": true

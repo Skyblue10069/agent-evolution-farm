@@ -23,7 +23,7 @@ Agents are not presented with a predefined list of things they can do. They insp
 
 ## Setup from a phone
 1. Put the project files in the GitHub repository.
-2. Add Fonlok sandbox credentials in GitHub Actions repository secrets; never commit API keys. Keep live payout disabled until the provider has legitimately approved the account.
+2. Add MTN sandbox credentials in GitHub Actions repository secrets; never commit API keys. Keep live payout disabled until the provider has legitimately approved the account.
 3. Use `python approval_system.py serve` for the owner dashboard when running locally.
 4. Keep the payout destination/network configured only in server-side secrets/environment.
 5. Test with provider sandbox/test events before enabling any live payout capability.
@@ -41,11 +41,11 @@ The six-run schedule remains in `.github/workflows/survival.yml`.
 - Open the owner approval screen with `python approval_system.py serve`.
 - Each pending request shows much more than just “opportunity”: the reason, why now, what the money buys, work already completed, evidence, expected result/revenue, cost breakdown, alternatives, risks, deadline and success condition.
 - Pressing **Approve** records the owner decision; no code is required for each approval.
-- Approval is not a password and does not bypass provider controls. A real Fonlok payout/external action must be separately configured and executed by a provider integration that honors the approved record.
+- Approval is not a password and does not bypass provider controls. A real MTN payout/external action must be separately configured and executed by a provider integration that honors the approved record.
 - Rejecting a request keeps it from becoming an approved authorization.
 
 ## Payment provider
-The farm is configured for Fonlok in Cameroon with MTN/Orange mobile-money payout support. Verified incoming earnings are **multi-currency**: the original provider currency is preserved (for example USD, EUR, GBP, CAD, etc.) when the provider reports it. The project never adds unlike currencies together and never invents an exchange rate.
+The farm is configured for MTN in Cameroon with MTN/Orange mobile-money payout support. Verified incoming earnings are **multi-currency**: the original provider currency is preserved (for example USD, EUR, GBP, CAD, etc.) when the provider reports it. The project never adds unlike currencies together and never invents an exchange rate.
 
 If Flutterwave actually reports an XAF settlement/conversion, that XAF amount is stored separately and may be used for an approved Cameroon mobile-money payout. A non-XAF earning cannot be silently treated as XAF. Provider/account eligibility, supported currencies, FX and settlement rules remain subject to the live Flutterwave account.
 
@@ -152,3 +152,62 @@ The current workflow uses `farm_orchestrator.py` as the single controlled entry 
 `integrity_check.py` performs a compile/security preflight before the farm runs. The workflow uses Node 24-compatible GitHub Actions (`actions/checkout@v6` and `actions/setup-python@v6`) and prevents overlapping scheduled runs with workflow concurrency.
 
 The Android/game modules remain in the repository as optional future components, but the GitHub workflow does not depend on a physical phone or Android emulator.
+
+### Agent self-modification
+Each agent has a private strategy-code surface under `agent_code/`. Agents can evolve that code through bounded mutations. Candidate code is AST-validated, syntax-checked, restricted to a tiny scoring function, and atomically replaced only when valid. Core safety, payment, accounting, orchestration, authentication, and security code is not agent-editable. A maximum of 100 agents self-edit per cycle by default so large populations remain practical; every agent gets turns over repeated cycles.
+
+The default population target is `7777` agents. Existing smaller farms are expanded without resetting accumulated history. Use `AGENT_POPULATION_SIZE` to override the target and `SELF_MOD_BATCH` to change the per-cycle self-modification batch.
+
+
+## Maximum agent-improvement layer
+The farm includes `evolution_upgrade.py`, a bounded improvement layer that runs after the main survival cycle. It adds:
+- smarter confidence/uncertainty profiles and fallback planning;
+- earned specialization without locking agents to roles;
+- discovery-signal classification from real discovered opportunities;
+- A/B-style strategy experiments measured only from observed outcomes;
+- batch tournaments for scalable competition;
+- knowledge sharing from observed agent lessons;
+- business adaptation metrics based on observed state;
+- economy concentration/risk telemetry without combining unlike currencies;
+- rolling recovery checkpoints;
+- long-term learning journal;
+- security telemetry;
+- modular provider/API adapter registry;
+- scaling metadata for 7,777+ agents and worker sharding;
+- a generated read-only `dashboard.html` for quick owner inspection.
+
+The improvement layer never creates fake customers, fake sales, fake payments, or fake completion. External credentials stay in environment/secret storage.
+
+## Continuous improvement layer
+The farm now includes additional bounded improvement systems:
+- **Evolution genetics:** measurable traits, mutations, generations, and lineage metadata.
+- **Experiment lab:** observational A/B experiments using existing agent outcomes only; no synthetic revenue.
+- **Agent marketplace:** internal offers/capacity records for agents to discover and cooperate on work.
+- **Recovery checkpoints:** compact integrity-digested checkpoints for operational recovery metadata.
+- **Static dashboard:** generates `dashboard.html` from persisted state with alive/dead counts, verified XAF and top agents.
+- **Stronger self-modification guard:** strategy editing remains sandboxed and cannot import or invoke system/process APIs.
+
+These additions improve learning, competition, cooperation, observability, and recovery while keeping payment verification and security controls protected.
+
+## Adaptive skills, multitasking and dynamic teams
+The farm now includes a dedicated adaptive skill engine. All agents still begin with zero developed skills and no fixed profession, but experience can develop 30 meta-skills covering reasoning, planning, research, creativity, decision-making, adaptability, negotiation, leadership, teamwork, resource management, risk management, business strategy, quality control, meta-learning and self-improvement. Behavioral traits evolve alongside these skills.
+
+Agents can also multitask: each living agent receives a learned, bounded concurrent-task capacity (up to 6). Multiple work items can remain active at once and are tracked independently. Existing completion gates remain mandatory, so multitasking never counts as free success or creates money.
+
+Leadership/delegation can produce dynamic internal teams, while the recursive hierarchy lets a child independently create children of its own. Child and champion lineage now carries evolving traits rather than only copying basic metadata.
+
+## MAX+ Evolution layer
+
+The MAX+ layer adds a coordinator-controlled shard workflow and deeper evolution telemetry:
+- **Coordinator:** partitions agents into isolated shard jobs, prevents concurrent canonical-state mutation, validates ownership, and performs the only merge into `state.json`.
+- **Causal learning:** computes conservative observational relationships and labels them as non-causal until experiments support stronger conclusions.
+- **Counterfactual engine:** compares bounded alternative strategies using observed history only; estimates are never recorded as real revenue/results.
+- **Strategy trees:** bounded multi-step plans with evidence-only decision policy.
+- **Immune system:** quarantines impossible IDs, invalid skill values, negative verified cash, and similar state anomalies.
+- **Generation store:** immutable, hashed generation snapshots with bounded index retention.
+- **Evolution observatory:** read-only aggregate telemetry for population, survival, skills, verified revenue and top agents.
+
+### How the coordinator works
+GitHub Actions runs one trusted coordinator. The coordinator creates isolated shard workers; workers **read** the canonical state and write only `coordinator_runs/<run>/result-*.json`. The coordinator verifies every agent appears at most once, merges only approved telemetry, writes a merge digest, and then the normal GitHub persistence step commits the canonical state.
+
+This is intentionally safer than having multiple runners simultaneously edit `state.json`. A future multi-runner version can use artifact upload/download or another durable job store for the same shard-result contract. The current repository remains correct on a single GitHub runner while still being ready for larger populations.

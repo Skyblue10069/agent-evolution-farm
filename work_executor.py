@@ -57,15 +57,18 @@ def run_cycle(state,day,max_new_per_agent=2):
         a.setdefault('active_work',[]); a.setdefault('completed_work',0); a.setdefault('failed_work',0)
         # Resume existing work first. New work is added only after active queue is stable.
         active=[x for x in queue['items'] if x.get('agent_id')==a['id'] and x.get('status') not in ('COMPLETED','BLOCKED_EXTERNAL')]
-        if not active:
-            chosen=opps[:max_new_per_agent]
+        capacity=max(1,min(6,int(a.get('task_capacity',max_new_per_agent) or max_new_per_agent)))
+        if len(active) < capacity:
+            chosen=opps[:max_new_per_agent*3]
             for item in chosen:
+                if len(active) >= capacity: break
                 key=(a['id'],item.get('url',''))
                 if key in existing: continue
                 task={'id':hashlib.sha256(f"{a['id']}|{item.get('url','')}|{day}".encode()).hexdigest()[:16],
                       'agent_id':a['id'],'opportunity_url':item.get('url',''),'title':item.get('title','Opportunity'),
                       'status':'IN_PROGRESS','attempts':0,'started_day':day,'last_updated':datetime.now(timezone.utc).isoformat(),
-                      'completion_required':True,'external_submission_required':False,'payment_status':'unpaid_unverified'}
+                      'completion_required':True,'external_submission_required':False,'payment_status':'unpaid_unverified',
+                      'multitask_slot':len(active)+1}
                 queue['items'].append(task); existing.add(key); active.append(task)
         a['active_work']=[x['id'] for x in active]
         for task in active:

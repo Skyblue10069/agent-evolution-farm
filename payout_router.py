@@ -1,4 +1,4 @@
-"""Owner-approved Fonlok payout routing.
+"""Owner-approved MTN payout routing.
 
 Only XAF that is already provider-confirmed/settled can enter the Cameroon
 payout route. This module never converts money by itself and never bypasses
@@ -45,8 +45,8 @@ def main():
             "recorded_at": datetime.now(timezone.utc).isoformat()
         })
     OUT.write_text(json.dumps({
-        "provider": "fonlok",
-        "environment": os.getenv("FONLOK_ENV", "sandbox"),
+        "provider": "mtn",
+        "environment": os.getenv("MTN_ENV", "sandbox"),
         "receive_only_for_incoming": True,
         "destination_type": "cameroon_mobile_money",
         "networks": ["MTN", "ORANGE"],
@@ -57,7 +57,7 @@ def main():
         "approved_proposals_available": sorted(x for x in approved_ids if x),
         "notes": "Non-XAF earnings must have a provider-confirmed XAF settlement before payout eligibility."
     }, indent=2, ensure_ascii=False))
-    print(f"FONLOK ROUTER: {len(rows)} verified payment records mapped; only confirmed XAF is payout-eligible.")
+    print(f"MTN ROUTER: {len(rows)} verified payment records mapped; only confirmed XAF is payout-eligible.")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 {
-  "provider": "fonlok",
+  "provider": "mtn",
   "environment": "sandbox",
   "receive_only_for_incoming": true,
   "destination_type": "cameroon_mobile_money",

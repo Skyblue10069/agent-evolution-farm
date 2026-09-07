@@ -617,2867 +617,202 @@
       ]
     },
     {
-      "day": 3,
-      "agents": [
-        {
-          "id": "agent-b-925559",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-492050",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-640808",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-560948",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-831495",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-322093",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-625288",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-820801",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-253772",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-855867",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-537495",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-569255",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-198835",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-589027",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-139331",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-403088",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-667471",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-416779",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-324425",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-809646",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-536326",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-936882",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-461485",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-690534",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-498479",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-914584",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-352980",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-293693",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-825835",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-353273",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-195745",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-955989",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-326698",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-910864",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-806089",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-571517",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-362783",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-592523",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-913115",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-970148",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-510159",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-305382",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-739420",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-762104",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-891986",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-989138",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-999125",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-270879",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-993371",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
       "day": 1,
       "agents": [
         {
-          "id": "agent-q-586915",
+          "id": "agent-m-686304",
           "chosen": null
         },
         {
-          "id": "agent-k-429958",
+          "id": "agent-b-413735",
           "chosen": null
         },
         {
-          "id": "agent-a-274767",
+          "id": "agent-m-642501",
           "chosen": null
         },
         {
-          "id": "agent-b-582995",
+          "id": "agent-q-836837",
           "chosen": null
         },
         {
-          "id": "agent-d-847222",
+          "id": "agent-a-303244",
           "chosen": null
         },
         {
-          "id": "agent-q-366761",
+          "id": "agent-e-808973",
           "chosen": null
         },
         {
-          "id": "agent-h-766687",
+          "id": "agent-k-765262",
           "chosen": null
         },
         {
-          "id": "agent-s-716151",
+          "id": "agent-a-292845",
           "chosen": null
         },
         {
-          "id": "agent-n-459221",
+          "id": "agent-o-879965",
           "chosen": null
         },
         {
-          "id": "agent-h-880186",
+          "id": "agent-q-290729",
           "chosen": null
         },
         {
-          "id": "agent-i-137117",
+          "id": "agent-e-407003",
           "chosen": null
         },
         {
-          "id": "agent-n-564824",
+          "id": "agent-g-437822",
           "chosen": null
         },
         {
-          "id": "agent-l-495422",
+          "id": "agent-n-102188",
           "chosen": null
         },
         {
-          "id": "agent-f-626932",
+          "id": "agent-b-688509",
           "chosen": null
         },
         {
-          "id": "agent-r-382191",
+          "id": "agent-k-968470",
           "chosen": null
         },
         {
-          "id": "agent-q-486203",
+          "id": "agent-c-524942",
           "chosen": null
         },
         {
-          "id": "agent-b-435068",
+          "id": "agent-n-179443",
           "chosen": null
         },
         {
-          "id": "agent-o-232781",
+          "id": "agent-p-634116",
           "chosen": null
         },
         {
-          "id": "agent-o-869833",
+          "id": "agent-l-446567",
           "chosen": null
         },
         {
-          "id": "agent-l-509764",
+          "id": "agent-j-882808",
           "chosen": null
         },
         {
-          "id": "agent-n-131914",
+          "id": "agent-g-260293",
           "chosen": null
         },
         {
-          "id": "agent-a-326617",
+          "id": "agent-e-236331",
           "chosen": null
         },
         {
-          "id": "agent-o-349249",
+          "id": "agent-k-103177",
           "chosen": null
         },
         {
-          "id": "agent-d-405116",
+          "id": "agent-t-732135",
           "chosen": null
         },
         {
-          "id": "agent-m-406322",
+          "id": "agent-g-781593",
           "chosen": null
         },
         {
-          "id": "agent-n-624602",
+          "id": "agent-m-926699",
           "chosen": null
         },
         {
-          "id": "agent-b-105557",
+          "id": "agent-f-898544",
           "chosen": null
         },
         {
-          "id": "agent-g-414635",
+          "id": "agent-m-208423",
           "chosen": null
         },
         {
-          "id": "agent-n-170852",
+          "id": "agent-g-621188",
           "chosen": null
         },
         {
-          "id": "agent-k-593304",
+          "id": "agent-k-279178",
           "chosen": null
         },
         {
-          "id": "agent-s-789189",
+          "id": "agent-g-798369",
           "chosen": null
         },
         {
-          "id": "agent-l-433567",
+          "id": "agent-k-554211",
           "chosen": null
         },
         {
-          "id": "agent-e-918118",
+          "id": "agent-d-349586",
           "chosen": null
         },
         {
-          "id": "agent-p-285213",
+          "id": "agent-h-248345",
           "chosen": null
         },
         {
-          "id": "agent-m-223687",
+          "id": "agent-p-667695",
           "chosen": null
         },
         {
-          "id": "agent-e-979988",
+          "id": "agent-g-536557",
           "chosen": null
         },
         {
-          "id": "agent-m-222523",
+          "id": "agent-s-958931",
           "chosen": null
         },
         {
-          "id": "agent-t-111600",
+          "id": "agent-c-905224",
           "chosen": null
         },
         {
-          "id": "agent-p-247771",
+          "id": "agent-p-585804",
           "chosen": null
         },
         {
-          "id": "agent-r-449489",
+          "id": "agent-p-805730",
           "chosen": null
         },
         {
-          "id": "agent-q-304332",
+          "id": "agent-n-290812",
           "chosen": null
         },
         {
-          "id": "agent-e-966054",
+          "id": "agent-k-225275",
           "chosen": null
         },
         {
-          "id": "agent-n-373088",
+          "id": "agent-n-981560",
           "chosen": null
         },
         {
-          "id": "agent-m-334695",
+          "id": "agent-g-225268",
           "chosen": null
         },
         {
-          "id": "agent-a-549350",
+          "id": "agent-g-951981",
           "chosen": null
         },
         {
-          "id": "agent-i-524550",
+          "id": "agent-q-775670",
           "chosen": null
         },
         {
-          "id": "agent-n-614102",
+          "id": "agent-b-372187",
           "chosen": null
         },
         {
-          "id": "agent-c-335503",
+          "id": "agent-r-641366",
           "chosen": null
         },
         {
-          "id": "agent-a-232153",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "agents": [
-        {
-          "id": "agent-q-586915",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-429958",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-274767",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-582995",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-847222",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-366761",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-766687",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-716151",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-459221",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-880186",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-137117",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-564824",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-495422",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-626932",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-382191",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-486203",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-435068",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-232781",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-869833",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-509764",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-131914",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-326617",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-349249",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-405116",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-406322",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-624602",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-105557",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-414635",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-170852",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-593304",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-789189",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-433567",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-918118",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-285213",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-223687",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-979988",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-222523",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-111600",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-247771",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-449489",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-304332",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-966054",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-373088",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-334695",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-549350",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-524550",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-614102",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-335503",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-232153",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "agents": [
-        {
-          "id": "agent-q-586915",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-429958",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-274767",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-582995",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-847222",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-366761",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-766687",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-716151",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-459221",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-880186",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-137117",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-564824",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-495422",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-626932",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-382191",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-486203",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-435068",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-232781",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-869833",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-509764",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-131914",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-326617",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-349249",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-405116",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-406322",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-624602",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-105557",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-414635",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-170852",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-593304",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-789189",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-433567",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-918118",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-285213",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-223687",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-979988",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-222523",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-111600",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-247771",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-449489",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-304332",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-966054",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-373088",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-334695",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-549350",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-524550",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-614102",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-335503",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-232153",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 1,
-      "agents": [
-        {
-          "id": "agent-a-172968",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-270165",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-888354",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-761324",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-291027",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-507148",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-362383",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-773588",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-371079",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-299709",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-175496",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-205613",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-649599",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-837850",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-485906",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-136111",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-357414",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-670599",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-192218",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-337928",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-588472",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-947891",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-810362",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-685055",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-309713",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-506410",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-563014",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-441743",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-679429",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-906273",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-684242",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-875569",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-401638",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-363790",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-749321",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-755081",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-187090",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-588893",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-244828",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-311053",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-904946",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-357504",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-212792",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-601007",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-138337",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-125663",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-224812",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-975496",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-322022",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "agents": [
-        {
-          "id": "agent-a-172968",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-270165",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-888354",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-761324",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-291027",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-507148",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-362383",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-773588",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-371079",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-299709",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-175496",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-205613",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-649599",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-837850",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-485906",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-136111",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-357414",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-670599",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-192218",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-337928",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-588472",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-947891",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-810362",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-685055",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-309713",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-506410",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-563014",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-441743",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-679429",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-906273",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-684242",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-875569",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-401638",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-363790",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-749321",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-755081",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-187090",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-588893",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-244828",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-311053",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-904946",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-357504",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-212792",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-601007",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-138337",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-125663",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-224812",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-975496",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-322022",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "agents": [
-        {
-          "id": "agent-a-172968",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-270165",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-888354",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-761324",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-291027",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-507148",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-362383",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-773588",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-371079",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-299709",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-175496",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-205613",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-649599",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-837850",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-485906",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-136111",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-357414",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-670599",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-192218",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-337928",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-588472",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-947891",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-810362",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-685055",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-309713",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-506410",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-563014",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-441743",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-679429",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-906273",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-684242",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-875569",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-401638",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-363790",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-749321",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-755081",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-187090",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-588893",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-244828",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-311053",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-904946",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-357504",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-212792",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-601007",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-138337",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-125663",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-224812",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-975496",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-322022",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 1,
-      "agents": [
-        {
-          "id": "agent-s-225807",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-957368",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-711767",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-160902",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-397703",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-426744",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-372573",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-810860",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-462286",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-902622",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-618166",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-678163",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-112807",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-618182",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-669967",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-437299",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-229821",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-540300",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-386210",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-758087",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-958187",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-463997",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-524900",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-935457",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-405431",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-650692",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-352322",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-396348",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-834242",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-539772",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-931422",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-105831",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-124634",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-469433",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-763361",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-278363",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-920081",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-232413",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-175088",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-613980",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-399103",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-287995",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-646671",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-350965",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-846067",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-876625",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-449400",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-441961",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-479970",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "agents": [
-        {
-          "id": "agent-s-225807",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-957368",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-711767",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-160902",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-397703",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-426744",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-372573",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-810860",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-462286",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-902622",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-618166",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-678163",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-112807",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-618182",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-669967",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-437299",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-229821",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-540300",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-386210",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-758087",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-958187",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-463997",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-524900",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-935457",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-405431",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-650692",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-352322",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-396348",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-834242",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-539772",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-931422",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-105831",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-124634",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-469433",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-763361",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-278363",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-920081",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-232413",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-175088",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-613980",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-399103",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-287995",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-646671",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-350965",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-846067",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-876625",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-449400",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-441961",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-479970",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "agents": [
-        {
-          "id": "agent-s-225807",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-957368",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-711767",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-160902",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-397703",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-426744",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-372573",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-810860",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-462286",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-902622",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-618166",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-678163",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-112807",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-618182",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-669967",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-437299",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-229821",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-540300",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-386210",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-758087",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-958187",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-463997",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-524900",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-935457",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-405431",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-650692",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-352322",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-396348",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-834242",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-539772",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-931422",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-105831",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-124634",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-469433",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-763361",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-278363",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-920081",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-232413",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-175088",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-613980",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-399103",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-287995",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-646671",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-350965",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-846067",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-876625",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-449400",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-441961",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-479970",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 1,
-      "agents": [
-        {
-          "id": "agent-m-259575",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-825580",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-874677",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-874351",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-773345",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-424685",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-814134",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-939955",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-178800",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-155210",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-173968",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-215725",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-829566",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-435626",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-267234",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-811223",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-948614",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-358548",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-488547",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-449808",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-390221",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-235090",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-545876",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-591148",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-365603",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-184339",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-775975",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-456835",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-180760",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-141850",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-782845",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-724850",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-267595",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-257451",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-850018",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-998489",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-789144",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-265063",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-688239",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-151694",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-897462",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-200534",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-177925",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-283203",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-839656",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-449873",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-871995",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-319604",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-596893",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 2,
-      "agents": [
-        {
-          "id": "agent-m-259575",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-825580",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-874677",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-874351",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-773345",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-424685",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-814134",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-939955",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-178800",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-155210",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-173968",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-215725",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-829566",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-435626",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-267234",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-811223",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-948614",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-358548",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-488547",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-449808",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-390221",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-235090",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-545876",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-591148",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-365603",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-184339",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-775975",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-456835",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-180760",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-141850",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-782845",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-724850",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-267595",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-257451",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-850018",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-998489",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-789144",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-265063",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-688239",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-151694",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-897462",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-200534",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-177925",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-283203",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-839656",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-449873",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-871995",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-319604",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-596893",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 3,
-      "agents": [
-        {
-          "id": "agent-m-259575",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-825580",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-874677",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-874351",
-          "chosen": null
-        },
-        {
-          "id": "agent-c-773345",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-424685",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-814134",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-939955",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-178800",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-155210",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-173968",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-215725",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-829566",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-435626",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-267234",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-811223",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-948614",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-358548",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-488547",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-449808",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-390221",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-235090",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-545876",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-591148",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-365603",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-184339",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-775975",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-456835",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-180760",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-141850",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-782845",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-724850",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-267595",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-257451",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-850018",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-998489",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-789144",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-265063",
-          "chosen": null
-        },
-        {
-          "id": "agent-t-688239",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-151694",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-897462",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-200534",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-177925",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-283203",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-839656",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-449873",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-871995",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-319604",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-596893",
-          "chosen": null
-        },
-        {
-          "id": "cactus-needle",
-          "chosen": null
-        }
-      ]
-    },
-    {
-      "day": 1,
-      "agents": [
-        {
-          "id": "agent-p-538815",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-913209",
-          "chosen": null
-        },
-        {
-          "id": "agent-h-393558",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-775126",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-147021",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-639783",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-275342",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-618515",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-854720",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-818125",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-236587",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-311643",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-196166",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-556579",
-          "chosen": null
-        },
-        {
-          "id": "agent-p-528350",
-          "chosen": null
-        },
-        {
-          "id": "agent-i-672312",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-367223",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-557886",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-428274",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-985498",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-778352",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-184251",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-816190",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-675505",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-116665",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-751630",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-754899",
-          "chosen": null
-        },
-        {
-          "id": "agent-j-402109",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-785643",
-          "chosen": null
-        },
-        {
-          "id": "agent-m-614499",
-          "chosen": null
-        },
-        {
-          "id": "agent-r-936654",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-286863",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-606239",
-          "chosen": null
-        },
-        {
-          "id": "agent-o-631775",
-          "chosen": null
-        },
-        {
-          "id": "agent-q-736292",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-143171",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-957018",
-          "chosen": null
-        },
-        {
-          "id": "agent-n-215620",
-          "chosen": null
-        },
-        {
-          "id": "agent-s-872688",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-378417",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-497093",
-          "chosen": null
-        },
-        {
-          "id": "agent-d-714436",
-          "chosen": null
-        },
-        {
-          "id": "agent-b-832092",
-          "chosen": null
-        },
-        {
-          "id": "agent-k-648578",
-          "chosen": null
-        },
-        {
-          "id": "agent-e-268608",
-          "chosen": null
-        },
-        {
-          "id": "agent-g-200682",
-          "chosen": null
-        },
-        {
-          "id": "agent-a-372621",
-          "chosen": null
-        },
-        {
-          "id": "agent-l-957474",
-          "chosen": null
-        },
-        {
-          "id": "agent-f-704116",
+          "id": "agent-j-728511",
           "chosen": null
         },
         {
@@ -3783,1770 +1118,594 @@
       "strategies": {}
     },
     "cactus-needle": {
-      "attempts": 17,
+      "attempts": 4,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-b-925559": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-492050": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-640808": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-l-560948": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-831495": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-f-322093": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-c-625288": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-d-820801": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-253772": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-855867": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-t-537495": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-569255": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-g-198835": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-589027": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-t-139331": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-k-403088": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-i-667471": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-k-416779": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-m-324425": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-i-809646": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-t-536326": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-936882": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-461485": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-690534": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-498479": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-914584": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-f-352980": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-t-293693": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-a-825835": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-b-353273": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-195745": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-j-955989": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-c-326698": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-e-910864": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-o-806089": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-k-571517": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-o-362783": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-h-592523": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-913115": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-n-970148": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-510159": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-i-305382": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-739420": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-b-762104": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-891986": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-q-989138": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-i-999125": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-r-270879": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
     "agent-c-993371": {
-      "attempts": 3,
+      "attempts": 2,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-q-586915": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-429958": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-274767": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-582995": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-847222": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-q-366761": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-766687": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-716151": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-459221": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-880186": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-137117": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-564824": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-l-495422": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-626932": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-382191": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-q-486203": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-435068": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-232781": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-869833": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-l-509764": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-131914": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-326617": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-349249": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-405116": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-406322": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-624602": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-105557": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-g-414635": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-170852": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-593304": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-789189": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-l-433567": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-918118": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-285213": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-223687": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-979988": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-222523": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-111600": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-247771": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-449489": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-q-304332": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-966054": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-373088": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-334695": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-549350": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-524550": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-614102": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-335503": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-232153": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-172968": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-270165": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-888354": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-761324": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-291027": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-507148": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-362383": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-l-773588": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-371079": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-299709": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-175496": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-205613": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-649599": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-837850": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-485906": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-136111": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-357414": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-670599": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-192218": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-337928": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-588472": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-947891": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-810362": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-685055": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-309713": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-506410": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-563014": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-441743": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-679429": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-906273": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-684242": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-875569": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-401638": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-363790": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-749321": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-755081": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-187090": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-588893": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-244828": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-311053": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-904946": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-357504": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-212792": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-l-601007": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-138337": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-125663": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-224812": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-975496": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-322022": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-225807": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-957368": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-711767": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-160902": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-397703": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-426744": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-372573": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-810860": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-462286": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-902622": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-618166": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-678163": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-112807": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-618182": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-669967": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-437299": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-229821": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-540300": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-386210": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-758087": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-958187": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-463997": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-524900": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-935457": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-405431": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-650692": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-352322": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-396348": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-834242": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-539772": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-931422": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-105831": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-124634": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-469433": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-763361": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-278363": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-920081": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-g-232413": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-175088": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-q-613980": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-q-399103": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-287995": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-646671": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-350965": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-846067": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-876625": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-449400": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-441961": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-479970": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-259575": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-825580": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-874677": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-874351": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-c-773345": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-424685": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-814134": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-939955": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-178800": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-155210": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-173968": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-215725": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-829566": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-b-435626": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-267234": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-811223": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-d-948614": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-358548": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-488547": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-449808": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-390221": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-f-235090": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-j-545876": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-591148": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-365603": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-184339": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-g-775975": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-s-456835": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-i-180760": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-l-141850": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-h-782845": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-724850": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-267595": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-e-257451": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-850018": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-998489": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-789144": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-265063": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-t-688239": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-o-151694": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-n-897462": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-r-200534": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-a-177925": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-283203": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-839656": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-m-449873": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-871995": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-k-319604": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-596893": {
-      "attempts": 3,
-      "calibration_error": 0,
-      "regret": 0,
-      "strategies": {}
-    },
-    "agent-p-538815": {
+    "agent-m-686304": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-b-913209": {
+    "agent-b-413735": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-h-393558": {
+    "agent-m-642501": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-b-775126": {
+    "agent-q-836837": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-f-147021": {
+    "agent-a-303244": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-g-639783": {
+    "agent-e-808973": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-k-275342": {
+    "agent-k-765262": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-m-618515": {
+    "agent-a-292845": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-l-854720": {
+    "agent-o-879965": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-i-818125": {
+    "agent-q-290729": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-s-236587": {
+    "agent-e-407003": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-r-311643": {
+    "agent-g-437822": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-n-196166": {
+    "agent-n-102188": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-m-556579": {
+    "agent-b-688509": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-p-528350": {
+    "agent-k-968470": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-i-672312": {
+    "agent-c-524942": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-a-367223": {
+    "agent-n-179443": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-n-557886": {
+    "agent-p-634116": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-e-428274": {
+    "agent-l-446567": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-g-985498": {
+    "agent-j-882808": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-d-778352": {
+    "agent-g-260293": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-q-184251": {
+    "agent-e-236331": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-o-816190": {
+    "agent-k-103177": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-j-675505": {
+    "agent-t-732135": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-a-116665": {
+    "agent-g-781593": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-g-751630": {
+    "agent-m-926699": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-s-754899": {
+    "agent-f-898544": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-j-402109": {
+    "agent-m-208423": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-m-785643": {
+    "agent-g-621188": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-m-614499": {
+    "agent-k-279178": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-r-936654": {
+    "agent-g-798369": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-q-286863": {
+    "agent-k-554211": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-d-606239": {
+    "agent-d-349586": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-o-631775": {
+    "agent-h-248345": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-q-736292": {
+    "agent-p-667695": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-d-143171": {
+    "agent-g-536557": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-d-957018": {
+    "agent-s-958931": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-n-215620": {
+    "agent-c-905224": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-s-872688": {
+    "agent-p-585804": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-d-378417": {
+    "agent-p-805730": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-g-497093": {
+    "agent-n-290812": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-d-714436": {
+    "agent-k-225275": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-b-832092": {
+    "agent-n-981560": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-k-648578": {
+    "agent-g-225268": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-e-268608": {
+    "agent-g-951981": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-g-200682": {
+    "agent-q-775670": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-a-372621": {
+    "agent-b-372187": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-l-957474": {
+    "agent-r-641366": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
       "strategies": {}
     },
-    "agent-f-704116": {
+    "agent-j-728511": {
       "attempts": 1,
       "calibration_error": 0,
       "regret": 0,
