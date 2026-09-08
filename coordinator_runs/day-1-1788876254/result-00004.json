@@ -1,0 +1,4009 @@
+{
+  "schema_version": 1,
+  "run_id": "day-1-1788876254",
+  "shard": 4,
+  "agent_updates": [
+    {
+      "agent_id": "agent-g-229261",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-682099",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-108603",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-327331",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-932106",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-234480",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-432932",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-182567",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-254243",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-413699",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-929925",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-468692",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-115259",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-751333",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-661716",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-706544",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-345138",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-238899",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-783135",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-293393",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-325680",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-531240",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-427684",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-264320",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-738203",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-272845",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-149285",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-795817",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-793078",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-579173",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-377526",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-169766",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-246678",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-477156",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-266634",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-119898",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-556239",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-735747",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-101943",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-269123",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-744605",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-189296",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-425356",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-955441",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-800459",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-208709",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-884860",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-271063",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-343615",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-569077",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-586160",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-866748",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-525592",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-853534",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-424836",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-649369",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-266038",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-801772",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-334938",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-147687",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-555510",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-659822",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-509686",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-951248",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-545168",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-713077",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-312701",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-362962",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-204747",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-451623",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-664637",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-721797",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-584494",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-272346",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-571953",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-452223",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-891207",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-747409",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-153880",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-651161",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-473566",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-431774",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-850472",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-854204",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-118129",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-939859",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-133355",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-457230",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-985882",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-940444",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-979400",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-218060",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-443978",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-374375",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-580467",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-710881",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-617894",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-499931",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-369520",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-497700",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-351877",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-837570",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-531939",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-115928",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-360484",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-768624",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-366964",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-665103",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-538170",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-188216",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-246180",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-647396",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-364007",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-754229",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-988298",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-572453",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-824494",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-716330",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-268509",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-890548",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-880808",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-135482",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-121279",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-822770",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-264581",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-333455",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-471964",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-923532",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-146294",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-957859",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-646895",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-710792",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-833674",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-727786",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-533229",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-293631",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-584056",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-519184",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-848028",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-564941",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-455025",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-235756",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-480345",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-986793",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-257895",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-174829",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-356483",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-509800",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-322647",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-688532",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-293398",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-444917",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-592565",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-521044",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-455949",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-426980",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-749071",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-421046",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-608797",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-267802",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-808152",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-779875",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-834233",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-650094",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-761150",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-157022",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-258181",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-992031",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-846077",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-875712",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-581593",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-980969",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-855744",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-366597",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-146705",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-440307",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-118334",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-344219",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-598094",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-314947",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-619105",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-219828",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-133552",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-485987",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-632944",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-879896",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-457089",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-831660",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-865531",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-870332",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-537041",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-977357",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-332070",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-659848",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-790807",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-307244",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-413382",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-954672",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-269738",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-777510",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-759297",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-470753",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-539877",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-973633",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-111685",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-437042",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-658010",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-845331",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-242362",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-346292",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-594354",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-127936",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-299013",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-454542",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-893523",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-347381",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-182106",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-577984",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-628843",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-275503",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-523213",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-512547",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-763675",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-513055",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-676029",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-605305",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-936983",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-141369",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-989680",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-835148",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-767864",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-105528",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-865523",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-982253",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-216647",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-568536",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-344263",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-926839",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-278275",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-512491",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-274094",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-278351",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-554823",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-848219",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-397039",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-799994",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-917368",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-755165",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-772420",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-395623",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-828032",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-789726",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-377247",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-655268",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-911652",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-783649",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-439382",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-894127",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-743397",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-536402",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-357710",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-987613",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-362115",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-244931",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-616503",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-342945",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-785762",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-219035",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-926107",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-497138",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-410042",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-508123",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-910226",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-794225",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-216763",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-930434",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-870404",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-640809",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-662567",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-300691",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-331526",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-846339",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-723782",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-338297",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-848903",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-268028",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-689451",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-476516",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-495852",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-873693",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-878564",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-466836",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-915012",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-251880",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-691670",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-272004",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-681841",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-631850",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-948411",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-462401",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-847463",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-464099",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-330133",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-952682",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-577893",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-483172",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-876258",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-458276",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-109143",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-578488",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-840896",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-405823",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-536822",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-814934",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-323631",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-281730",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-610008",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-446828",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-338010",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-383982",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-156602",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-968129",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-201565",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-808828",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-282979",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-179325",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-290861",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-834409",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-992084",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-471375",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-883641",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-147132",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-545469",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-916499",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-932489",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-522885",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-423093",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-533385",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-250122",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-690728",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-750431",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-285411",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-122516",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-886608",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-587466",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-656912",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-898145",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-947242",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-277927",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-158207",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-993385",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-116170",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-527709",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-827608",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-621016",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-504159",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-823417",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-798219",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-112178",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-225863",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-904382",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-676605",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-253035",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-661108",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-658841",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-368249",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-f-354950",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-892869",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-216434",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-543656",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-792050",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-681601",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-366912",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-153299",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-633027",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-359610",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-482404",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-617361",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-923516",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-640407",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-437038",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-190588",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-899402",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-149060",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-737382",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-568522",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-989621",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-498814",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-761750",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-894302",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-141445",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-451990",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-880067",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-921318",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-813304",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-595014",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-276239",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-824659",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-899888",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-350413",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-624509",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-549666",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-700610",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-378971",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-556024",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-617852",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-716073",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-896676",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-627047",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-222624",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-555692",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-116719",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-253199",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-258490",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-456798",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-878144",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-493099",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-127826",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-754433",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-616169",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-932842",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-446057",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-861161",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-775841",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-422233",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-431942",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-178572",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-m-120150",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-923081",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-971820",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-491769",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-743469",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-827271",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-821671",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-859643",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-857906",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-155474",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-625189",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-619013",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-875705",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-879140",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-102906",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-501242",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-161954",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-638437",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-920014",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-165600",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-459252",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-878967",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-121633",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-182068",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-589362",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-995641",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-567064",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-848406",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-316441",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-943543",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-268743",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-813735",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-a-776037",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-948824",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-812715",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-p-766973",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-455935",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-538794",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-105346",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-n-831997",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-l-288193",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-128726",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-620317",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-816931",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-679676",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-222459",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-501812",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-452778",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-224705",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-279032",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-r-388287",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-873543",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-i-833987",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-617484",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-903224",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-k-881567",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-678661",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-830981",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-s-995223",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-d-961857",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-e-570279",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-516447",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-743325",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-j-668986",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-735533",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-111318",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-o-657379",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-q-898270",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-g-873666",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-c-399148",
+      "coordinator": {
+        "decision_score": 61.0,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-h-278064",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-b-487659",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    },
+    {
+      "agent_id": "agent-t-266274",
+      "coordinator": {
+        "decision_score": 59.5,
+        "last_coordinated_day": 1,
+        "shard": 4
+      }
+    }
+  ],
+  "created_at": "2026-09-08T14:04:16.202590+00:00",
+  "digest": "3c76f71734107951529e006aac56ac64b55a3d06e03cde3a9596ff19d1e9e392"
+}
