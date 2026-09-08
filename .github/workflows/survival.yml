@@ -62,7 +62,22 @@ jobs:
 
       - name: Run complete autonomous farm cycle
         if: ${{ steps.bootstrap.outputs.complete == 'true' }}
-        run: python farm_orchestrator.py
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("state.json")
+          if not p.exists():
+              raise SystemExit("state.json is missing. Bootstrap the population first.")
+          data = json.loads(p.read_text(encoding="utf-8"))
+          agents = data.get("agents", [])
+          complete = bool(data.get("bootstrap_complete", False))
+          print(f"Saved agents: {len(agents)}/7777")
+          print(f"Bootstrap complete: {complete}")
+          if len(agents) < 7777 or not complete:
+              raise SystemExit("Population is not complete. Bootstrap must finish first.")
+          PY
+          python farm_orchestrator.py
 
       - name: Clean generated caches before persistence
         if: always()
@@ -105,6 +120,18 @@ jobs:
             if git merge origin/main -X ours --no-edit; then
               if git push origin HEAD:main; then
                 echo "Push successful."
+                exit 0
+              fi
+            else
+              echo "Merge failed; aborting merge."
+              git merge --abort || true
+            fi
+
+            sleep 10
+          done
+
+          echo "Unable to persist farm state after 5 attempts."
+          exit 1
                 exit 0
               fi
             else
