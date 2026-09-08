@@ -3,31 +3,31 @@
   "strategies": {
     "agent-p-538815": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-b-913209": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": 9.0
+        "explore": 14.0
       }
     },
     "agent-h-393558": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-b-775126": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -35,15 +35,15 @@
     },
     "agent-f-147021": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-g-639783": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -51,55 +51,55 @@
     },
     "agent-k-275342": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-m-618515": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-l-854720": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-i-818125": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-s-236587": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-r-311643": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-n-196166": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -107,15 +107,15 @@
     },
     "agent-m-556579": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-p-528350": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -123,7 +123,7 @@
     },
     "agent-i-672312": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -131,23 +131,23 @@
     },
     "agent-a-367223": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-n-557886": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-e-428274": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -155,7 +155,7 @@
     },
     "agent-g-985498": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -163,15 +163,15 @@
     },
     "agent-d-778352": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-q-184251": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -179,7 +179,7 @@
     },
     "agent-o-816190": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -187,7 +187,7 @@
     },
     "agent-j-675505": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -195,7 +195,7 @@
     },
     "agent-a-116665": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -203,15 +203,15 @@
     },
     "agent-g-751630": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-s-754899": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -219,31 +219,31 @@
     },
     "agent-j-402109": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-m-785643": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-m-614499": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-r-936654": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -251,7 +251,7 @@
     },
     "agent-q-286863": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -259,7 +259,7 @@
     },
     "agent-d-606239": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -267,7 +267,7 @@
     },
     "agent-o-631775": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -275,7 +275,7 @@
     },
     "agent-q-736292": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -283,7 +283,7 @@
     },
     "agent-d-143171": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -291,7 +291,7 @@
     },
     "agent-d-957018": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -299,23 +299,23 @@
     },
     "agent-n-215620": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-s-872688": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-d-378417": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -323,7 +323,7 @@
     },
     "agent-g-497093": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -331,7 +331,7 @@
     },
     "agent-d-714436": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -339,39 +339,39 @@
     },
     "agent-b-832092": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-k-648578": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-e-268608": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-g-200682": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-a-372621": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -379,15 +379,15 @@
     },
     "agent-l-957474": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     },
     "agent-f-704116": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
         "explore": 1.5
@@ -395,10 +395,10 @@
     },
     "cactus-needle": {
       "counts": {
-        "explore": 3
+        "explore": 4
       },
       "outcomes": {
-        "explore": -2.25
+        "explore": -3.5
       }
     }
   },
@@ -417,8 +417,13 @@
       "day": 1,
       "agents": 50,
       "created_at": "2026-09-07T23:07:32.196589+00:00"
+    },
+    {
+      "day": 1,
+      "agents": 50,
+      "created_at": "2026-09-08T03:32:04.922177+00:00"
     }
   ],
   "generation": 1,
-  "digest": "8639a66536700b7220ac7ea535919acb72c8af34def77a39bc6f09d95657a57d"
+  "digest": "0fa95bdbef3e4bd0b791633c02a8b842d4dd64e2b1e3c0b2e4107720d6704937"
 }
