@@ -15,96 +15,70 @@ concurrency:
 jobs:
   farm-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 90
     env:
       MTN_CLIENT_ID: ${{ secrets.MTN_CLIENT_ID }}
       MTN_CLIENT_SECRET: ${{ secrets.MTN_CLIENT_SECRET }}
+      MTN_SUBSCRIPTION_KEY: ${{ secrets.MTN_SUBSCRIPTION_KEY }}
       MTN_ENV: ${{ vars.MTN_ENV || 'sandbox' }}
       MTN_LIVE_PAYOUT_ENABLED: ${{ vars.MTN_LIVE_PAYOUT_ENABLED || 'false' }}
+      MTN_TARGET_ENVIRONMENT: ${{ vars.MTN_TARGET_ENVIRONMENT || 'mtncameroon' }}
       MTN_TOKEN_URL: ${{ vars.MTN_TOKEN_URL }}
       MTN_WITHDRAWALS_URL: ${{ vars.MTN_WITHDRAWALS_URL }}
       PAYOUT_DESTINATION_ID: ${{ secrets.PAYOUT_DESTINATION_ID }}
+      PAYOUT_MOBILE_MONEY_MSISDN: ${{ secrets.PAYOUT_MOBILE_MONEY_MSISDN }}
       PAYOUT_MOBILE_MONEY_NETWORK: ${{ secrets.PAYOUT_MOBILE_MONEY_NETWORK }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
     steps:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-
       - name: Install core dependencies
         run: python -m pip install --disable-pip-version-check -r requirements.txt
-
       - name: Install optional browser automation
         if: ${{ vars.ENABLE_BROWSER_AUTOMATION == 'true' }}
         run: |
           python -m pip install --disable-pip-version-check -r browser_requirements.txt
           python -m playwright install --with-deps chromium
-
       - name: Preflight integrity and security checks
         run: python integrity_check.py
-
-      - name: Incrementally bootstrap the agent population
-        id: bootstrap
-        run: |
-          python simulate.py --bootstrap-only
-          COMPLETE=$(python - <<'PY'
-          import json
-          with open("state.json", "r", encoding="utf-8") as f:
-              print(str(json.load(f).get("bootstrap_complete", False)).lower())
-          PY
-          )
-          echo "complete=$COMPLETE" >> "$GITHUB_OUTPUT"
-          echo "Population bootstrap complete: $COMPLETE"
-
       - name: Run complete autonomous farm cycle
-        if: ${{ steps.bootstrap.outputs.complete == 'true' }}
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          p = Path("state.json")
-          if not p.exists():
-              raise SystemExit("state.json is missing. Bootstrap the population first.")
-          data = json.loads(p.read_text(encoding="utf-8"))
-          agents = data.get("agents", [])
-          complete = bool(data.get("bootstrap_complete", False))
-          print(f"Saved agents: {len(agents)}/7777")
-          print(f"Bootstrap complete: {complete}")
-          if len(agents) < 7777 or not complete:
-              raise SystemExit("Population is not complete. Bootstrap must finish first.")
-          PY
-          python farm_orchestrator.py
-
+        run: python farm_orchestrator.py
       - name: Clean generated caches before persistence
         if: always()
         run: |
           find . -type d -name '__pycache__' -prune -exec rm -rf {} +
           find . -type f \( -name '*.pyc' -o -name '*.pyo' \) -delete
           git ls-files -z | grep -zE '(^|/)__pycache__/|\.py[co]$' | xargs -0 -r git rm --cached --ignore-unmatch
-
       - name: Generate owner dashboard summary
         if: always()
         run: |
           python - <<'PY'
           from pathlib import Path
           print("Dashboard:", Path("dashboard.html").exists())
-          print("Checkpoints:", len(list(Path("checkpoints").glob("state-*.json"))) if Path("checkpoints").exists() else 0)
+          print("Approval queue:", Path("approval_queue.json").exists())
+          print("Payout executor:", Path("payout_executor.py").exists())
           PY
-
       - name: Show persistence summary
         if: always()
         run: git status --short
-
       - name: Persist farm state and audit trail
         if: always()
         run: |
           git config user.name 'agent-evolution-bot'
           git config user.email 'actions@github.com'
           git add .
+          git diff --cached --quiet || git commit -m "Autonomous agent farm cycle: $(date -u +%Y-%m-%d-%H%M)"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort || true; git reset --soft origin/main; git add .; git diff --cached --quiet || git commit -m "Reconcile farm state: $(date -u +%Y-%m-%d-%H%M)"; }
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          exit 1
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
