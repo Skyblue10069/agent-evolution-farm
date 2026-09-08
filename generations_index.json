@@ -20,6 +20,11 @@
       "day": 1,
       "file": "generations/generation-00000001-06d7fe9b6404.json",
       "digest": "06d7fe9b6404125877d6e3a9960548b096cfc03d9bd38b7cbe554b741be1de7a"
+    },
+    {
+      "day": 1,
+      "file": "generations/generation-00000001-2b6628a188d0.json",
+      "digest": "2b6628a188d0ed0d4263845fea5d5ed2d1feb8e91a92dac420f72c8bbe69542c"
     }
   ]
 }

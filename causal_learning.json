@@ -24,6 +24,11 @@
       "day": 1,
       "sample_size": 50,
       "note": "observational; not proof of causality"
+    },
+    {
+      "day": 1,
+      "sample_size": 50,
+      "note": "observational; not proof of causality"
     }
   ]
 }
