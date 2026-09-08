@@ -50,7 +50,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -93,6 +93,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -128,6 +134,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -182,6 +194,15 @@
           {
             "id": "agent-p-538815-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-p-538815-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -309,9 +330,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -392,7 +434,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.060976+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -457,7 +499,7 @@
       "own_verified_revenue": 0,
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
-      "wins": 7,
+      "wins": 8,
       "losses": 0,
       "businesses": [],
       "work_packages": [],
@@ -501,6 +543,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -536,6 +584,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -590,6 +644,15 @@
           {
             "id": "agent-b-913209-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-b-913209-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -717,9 +780,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -800,7 +884,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.060990+00:00",
       "coordinator": {
-        "decision_score": 63.0,
+        "decision_score": 63.5,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -866,7 +950,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -909,6 +993,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -944,6 +1034,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -998,6 +1094,15 @@
           {
             "id": "agent-h-393558-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-h-393558-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -1125,9 +1230,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -1208,7 +1334,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.060993+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -1274,7 +1400,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -1317,6 +1443,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -1352,6 +1484,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -1406,6 +1544,15 @@
           {
             "id": "agent-b-775126-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-b-775126-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -1533,9 +1680,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -1616,7 +1784,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.060995+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -1682,7 +1850,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -1725,6 +1893,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -1760,6 +1934,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -1814,6 +1994,15 @@
           {
             "id": "agent-f-147021-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-f-147021-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -1941,9 +2130,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -2024,7 +2234,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.060997+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -2090,7 +2300,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -2133,6 +2343,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -2168,6 +2384,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -2222,6 +2444,15 @@
           {
             "id": "agent-g-639783-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-g-639783-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -2349,9 +2580,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -2432,7 +2684,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.060998+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -2498,7 +2750,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -2541,6 +2793,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -2576,6 +2834,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -2630,6 +2894,15 @@
           {
             "id": "agent-k-275342-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-k-275342-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -2757,9 +3030,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -2840,7 +3134,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061000+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -2906,7 +3200,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -2949,6 +3243,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -2984,6 +3284,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -3038,6 +3344,15 @@
           {
             "id": "agent-m-618515-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-m-618515-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -3165,9 +3480,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -3248,7 +3584,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061005+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -3314,7 +3650,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -3357,6 +3693,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -3392,6 +3734,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -3446,6 +3794,15 @@
           {
             "id": "agent-l-854720-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-l-854720-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -3573,9 +3930,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -3656,7 +4034,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061008+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -3722,7 +4100,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -3765,6 +4143,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -3800,6 +4184,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -3854,6 +4244,15 @@
           {
             "id": "agent-i-818125-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-i-818125-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -3981,9 +4380,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -4064,7 +4484,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061010+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -4130,7 +4550,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -4173,6 +4593,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -4208,6 +4634,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -4262,6 +4694,15 @@
           {
             "id": "agent-s-236587-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-s-236587-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -4389,9 +4830,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -4472,7 +4934,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061011+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -4538,7 +5000,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -4581,6 +5043,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -4616,6 +5084,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -4670,6 +5144,15 @@
           {
             "id": "agent-r-311643-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-r-311643-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -4797,9 +5280,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -4880,7 +5384,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061013+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -4946,7 +5450,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -4989,6 +5493,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -5024,6 +5534,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -5078,6 +5594,15 @@
           {
             "id": "agent-n-196166-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-n-196166-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -5205,9 +5730,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -5288,7 +5834,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061014+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -5354,7 +5900,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -5397,6 +5943,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -5432,6 +5984,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -5486,6 +6044,15 @@
           {
             "id": "agent-m-556579-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-m-556579-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -5613,9 +6180,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -5696,7 +6284,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061016+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -5762,7 +6350,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -5805,6 +6393,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -5840,6 +6434,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -5894,6 +6494,15 @@
           {
             "id": "agent-p-528350-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-p-528350-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -6021,9 +6630,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -6104,7 +6734,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061017+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -6170,7 +6800,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -6213,6 +6843,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -6248,6 +6884,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -6302,6 +6944,15 @@
           {
             "id": "agent-i-672312-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-i-672312-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -6429,9 +7080,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -6512,7 +7184,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061019+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -6578,7 +7250,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -6621,6 +7293,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -6656,6 +7334,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -6710,6 +7394,15 @@
           {
             "id": "agent-a-367223-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-a-367223-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -6837,9 +7530,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -6920,7 +7634,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061020+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -6986,7 +7700,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -7029,6 +7743,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -7064,6 +7784,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -7118,6 +7844,15 @@
           {
             "id": "agent-n-557886-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-n-557886-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -7245,9 +7980,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -7328,7 +8084,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061021+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -7394,7 +8150,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -7437,6 +8193,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -7472,6 +8234,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -7526,6 +8294,15 @@
           {
             "id": "agent-e-428274-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-e-428274-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -7653,9 +8430,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -7736,7 +8534,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061023+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -7802,7 +8600,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -7845,6 +8643,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -7880,6 +8684,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -7934,6 +8744,15 @@
           {
             "id": "agent-g-985498-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-g-985498-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -8061,9 +8880,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -8144,7 +8984,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061025+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -8210,7 +9050,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -8253,6 +9093,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -8288,6 +9134,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -8342,6 +9194,15 @@
           {
             "id": "agent-d-778352-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-d-778352-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -8469,9 +9330,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -8552,7 +9434,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061026+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -8618,7 +9500,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -8661,6 +9543,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -8696,6 +9584,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -8750,6 +9644,15 @@
           {
             "id": "agent-q-184251-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-q-184251-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -8877,9 +9780,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -8960,7 +9884,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061027+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -9026,7 +9950,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -9069,6 +9993,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -9104,6 +10034,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -9158,6 +10094,15 @@
           {
             "id": "agent-o-816190-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-o-816190-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -9285,9 +10230,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -9368,7 +10334,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061029+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -9434,7 +10400,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -9477,6 +10443,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -9512,6 +10484,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -9566,6 +10544,15 @@
           {
             "id": "agent-j-675505-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-j-675505-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -9693,9 +10680,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -9776,7 +10784,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061030+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -9842,7 +10850,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -9885,6 +10893,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -9920,6 +10934,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -9974,6 +10994,15 @@
           {
             "id": "agent-a-116665-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-a-116665-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -10101,9 +11130,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -10184,7 +11234,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061031+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -10250,7 +11300,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -10293,6 +11343,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -10328,6 +11384,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -10382,6 +11444,15 @@
           {
             "id": "agent-g-751630-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-g-751630-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -10509,9 +11580,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -10592,7 +11684,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061033+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -10658,7 +11750,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -10701,6 +11793,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -10736,6 +11834,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -10790,6 +11894,15 @@
           {
             "id": "agent-s-754899-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-s-754899-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -10917,9 +12030,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -11000,7 +12134,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061035+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -11066,7 +12200,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -11109,6 +12243,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -11144,6 +12284,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -11198,6 +12344,15 @@
           {
             "id": "agent-j-402109-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-j-402109-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -11325,9 +12480,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -11408,7 +12584,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061036+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -11474,7 +12650,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -11517,6 +12693,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -11552,6 +12734,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -11606,6 +12794,15 @@
           {
             "id": "agent-m-785643-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-m-785643-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -11733,9 +12930,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -11816,7 +13034,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061037+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -11882,7 +13100,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -11925,6 +13143,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -11960,6 +13184,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -12014,6 +13244,15 @@
           {
             "id": "agent-m-614499-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-m-614499-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -12141,9 +13380,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -12224,7 +13484,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061039+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -12290,7 +13550,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -12333,6 +13593,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -12368,6 +13634,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -12422,6 +13694,15 @@
           {
             "id": "agent-r-936654-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-r-936654-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -12549,9 +13830,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -12632,7 +13934,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061040+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -12698,7 +14000,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -12741,6 +14043,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -12776,6 +14084,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -12830,6 +14144,15 @@
           {
             "id": "agent-q-286863-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-q-286863-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -12957,9 +14280,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -13040,7 +14384,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061042+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -13106,7 +14450,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -13149,6 +14493,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -13184,6 +14534,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -13238,6 +14594,15 @@
           {
             "id": "agent-d-606239-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-d-606239-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -13365,9 +14730,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -13448,7 +14834,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061043+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -13514,7 +14900,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -13557,6 +14943,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -13592,6 +14984,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -13646,6 +15044,15 @@
           {
             "id": "agent-o-631775-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-o-631775-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -13773,9 +15180,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -13856,7 +15284,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061045+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -13922,7 +15350,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -13965,6 +15393,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -14000,6 +15434,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -14054,6 +15494,15 @@
           {
             "id": "agent-q-736292-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-q-736292-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -14181,9 +15630,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -14264,7 +15734,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061046+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -14330,7 +15800,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -14373,6 +15843,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -14408,6 +15884,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -14462,6 +15944,15 @@
           {
             "id": "agent-d-143171-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-d-143171-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -14589,9 +16080,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -14672,7 +16184,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061047+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -14738,7 +16250,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -14781,6 +16293,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -14816,6 +16334,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -14870,6 +16394,15 @@
           {
             "id": "agent-d-957018-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-d-957018-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -14997,9 +16530,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -15080,7 +16634,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061049+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -15146,7 +16700,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -15189,6 +16743,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -15224,6 +16784,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -15278,6 +16844,15 @@
           {
             "id": "agent-n-215620-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-n-215620-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -15405,9 +16980,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -15488,7 +17084,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061050+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -15554,7 +17150,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -15597,6 +17193,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -15632,6 +17234,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -15686,6 +17294,15 @@
           {
             "id": "agent-s-872688-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-s-872688-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -15813,9 +17430,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -15896,7 +17534,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061052+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -15962,7 +17600,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -16005,6 +17643,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -16040,6 +17684,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -16094,6 +17744,15 @@
           {
             "id": "agent-d-378417-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-d-378417-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -16221,9 +17880,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -16304,7 +17984,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061053+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -16370,7 +18050,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -16413,6 +18093,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -16448,6 +18134,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -16502,6 +18194,15 @@
           {
             "id": "agent-g-497093-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-g-497093-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -16629,9 +18330,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -16712,7 +18434,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061054+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -16778,7 +18500,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -16821,6 +18543,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -16856,6 +18584,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -16910,6 +18644,15 @@
           {
             "id": "agent-d-714436-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-d-714436-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -17037,9 +18780,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -17120,7 +18884,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061056+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -17186,7 +18950,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -17229,6 +18993,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -17264,6 +19034,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -17318,6 +19094,15 @@
           {
             "id": "agent-b-832092-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-b-832092-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -17445,9 +19230,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -17528,7 +19334,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061057+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -17594,7 +19400,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -17637,6 +19443,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -17672,6 +19484,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -17726,6 +19544,15 @@
           {
             "id": "agent-k-648578-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-k-648578-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -17853,9 +19680,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -17936,7 +19784,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061059+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -18002,7 +19850,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -18045,6 +19893,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -18080,6 +19934,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -18134,6 +19994,15 @@
           {
             "id": "agent-e-268608-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-e-268608-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -18261,9 +20130,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -18344,7 +20234,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061060+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -18410,7 +20300,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -18453,6 +20343,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -18488,6 +20384,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -18542,6 +20444,15 @@
           {
             "id": "agent-g-200682-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-g-200682-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -18669,9 +20580,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -18752,7 +20684,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061061+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -18818,7 +20750,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -18861,6 +20793,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -18896,6 +20834,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -18950,6 +20894,15 @@
           {
             "id": "agent-a-372621-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-a-372621-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -19077,9 +21030,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -19160,7 +21134,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061062+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -19226,7 +21200,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -19269,6 +21243,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -19304,6 +21284,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -19358,6 +21344,15 @@
           {
             "id": "agent-l-957474-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-l-957474-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -19485,9 +21480,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -19568,7 +21584,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061064+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -19634,7 +21650,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 1,
-      "losses": 6,
+      "losses": 7,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -19677,6 +21693,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -19712,6 +21734,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -19766,6 +21794,15 @@
           {
             "id": "agent-f-704116-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "agent-f-704116-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -19893,9 +21930,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -19976,7 +22034,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061065+00:00",
       "coordinator": {
-        "decision_score": 59.25,
+        "decision_score": 59.0,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -20042,7 +22100,7 @@
       "opportunities_reviewed": 0,
       "opportunities_pursued": 0,
       "wins": 0,
-      "losses": 7,
+      "losses": 8,
       "businesses": [],
       "work_packages": [],
       "active_work": [],
@@ -20085,6 +22143,12 @@
             "observation": "No signal",
             "type": "market_observation",
             "score": 0
+          },
+          {
+            "time": "2026-09-08T04:47:59.424142+00:00",
+            "observation": "No signal",
+            "type": "market_observation",
+            "score": 0
           }
         ],
         "goals": [
@@ -20120,6 +22184,12 @@
           },
           {
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "target": "",
+            "target_url": ""
+          },
+          {
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "goal": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
             "target": "",
             "target_url": ""
@@ -20174,6 +22244,15 @@
           {
             "id": "cactus-needle-00006",
             "created_at": "2026-09-08T04:23:56.903687+00:00",
+            "opportunity_title": "",
+            "opportunity_url": "",
+            "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
+            "status": "proposed_for_review",
+            "outcome": "unknown"
+          },
+          {
+            "id": "cactus-needle-00007",
+            "created_at": "2026-09-08T04:47:59.424142+00:00",
             "opportunity_title": "",
             "opportunity_url": "",
             "hypothesis": "I should continue exploring public signals and generate a new hypothesis from what I observe.",
@@ -20305,9 +22384,30 @@
             "focus": "technical",
             "confidence": 0.25,
             "fallback": "review_another_public_opportunity"
+          },
+          {
+            "goal": "finish chosen work before leaving it",
+            "opportunity": "",
+            "checks": [
+              "eligibility",
+              "deliverable",
+              "QA",
+              "submission evidence",
+              "payment verification"
+            ]
+          },
+          {
+            "day": 1,
+            "focus": "technical",
+            "confidence": 0.25,
+            "fallback": "review_another_public_opportunity"
           }
         ],
         "critic_notes": [
+          {
+            "question": "What could make this work fail?",
+            "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
+          },
           {
             "question": "What could make this work fail?",
             "answer": "Check eligibility, requirements, quality and external dependency before claiming success."
@@ -20394,7 +22494,7 @@
       "survival_days": 1,
       "last_survival_update": "2026-09-06T18:24:40.061067+00:00",
       "coordinator": {
-        "decision_score": 58.5,
+        "decision_score": 58.25,
         "last_coordinated_day": 1,
         "shard": 0
       },
@@ -23675,10 +25775,465 @@
       "strategy": "technical",
       "status": "hypothesis",
       "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-p-538815",
+      "agent_id": "agent-p-538815",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-b-913209",
+      "agent_id": "agent-b-913209",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-h-393558",
+      "agent_id": "agent-h-393558",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-b-775126",
+      "agent_id": "agent-b-775126",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-f-147021",
+      "agent_id": "agent-f-147021",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-g-639783",
+      "agent_id": "agent-g-639783",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-k-275342",
+      "agent_id": "agent-k-275342",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-m-618515",
+      "agent_id": "agent-m-618515",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-l-854720",
+      "agent_id": "agent-l-854720",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-i-818125",
+      "agent_id": "agent-i-818125",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-s-236587",
+      "agent_id": "agent-s-236587",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-r-311643",
+      "agent_id": "agent-r-311643",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-n-196166",
+      "agent_id": "agent-n-196166",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-m-556579",
+      "agent_id": "agent-m-556579",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-p-528350",
+      "agent_id": "agent-p-528350",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-i-672312",
+      "agent_id": "agent-i-672312",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-a-367223",
+      "agent_id": "agent-a-367223",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-n-557886",
+      "agent_id": "agent-n-557886",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-e-428274",
+      "agent_id": "agent-e-428274",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-g-985498",
+      "agent_id": "agent-g-985498",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-d-778352",
+      "agent_id": "agent-d-778352",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-q-184251",
+      "agent_id": "agent-q-184251",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-o-816190",
+      "agent_id": "agent-o-816190",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-j-675505",
+      "agent_id": "agent-j-675505",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-a-116665",
+      "agent_id": "agent-a-116665",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-g-751630",
+      "agent_id": "agent-g-751630",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-s-754899",
+      "agent_id": "agent-s-754899",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-j-402109",
+      "agent_id": "agent-j-402109",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-m-785643",
+      "agent_id": "agent-m-785643",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-m-614499",
+      "agent_id": "agent-m-614499",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-r-936654",
+      "agent_id": "agent-r-936654",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-q-286863",
+      "agent_id": "agent-q-286863",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-d-606239",
+      "agent_id": "agent-d-606239",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-o-631775",
+      "agent_id": "agent-o-631775",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-q-736292",
+      "agent_id": "agent-q-736292",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-d-143171",
+      "agent_id": "agent-d-143171",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-d-957018",
+      "agent_id": "agent-d-957018",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-n-215620",
+      "agent_id": "agent-n-215620",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-s-872688",
+      "agent_id": "agent-s-872688",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-d-378417",
+      "agent_id": "agent-d-378417",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-g-497093",
+      "agent_id": "agent-g-497093",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-d-714436",
+      "agent_id": "agent-d-714436",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-b-832092",
+      "agent_id": "agent-b-832092",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-k-648578",
+      "agent_id": "agent-k-648578",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-e-268608",
+      "agent_id": "agent-e-268608",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-g-200682",
+      "agent_id": "agent-g-200682",
+      "day": 1,
+      "variant": "A",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-a-372621",
+      "agent_id": "agent-a-372621",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-l-957474",
+      "agent_id": "agent-l-957474",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-agent-f-704116",
+      "agent_id": "agent-f-704116",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
+    },
+    {
+      "id": "exp-1-cactus-needle",
+      "agent_id": "cactus-needle",
+      "day": 1,
+      "variant": "B",
+      "strategy": "technical",
+      "status": "hypothesis",
+      "measured_only_from_verified_results": true
     }
   ],
   "shared_knowledge": [],
   "tournaments": [
+    {
+      "day": 1,
+      "winner": "agent-b-913209",
+      "size": 50
+    },
     {
       "day": 1,
       "winner": "agent-b-913209",
@@ -23717,7 +26272,7 @@
     "cross_currency_sum_is_not_a_ranking": true
   },
   "security_status": {
-    "at": "2026-09-08T04:38:58.089545+00:00",
+    "at": "2026-09-08T05:03:00.768339+00:00",
     "findings": [
       {
         "file": "integrity_check.py",
@@ -23792,27 +26347,27 @@
         "signal": "secret="
       },
       {
-        "file": "checkpoints/state-20260907T205115Z-post-upgrade.json",
+        "file": "checkpoints/state-20260908T050300Z-pre-upgrade.json",
         "signal": "api_key="
       },
       {
-        "file": "checkpoints/state-20260907T205115Z-post-upgrade.json",
+        "file": "checkpoints/state-20260908T050300Z-pre-upgrade.json",
         "signal": "password="
       },
       {
-        "file": "checkpoints/state-20260907T205115Z-post-upgrade.json",
+        "file": "checkpoints/state-20260908T050300Z-pre-upgrade.json",
         "signal": "secret="
       },
       {
-        "file": "checkpoints/state-20260907T205115Z-pre-upgrade.json",
+        "file": "checkpoints/state-20260908T043858Z-post-upgrade.json",
         "signal": "api_key="
       },
       {
-        "file": "checkpoints/state-20260907T205115Z-pre-upgrade.json",
+        "file": "checkpoints/state-20260908T043858Z-post-upgrade.json",
         "signal": "password="
       },
       {
-        "file": "checkpoints/state-20260907T205115Z-pre-upgrade.json",
+        "file": "checkpoints/state-20260908T043858Z-post-upgrade.json",
         "signal": "secret="
       },
       {
@@ -23860,7 +26415,7 @@
     ]
   },
   "upgrade_meta": {
-    "last_run": "2026-09-08T04:38:58.089972+00:00",
+    "last_run": "2026-09-08T05:03:00.768868+00:00",
     "features": [
       "adaptive_intelligence",
       "experiments",
