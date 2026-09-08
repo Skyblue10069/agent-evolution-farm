@@ -1,0 +1,4009 @@
+{
+  "schema_version": 1,
+  "run_id": "day-1-1788898144",
+  "shard": 8,
+  "agent_updates": [
+    {
+      "agent_id": "agent-q-204200",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-970910",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-214780",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-502929",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-534738",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-239846",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-986045",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-249261",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-152073",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-900565",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-792126",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-466033",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-823255",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-303078",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-903128",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-776884",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-294024",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-519397",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-954868",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-945185",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-505148",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-571812",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-219478",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-733045",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-499401",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-509227",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-973098",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-648993",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-315128",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-411911",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-756124",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-240754",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-555791",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-848697",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-766030",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-512391",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-691662",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-699106",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-877793",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-738728",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-517210",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-913267",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-323191",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-613587",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-127230",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-925768",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-998673",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-996806",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-105688",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-389284",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-618282",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-283693",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-151113",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-319553",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-723960",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-887650",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-928175",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-525754",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-853494",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-503095",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-118061",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-133424",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-399291",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-100414",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-893846",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-823634",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-379137",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-921925",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-534116",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-553445",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-619421",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-633724",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-386530",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-321223",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-951889",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-480637",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-100648",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-463073",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-371058",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-263211",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-176595",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-283260",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-915923",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-481196",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-632541",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-633292",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-220402",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-226439",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-888496",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-937676",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-752979",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-161688",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-607057",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-118749",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-492914",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-388922",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-634484",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-178225",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-605389",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-884769",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-452925",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-721891",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-726519",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-416852",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-717434",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-489738",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-317141",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-738244",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-614516",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-877110",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-562946",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-639100",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-379204",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-599216",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-633279",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-132933",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-467166",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-909492",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-924207",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-927802",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-568956",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-964695",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-836626",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-915219",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-616579",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-818934",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-853430",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-418311",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-480954",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-736941",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-945765",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-989953",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-313800",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-828743",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-180995",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-885583",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-898795",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-822843",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-977936",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-405662",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-674728",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-515051",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-392521",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-972528",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-795815",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-130917",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-806788",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-278965",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-695419",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-308590",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-307663",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-163714",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-731439",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-628480",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-140677",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-965816",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-539434",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-144149",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-225853",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-596147",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-205422",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-772830",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-340782",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-592770",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-448004",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-208674",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-236485",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-745579",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-230725",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-694636",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-349374",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-278866",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-621364",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-842653",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-831906",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-857272",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-702563",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-417450",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-272471",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-876031",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-844197",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-626829",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-637207",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-257012",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-449945",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-705388",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-469212",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-866273",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-349539",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-629713",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-146435",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-247560",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-412123",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-410793",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-340448",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-436886",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-864761",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-685300",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-638232",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-440680",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-595105",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-943664",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-650006",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-682530",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-875953",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-327695",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-198956",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-963441",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-250080",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-469619",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-280503",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-757657",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-569484",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-648055",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-407765",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-562473",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-209729",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-829371",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-684439",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-907072",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-848129",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-758834",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-256734",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-329544",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-197129",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-242144",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-155750",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-511526",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-896182",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-497966",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-174987",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-332721",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-835076",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-460960",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-976092",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-678303",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-244737",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-215785",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-745808",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-211946",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-933664",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-617158",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-329518",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-793270",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-822928",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-653738",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-636264",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-992635",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-285930",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-340799",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-386424",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-492541",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-927926",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-580158",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-794489",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-542197",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-737972",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-249949",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-337863",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-641964",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-957010",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-642829",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-755436",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-394183",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-909495",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-606498",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-394615",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-420244",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-229062",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-904599",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-801455",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-357075",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-254524",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-385253",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-330920",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-284874",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-849262",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-773260",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-370273",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-252639",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-919384",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-897524",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-444000",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-698500",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-349217",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-318650",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-130488",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-151110",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-916831",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-672288",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-821237",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-566481",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-187015",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-828270",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-131480",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-969655",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-882944",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-270361",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-756308",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-805791",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-195423",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-307822",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-308306",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-655021",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-610617",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-711801",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-858955",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-178100",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-606521",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-946740",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-533057",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-668175",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-643333",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-727785",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-686942",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-526575",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-631463",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-776012",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-354909",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-478809",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-569547",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-808616",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-964831",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-388680",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-300608",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-347759",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-133665",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-136870",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-684479",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-452767",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-788965",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-847290",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-885685",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-268748",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-456924",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-938223",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-448878",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-994047",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-450305",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-205920",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-758101",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-970188",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-195039",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-986352",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-294289",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-465295",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-665886",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-131179",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-506927",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-923632",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-958219",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-309511",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-348107",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-121896",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-217449",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-143540",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-114589",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-273613",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-291982",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-190395",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-893934",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-979221",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-276179",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-923850",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-173845",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-471742",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-788024",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-596855",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-113821",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-896219",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-696109",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-438353",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-380026",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-312668",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-758093",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-912114",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-300450",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-535011",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-616767",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-638735",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-438895",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-573247",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-836138",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-242972",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-564686",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-382190",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-478237",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-945577",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-358012",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-432775",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-424784",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-127262",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-124101",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-222129",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-831091",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-919223",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-896174",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-109898",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-158671",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-637980",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-221366",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-344106",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-858664",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-364634",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-507999",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-823978",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-474795",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-324276",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-534783",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-860793",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-889345",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-304337",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-286893",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-406898",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-924328",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-173610",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-453567",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-634818",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-443417",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-826289",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-137852",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-328837",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-408376",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-602443",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-375098",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-464436",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-502365",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-553462",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-515408",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-433772",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-522197",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-116405",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-886781",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-282792",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-553991",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-607864",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-243143",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-440538",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-444190",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-479369",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-820725",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-q-145791",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-i-499605",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-210309",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-123291",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-708920",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-931558",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-444705",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-227693",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-220437",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-337681",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-826994",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-701232",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-445585",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-862008",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-576218",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-763847",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-890892",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-356206",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-480618",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-488132",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-846730",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-682649",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-732871",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-578861",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-s-266772",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-750994",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-953982",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-n-554701",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-889115",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-438153",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-379964",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-352621",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-793207",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-576173",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-252134",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-341957",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-a-797017",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-j-865821",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-863159",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-m-743976",
+      "coordinator": {
+        "decision_score": 61.5,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-810852",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-965737",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-d-550198",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-755468",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-r-560515",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-806900",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-432712",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-l-768034",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-c-804658",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-h-712159",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-326232",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-g-321190",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-p-428710",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-k-983968",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-e-687642",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-b-400334",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-f-702348",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-t-499630",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    },
+    {
+      "agent_id": "agent-o-676293",
+      "coordinator": {
+        "decision_score": 59.25,
+        "last_coordinated_day": 1,
+        "shard": 8
+      }
+    }
+  ],
+  "created_at": "2026-09-08T20:09:06.987467+00:00",
+  "digest": "b9eac73fffefb0bef03607a0069480c400fa1245cfe3e25ebbeada0750143c67"
+}
