@@ -1,8 +1,8 @@
 {
-  "requests": 82,
+  "requests": 98,
   "provider_stats": {
     "duckduckgo": {
-      "ok": 80,
+      "ok": 96,
       "fail": 2
     }
   },

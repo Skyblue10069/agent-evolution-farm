@@ -1,11 +1,11 @@
 {
   "conditions": {
-    "competition": 0.2699999999999999,
-    "demand": 0.4794090914519887,
-    "innovation_rate": 0.30410699698642807,
-    "opportunity_supply": 0.7015195323205542,
-    "resource_pressure": 0.28059999999999996,
-    "volatility": 0.1946991040681006
+    "competition": 0.2539999999999999,
+    "demand": 0.45754047050414465,
+    "innovation_rate": 0.29018673809471257,
+    "opportunity_supply": 0.6964475304830846,
+    "resource_pressure": 0.28575999999999996,
+    "volatility": 0.18064377386453032
   },
   "day": 2,
   "events": [],
@@ -159,9 +159,39 @@
       },
       "day": 2,
       "verified_xaf": 0.0
+    },
+    {
+      "alive": 50,
+      "businesses": 0,
+      "completed": 0,
+      "conditions": {
+        "competition": 0.262,
+        "demand": 0.4742,
+        "innovation_rate": 0.2959,
+        "opportunity_supply": 0.7002,
+        "resource_pressure": 0.2832,
+        "volatility": 0.1849
+      },
+      "day": 1,
+      "verified_xaf": 0.0
+    },
+    {
+      "alive": 7777,
+      "businesses": 0,
+      "completed": 0,
+      "conditions": {
+        "competition": 0.254,
+        "demand": 0.4575,
+        "innovation_rate": 0.2902,
+        "opportunity_supply": 0.6964,
+        "resource_pressure": 0.2858,
+        "volatility": 0.1806
+      },
+      "day": 2,
+      "verified_xaf": 0.0
     }
   ],
-  "market_cycle": 10,
+  "market_cycle": 12,
   "schema_version": 1,
   "sectors": {}
 }

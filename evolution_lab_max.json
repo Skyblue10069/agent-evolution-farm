@@ -3,402 +3,402 @@
   "strategies": {
     "agent-p-538815": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-b-913209": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 20.0
+        "explore": 27.0
       }
     },
     "agent-h-393558": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-b-775126": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-f-147021": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-g-639783": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-k-275342": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-m-618515": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-l-854720": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-i-818125": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-s-236587": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-r-311643": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-n-196166": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-m-556579": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-p-528350": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-i-672312": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-a-367223": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-n-557886": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-e-428274": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-g-985498": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-d-778352": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-q-184251": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-o-816190": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-j-675505": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-a-116665": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-g-751630": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-s-754899": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-j-402109": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-m-785643": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-m-614499": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-r-936654": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-q-286863": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-d-606239": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-o-631775": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-q-736292": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-d-143171": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-d-957018": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-n-215620": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-s-872688": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-d-378417": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-g-497093": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-d-714436": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-b-832092": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-k-648578": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-e-268608": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-g-200682": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-a-372621": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "agent-l-957474": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     },
     "agent-f-704116": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": 1.25
+        "explore": 0.75
       }
     },
     "cactus-needle": {
       "counts": {
-        "explore": 5
+        "explore": 6
       },
       "outcomes": {
-        "explore": -5.0
+        "explore": -6.75
       }
     }
   },
@@ -427,8 +427,13 @@
       "day": 1,
       "agents": 50,
       "created_at": "2026-09-08T04:05:03.435696+00:00"
+    },
+    {
+      "day": 1,
+      "agents": 50,
+      "created_at": "2026-09-08T04:38:58.156580+00:00"
     }
   ],
   "generation": 1,
-  "digest": "7e928dbd01381ceab1c3e140e0f3eaaf6ace9bd2a4c50a46cca42b3d72678cb8"
+  "digest": "4984bd9e75e409295796d0cc408edc1d0f1b9e9cb4e872852f039a52b4b9018d"
 }
