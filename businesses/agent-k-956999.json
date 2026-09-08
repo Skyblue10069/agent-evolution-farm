@@ -24,8 +24,8 @@
   ],
   "pricing_rule": "Never invent a customer or sale; price only after scope and market terms are confirmed.",
   "created_at": "2026-09-08T08:20:30.219295+00:00",
-  "updated_at": "2026-09-08T08:20:31.630869+00:00",
-  "evolution_cycle": 1,
+  "updated_at": "2026-09-08T11:17:14.810420+00:00",
+  "evolution_cycle": 2,
   "packages": [
     "Demand-led test offer"
   ],
@@ -36,6 +36,13 @@
     {
       "cycle": 1,
       "timestamp": "2026-09-08T08:20:31.630864+00:00",
+      "revenue_verified": 0,
+      "demand_skills": [],
+      "stage": "scaffold"
+    },
+    {
+      "cycle": 2,
+      "timestamp": "2026-09-08T11:17:14.810414+00:00",
       "revenue_verified": 0,
       "demand_skills": [],
       "stage": "scaffold"

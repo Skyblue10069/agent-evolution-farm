@@ -11,70 +11,70 @@
       "id": "agent-b-913209",
       "name": "Agent-B-913209",
       "revenue": 0,
-      "wins": 10,
+      "wins": 11,
       "generation": 0
     },
     {
-      "id": "agent-b-775126",
-      "name": "Agent-B-775126",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-k-631197",
+      "name": "Agent-K-631197",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-g-639783",
-      "name": "Agent-G-639783",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-i-935333",
+      "name": "Agent-I-935333",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-n-196166",
-      "name": "Agent-N-196166",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-m-272001",
+      "name": "Agent-M-272001",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-p-528350",
-      "name": "Agent-P-528350",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-e-507963",
+      "name": "Agent-E-507963",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-i-672312",
-      "name": "Agent-I-672312",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-e-823799",
+      "name": "Agent-E-823799",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-e-428274",
-      "name": "Agent-E-428274",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-s-325269",
+      "name": "Agent-S-325269",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-g-985498",
-      "name": "Agent-G-985498",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-r-169768",
+      "name": "Agent-R-169768",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-q-184251",
-      "name": "Agent-Q-184251",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-h-558051",
+      "name": "Agent-H-558051",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     },
     {
-      "id": "agent-o-816190",
-      "name": "Agent-O-816190",
-      "revenue": 0,
-      "wins": 1,
+      "id": "agent-h-872549",
+      "name": "Agent-H-872549",
+      "revenue": 0.0,
+      "wins": 2,
       "generation": 0
     }
   ],

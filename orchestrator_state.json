@@ -1,9 +1,9 @@
 {
-  "cycle": 14,
-  "finished_at": "2026-09-08T09:00:45.527996+00:00",
+  "cycle": 15,
+  "finished_at": "2026-09-08T11:57:33.250492+00:00",
   "last_failure": {
-    "at": "2026-09-08T09:00:45.527996+00:00",
-    "cycle": 14,
+    "at": "2026-09-08T11:57:33.250492+00:00",
+    "cycle": 15,
     "stages": [
       "accounts",
       "survival"
@@ -15,35 +15,35 @@
   },
   "stages": {
     "accounts": {
-      "at": "2026-09-08T08:18:18.820040+00:00",
-      "cycle": 14,
-      "elapsed_s": 60.065,
+      "at": "2026-09-08T11:17:07.004258+00:00",
+      "cycle": 15,
+      "elapsed_s": 60.067,
       "exit_code": null,
       "status": "timeout",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "adversarial_guard": {
-      "at": "2026-09-08T08:20:27.758047+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.218,
+      "at": "2026-09-08T11:17:08.767150+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.431,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "ADVERSARIAL GUARD: clean findings=0\n"
     },
     "brain": {
-      "at": "2026-09-08T08:20:29.240843+00:00",
-      "cycle": 14,
-      "elapsed_s": 1.251,
+      "at": "2026-09-08T11:17:11.198910+00:00",
+      "cycle": 15,
+      "elapsed_s": 1.943,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "BRAIN: 7777 living agents produced independent decisions, memories and experiments.\n"
     },
     "business_ecosystem": {
-      "at": "2026-09-08T08:20:32.477364+00:00",
-      "cycle": 14,
+      "at": "2026-09-08T11:17:15.818782+00:00",
+      "cycle": 15,
       "elapsed_s": 0.025,
       "exit_code": 0,
       "status": "ok",
@@ -51,98 +51,98 @@
       "stdout_tail": ""
     },
     "business_evolution": {
-      "at": "2026-09-08T08:20:32.451545+00:00",
-      "cycle": 14,
-      "elapsed_s": 1.702,
+      "at": "2026-09-08T11:17:15.793083+00:00",
+      "cycle": 15,
+      "elapsed_s": 2.104,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "BUSINESS EVOLUTION: 7777 businesses autonomously adapted.\n"
     },
     "business_factory": {
-      "at": "2026-09-08T08:20:30.748516+00:00",
-      "cycle": 14,
-      "elapsed_s": 1.164,
+      "at": "2026-09-08T11:17:13.688076+00:00",
+      "cycle": 15,
+      "elapsed_s": 2.003,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "BUSINESS STRATEGY: 7777 agent business strategies updated from real discovered business signals.\n"
     },
     "causal_learning": {
-      "at": "2026-09-08T09:00:36.259023+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.296,
+      "at": "2026-09-08T11:57:21.227171+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.435,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "coordinator": {
-      "at": "2026-09-08T09:00:35.962518+00:00",
-      "cycle": 14,
-      "elapsed_s": 3.268,
+      "at": "2026-09-08T11:57:20.791910+00:00",
+      "cycle": 15,
+      "elapsed_s": 4.754,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "COORDINATOR: day=1 shards=16 agents_merged=7777 digest=21980568bb79\n"
+      "stdout_tail": "COORDINATOR: day=1 shards=16 agents_merged=7777 digest=d08ababc0d9b\n"
     },
     "counterfactual_engine": {
-      "at": "2026-09-08T09:00:36.623989+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.364,
+      "at": "2026-09-08T11:57:21.744713+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.517,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "currency_ledger": {
-      "at": "2026-09-08T08:20:32.582793+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.023,
+      "at": "2026-09-08T11:17:15.926433+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.024,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{\n  \"by_currency\": {},\n  \"by_agent\": {},\n  \"settled_xaf_by_agent\": {},\n  \"payout_currency\": \"XAF\",\n  \"note\": \"Unlike-currency balances are never added together; quote-only FX is never treated as cash.\"\n}\n"
     },
     "currency_tests": {
-      "at": "2026-09-08T08:20:32.531976+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.054,
+      "at": "2026-09-08T11:17:15.874350+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.055,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "multi_currency_tests: PASS\n"
     },
     "dashboard": {
-      "at": "2026-09-08T09:00:44.870974+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.317,
+      "at": "2026-09-08T11:57:32.359285+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.421,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "discovery": {
-      "at": "2026-09-08T08:20:27.514823+00:00",
-      "cycle": 14,
-      "elapsed_s": 128.694,
+      "at": "2026-09-08T11:17:08.309746+00:00",
+      "cycle": 15,
+      "elapsed_s": 1.305,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "web provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nWORLDWIDE DISCOVERY: 0 unique public signals; elapsed 128.49s (limit 540s).\n"
+      "stdout_tail": "WORLDWIDE DISCOVERY: 0 unique public signals; elapsed 0.96s (limit 540s).\n"
     },
     "distributed_manifest": {
-      "at": "2026-09-08T09:00:45.527382+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.313,
+      "at": "2026-09-08T11:57:33.249802+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.433,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "DISTRIBUTED PLAN: population=7777 shards=16 batch=500\n"
     },
     "economy": {
-      "at": "2026-09-08T08:20:32.559063+00:00",
-      "cycle": 14,
+      "at": "2026-09-08T11:17:15.902259+00:00",
+      "cycle": 15,
       "elapsed_s": 0.027,
       "exit_code": 0,
       "status": "ok",
@@ -150,152 +150,152 @@
       "stdout_tail": ""
     },
     "environment": {
-      "at": "2026-09-08T08:20:27.946059+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.187,
+      "at": "2026-09-08T11:17:09.210793+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.443,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "ENVIRONMENT EVOLVED 1 {'competition': 0.21399999999999986, 'demand': 0.4153190540044192, 'innovation_rate': 0.2950434787377864, 'opportunity_supply': 0.6941863896739063, 'resource_pressure': 0.29725999999999997, 'volatility': 0.1993994760485091}\n"
+      "stdout_tail": "ENVIRONMENT EVOLVED 1 {'competition': 0.19799999999999984, 'demand': 0.4055678892873315, 'innovation_rate': 0.3009066781067123, 'opportunity_supply': 0.6958391743810411, 'resource_pressure': 0.30129999999999996, 'volatility': 0.21519943354520776}\n"
     },
     "evolution_lab_max": {
-      "at": "2026-09-08T09:00:43.875215+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.774,
+      "at": "2026-09-08T11:57:31.030175+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.54,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "MAX EVOLUTION LAB: generation=1 strategies=7777 digest=ad17e54fd2e8\n"
+      "stdout_tail": "MAX EVOLUTION LAB: generation=1 strategies=7777 digest=cdbea91e6c41\n"
     },
     "evolution_observatory": {
-      "at": "2026-09-08T09:00:44.552872+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.346,
+      "at": "2026-09-08T11:57:31.937976+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.462,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "generation_store": {
-      "at": "2026-09-08T09:00:37.929202+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.653,
+      "at": "2026-09-08T11:57:23.478173+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.804,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "immune_system": {
-      "at": "2026-09-08T09:00:37.275339+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.306,
+      "at": "2026-09-08T11:57:22.673754+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.439,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{'schema_version': 1, 'status': 'clean', 'day': 1, 'findings': []}\n"
     },
     "improvement_upgrade": {
-      "at": "2026-09-08T09:00:43.100476+00:00",
-      "cycle": 14,
-      "elapsed_s": 5.171,
+      "at": "2026-09-08T11:57:30.489032+00:00",
+      "cycle": 15,
+      "elapsed_s": 7.01,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "EVOLUTION UPGRADE: day=1 agents=7777 alive=7777\n"
     },
     "intelligence": {
-      "at": "2026-09-08T08:20:29.268783+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.027,
+      "at": "2026-09-08T11:17:11.227162+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.028,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "internet_capability": {
-      "at": "2026-09-08T08:20:27.989209+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.042,
+      "at": "2026-09-08T11:17:09.254776+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.043,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{\n  \"internet_capabilities\": {\n    \"browser\": true,\n    \"search_and_read\": true,\n    \"navigate\": true,\n    \"click\": true,\n    \"type_and_select\": true,\n    \"upload\": true,\n    \"download\": true,\n    \"http_api\": true,\n    \"public_https_only\": true,\n    \"bounded_actions\": 80,\n    \"bounded_seconds\": 540,\n    \"no_security_bypass\": true\n  }\n}\n"
     },
     "lineage_replay": {
-      "at": "2026-09-08T09:00:44.206257+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.33,
+      "at": "2026-09-08T11:57:31.475031+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.444,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "LINEAGE REPLAY: day=1 population=7777 digest=2a4da2dbf7b8\n"
+      "stdout_tail": "LINEAGE REPLAY: day=1 population=7777 digest=f8a8d7e7f47d\n"
     },
     "opportunity_intelligence": {
-      "at": "2026-09-08T08:20:27.539913+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.024,
+      "at": "2026-09-08T11:17:08.335516+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.025,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "OPPORTUNITY INTELLIGENCE: opportunities=0 clusters=0\n"
     },
     "recovery": {
-      "at": "2026-09-08T09:00:44.898975+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.027,
+      "at": "2026-09-08T11:57:32.385951+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.026,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "scaling_plan": {
-      "at": "2026-09-08T09:00:45.213771+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.314,
+      "at": "2026-09-08T11:57:32.816120+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.429,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "SCALING PLAN: population=7777 shards=16 batch_size=500\n"
     },
     "self_modification": {
-      "at": "2026-09-08T08:20:29.302202+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.033,
+      "at": "2026-09-08T11:17:11.261368+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.034,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "agent_self_modification: ready\n"
     },
     "strategy_tree": {
-      "at": "2026-09-08T09:00:36.968437+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.344,
+      "at": "2026-09-08T11:57:22.234421+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.489,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "survival": {
-      "at": "2026-09-08T09:00:32.694349+00:00",
-      "cycle": 14,
-      "elapsed_s": 2400.086,
+      "at": "2026-09-08T11:57:16.036650+00:00",
+      "cycle": 15,
+      "elapsed_s": 2400.084,
       "exit_code": null,
       "status": "timeout",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "verified_payments": {
-      "at": "2026-09-08T08:20:32.607641+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.024,
+      "at": "2026-09-08T11:17:15.952457+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.025,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "MTN ROUTER: 0 verified payment records mapped; only confirmed XAF is payout-eligible.\n"
     },
     "work_execute": {
-      "at": "2026-09-08T08:20:29.583520+00:00",
-      "cycle": 14,
+      "at": "2026-09-08T11:17:11.684492+00:00",
+      "cycle": 15,
       "elapsed_s": 0.029,
       "exit_code": 0,
       "status": "ok",
@@ -303,14 +303,14 @@
       "stdout_tail": ""
     },
     "work_prepare": {
-      "at": "2026-09-08T08:20:29.554333+00:00",
-      "cycle": 14,
-      "elapsed_s": 0.252,
+      "at": "2026-09-08T11:17:11.655344+00:00",
+      "cycle": 15,
+      "elapsed_s": 0.393,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "Prepared 0 opportunities after competition across 7777 living agents.\n"
     }
   },
-  "started_at": "2026-09-08T08:17:18.753798+00:00"
+  "started_at": "2026-09-08T11:16:06.936387+00:00"
 }

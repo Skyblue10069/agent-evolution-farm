@@ -89,6 +89,12 @@
       "alive": 7777,
       "verified_revenue_xaf": 0.0,
       "unfinished_work": 0
+    },
+    {
+      "day": 2,
+      "alive": 7777,
+      "verified_revenue_xaf": 0.0,
+      "unfinished_work": 0
     }
   ]
 }
