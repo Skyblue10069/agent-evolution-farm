@@ -1,15 +1,15 @@
 {
-  "requests": 130,
+  "requests": 146,
   "provider_stats": {
     "duckduckgo": {
       "ok": 128,
-      "fail": 2
+      "fail": 18
     }
   },
   "last_event": {
     "provider": "duckduckgo",
-    "ok": true,
+    "ok": false,
     "query": "business looking for contractor Oceania",
-    "count": 0
+    "error": "URLError"
   }
 }

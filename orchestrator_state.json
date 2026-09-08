@@ -1,10 +1,11 @@
 {
-  "cycle": 13,
-  "finished_at": "2026-09-08T07:48:59.876358+00:00",
+  "cycle": 14,
+  "finished_at": "2026-09-08T09:00:45.527996+00:00",
   "last_failure": {
-    "at": "2026-09-08T07:48:59.876358+00:00",
-    "cycle": 13,
+    "at": "2026-09-08T09:00:45.527996+00:00",
+    "cycle": 14,
     "stages": [
+      "accounts",
       "survival"
     ]
   },
@@ -14,35 +15,35 @@
   },
   "stages": {
     "accounts": {
-      "at": "2026-09-08T07:33:57.053286+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.042,
-      "exit_code": 0,
-      "status": "ok",
+      "at": "2026-09-08T08:18:18.820040+00:00",
+      "cycle": 14,
+      "elapsed_s": 60.065,
+      "exit_code": null,
+      "status": "timeout",
       "stderr_tail": "",
-      "stdout_tail": "ACCOUNT REGISTRY: 99 agent account profiles ready; credentials are external secrets.\n"
+      "stdout_tail": ""
     },
     "adversarial_guard": {
-      "at": "2026-09-08T07:33:58.075283+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.035,
+      "at": "2026-09-08T08:20:27.758047+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.218,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "ADVERSARIAL GUARD: clean findings=0\n"
     },
     "brain": {
-      "at": "2026-09-08T07:33:58.230079+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.077,
+      "at": "2026-09-08T08:20:29.240843+00:00",
+      "cycle": 14,
+      "elapsed_s": 1.251,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "BRAIN: 50 living agents produced independent decisions, memories and experiments.\n"
+      "stdout_tail": "BRAIN: 7777 living agents produced independent decisions, memories and experiments.\n"
     },
     "business_ecosystem": {
-      "at": "2026-09-08T07:33:58.476231+00:00",
-      "cycle": 13,
+      "at": "2026-09-08T08:20:32.477364+00:00",
+      "cycle": 14,
       "elapsed_s": 0.025,
       "exit_code": 0,
       "status": "ok",
@@ -50,98 +51,98 @@
       "stdout_tail": ""
     },
     "business_evolution": {
-      "at": "2026-09-08T07:33:58.450649+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.045,
+      "at": "2026-09-08T08:20:32.451545+00:00",
+      "cycle": 14,
+      "elapsed_s": 1.702,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "BUSINESS EVOLUTION: 50 businesses autonomously adapted.\n"
+      "stdout_tail": "BUSINESS EVOLUTION: 7777 businesses autonomously adapted.\n"
     },
     "business_factory": {
-      "at": "2026-09-08T07:33:58.405103+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.044,
+      "at": "2026-09-08T08:20:30.748516+00:00",
+      "cycle": 14,
+      "elapsed_s": 1.164,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "BUSINESS STRATEGY: 50 agent business strategies updated from real discovered business signals.\n"
+      "stdout_tail": "BUSINESS STRATEGY: 7777 agent business strategies updated from real discovered business signals.\n"
     },
     "causal_learning": {
-      "at": "2026-09-08T07:48:58.862063+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.031,
+      "at": "2026-09-08T09:00:36.259023+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.296,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "coordinator": {
-      "at": "2026-09-08T07:48:58.830537+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.114,
+      "at": "2026-09-08T09:00:35.962518+00:00",
+      "cycle": 14,
+      "elapsed_s": 3.268,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "COORDINATOR: day=1 shards=1 agents_merged=50 digest=57914db6a60c\n"
+      "stdout_tail": "COORDINATOR: day=1 shards=16 agents_merged=7777 digest=21980568bb79\n"
     },
     "counterfactual_engine": {
-      "at": "2026-09-08T07:48:58.892410+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.03,
+      "at": "2026-09-08T09:00:36.623989+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.364,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "currency_ledger": {
-      "at": "2026-09-08T07:33:58.584260+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.024,
+      "at": "2026-09-08T08:20:32.582793+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.023,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{\n  \"by_currency\": {},\n  \"by_agent\": {},\n  \"settled_xaf_by_agent\": {},\n  \"payout_currency\": \"XAF\",\n  \"note\": \"Unlike-currency balances are never added together; quote-only FX is never treated as cash.\"\n}\n"
     },
     "currency_tests": {
-      "at": "2026-09-08T07:33:58.531552+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.055,
+      "at": "2026-09-08T08:20:32.531976+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.054,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "multi_currency_tests: PASS\n"
     },
     "dashboard": {
-      "at": "2026-09-08T07:48:59.772671+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.03,
+      "at": "2026-09-08T09:00:44.870974+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.317,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "discovery": {
-      "at": "2026-09-08T07:33:58.013554+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.96,
+      "at": "2026-09-08T08:20:27.514823+00:00",
+      "cycle": 14,
+      "elapsed_s": 128.694,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "WORLDWIDE DISCOVERY: 0 unique public signals; elapsed 0.88s (limit 540s).\n"
+      "stdout_tail": "web provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nweb provider failed [duckduckgo]: URLError(TimeoutError('timed out'))\nWORLDWIDE DISCOVERY: 0 unique public signals; elapsed 128.49s (limit 540s).\n"
     },
     "distributed_manifest": {
-      "at": "2026-09-08T07:48:59.875775+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.039,
+      "at": "2026-09-08T09:00:45.527382+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.313,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "DISTRIBUTED PLAN: population=50 shards=1 batch=500\n"
+      "stdout_tail": "DISTRIBUTED PLAN: population=7777 shards=16 batch=500\n"
     },
     "economy": {
-      "at": "2026-09-08T07:33:58.559631+00:00",
-      "cycle": 13,
+      "at": "2026-09-08T08:20:32.559063+00:00",
+      "cycle": 14,
       "elapsed_s": 0.027,
       "exit_code": 0,
       "status": "ok",
@@ -149,167 +150,167 @@
       "stdout_tail": ""
     },
     "environment": {
-      "at": "2026-09-08T07:33:58.109190+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.033,
+      "at": "2026-09-08T08:20:27.946059+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.187,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "ENVIRONMENT EVOLVED 1 {'competition': 0.22999999999999987, 'demand': 0.43662973069478056, 'innovation_rate': 0.2978538696372031, 'opportunity_supply': 0.6970231292083918, 'resource_pressure': 0.2929, 'volatility': 0.20363158469950857}\n"
+      "stdout_tail": "ENVIRONMENT EVOLVED 1 {'competition': 0.21399999999999986, 'demand': 0.4153190540044192, 'innovation_rate': 0.2950434787377864, 'opportunity_supply': 0.6941863896739063, 'resource_pressure': 0.29725999999999997, 'volatility': 0.1993994760485091}\n"
     },
     "evolution_lab_max": {
-      "at": "2026-09-08T07:48:59.672665+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.037,
+      "at": "2026-09-08T09:00:43.875215+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.774,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "MAX EVOLUTION LAB: generation=1 strategies=50 digest=0769c306c327\n"
+      "stdout_tail": "MAX EVOLUTION LAB: generation=1 strategies=7777 digest=ad17e54fd2e8\n"
     },
     "evolution_observatory": {
-      "at": "2026-09-08T07:48:59.741649+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.031,
+      "at": "2026-09-08T09:00:44.552872+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.346,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "generation_store": {
-      "at": "2026-09-08T07:48:58.990400+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.037,
+      "at": "2026-09-08T09:00:37.929202+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.653,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "immune_system": {
-      "at": "2026-09-08T07:48:58.953199+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.03,
+      "at": "2026-09-08T09:00:37.275339+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.306,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{'schema_version': 1, 'status': 'clean', 'day': 1, 'findings': []}\n"
     },
     "improvement_upgrade": {
-      "at": "2026-09-08T07:48:59.635274+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.644,
+      "at": "2026-09-08T09:00:43.100476+00:00",
+      "cycle": 14,
+      "elapsed_s": 5.171,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "EVOLUTION UPGRADE: day=1 agents=50 alive=50\n"
+      "stdout_tail": "EVOLUTION UPGRADE: day=1 agents=7777 alive=7777\n"
     },
     "intelligence": {
-      "at": "2026-09-08T07:33:58.258396+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.028,
+      "at": "2026-09-08T08:20:29.268783+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.027,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "internet_capability": {
-      "at": "2026-09-08T07:33:58.152666+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.043,
+      "at": "2026-09-08T08:20:27.989209+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.042,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "{\n  \"internet_capabilities\": {\n    \"browser\": true,\n    \"search_and_read\": true,\n    \"navigate\": true,\n    \"click\": true,\n    \"type_and_select\": true,\n    \"upload\": true,\n    \"download\": true,\n    \"http_api\": true,\n    \"public_https_only\": true,\n    \"bounded_actions\": 80,\n    \"bounded_seconds\": 540,\n    \"no_security_bypass\": true\n  }\n}\n"
     },
     "lineage_replay": {
-      "at": "2026-09-08T07:48:59.709585+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.036,
+      "at": "2026-09-08T09:00:44.206257+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.33,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "LINEAGE REPLAY: day=1 population=50 digest=e85aea0e63ee\n"
+      "stdout_tail": "LINEAGE REPLAY: day=1 population=7777 digest=2a4da2dbf7b8\n"
     },
     "opportunity_intelligence": {
-      "at": "2026-09-08T07:33:58.039248+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.025,
+      "at": "2026-09-08T08:20:27.539913+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.024,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "OPPORTUNITY INTELLIGENCE: opportunities=0 clusters=0\n"
     },
     "recovery": {
-      "at": "2026-09-08T07:48:59.798986+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.026,
+      "at": "2026-09-08T09:00:44.898975+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.027,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "scaling_plan": {
-      "at": "2026-09-08T07:48:59.835979+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.036,
+      "at": "2026-09-08T09:00:45.213771+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.314,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "SCALING PLAN: population=50 shards=1 batch_size=500\n"
+      "stdout_tail": "SCALING PLAN: population=7777 shards=16 batch_size=500\n"
     },
     "self_modification": {
-      "at": "2026-09-08T07:33:58.293122+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.034,
+      "at": "2026-09-08T08:20:29.302202+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.033,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "agent_self_modification: ready\n"
     },
     "strategy_tree": {
-      "at": "2026-09-08T07:48:58.922650+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.03,
+      "at": "2026-09-08T09:00:36.968437+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.344,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "survival": {
-      "at": "2026-09-08T07:48:58.716225+00:00",
-      "cycle": 13,
-      "elapsed_s": 900.106,
+      "at": "2026-09-08T09:00:32.694349+00:00",
+      "cycle": 14,
+      "elapsed_s": 2400.086,
       "exit_code": null,
       "status": "timeout",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "verified_payments": {
-      "at": "2026-09-08T07:33:58.610026+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.025,
+      "at": "2026-09-08T08:20:32.607641+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.024,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": "MTN ROUTER: 0 verified payment records mapped; only confirmed XAF is payout-eligible.\n"
     },
     "work_execute": {
-      "at": "2026-09-08T07:33:58.360668+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.028,
+      "at": "2026-09-08T08:20:29.583520+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.029,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
       "stdout_tail": ""
     },
     "work_prepare": {
-      "at": "2026-09-08T07:33:58.331836+00:00",
-      "cycle": 13,
-      "elapsed_s": 0.038,
+      "at": "2026-09-08T08:20:29.554333+00:00",
+      "cycle": 14,
+      "elapsed_s": 0.252,
       "exit_code": 0,
       "status": "ok",
       "stderr_tail": "",
-      "stdout_tail": "Prepared 0 opportunities after competition across 50 living agents.\n"
+      "stdout_tail": "Prepared 0 opportunities after competition across 7777 living agents.\n"
     }
   },
-  "started_at": "2026-09-08T07:33:57.010713+00:00"
+  "started_at": "2026-09-08T08:17:18.753798+00:00"
 }

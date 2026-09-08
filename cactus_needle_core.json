@@ -129,6 +129,16 @@
         "skills_from_nothing": true,
         "unverified_money": false
       }
+    },
+    {
+      "time": "2026-09-08T08:20:41.749823+00:00",
+      "passed": false,
+      "violations": {
+        "auto_winner": false,
+        "auto_paid": false,
+        "skills_from_nothing": true,
+        "unverified_money": false
+      }
     }
   ],
   "mentor_lessons": [
@@ -228,7 +238,7 @@
     "capacity_bytes": 14000000,
     "actual_bytes": 14000000,
     "bounded": true,
-    "memory_hash": "79a9a331643cd88f53ed0e58d10840fa807426a4d65f20bc5796a3678de7d30c"
+    "memory_hash": "8e2742e010046ce0f69666f665457ac92ef1da5439498f3d665087613cde4899"
   },
   "operating_mode": {
     "observe": "enabled",
