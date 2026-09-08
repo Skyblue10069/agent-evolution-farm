@@ -6,7 +6,7 @@ MTN Cameroon mobile-money payout for an approved proposal when the required
 server-side credentials and destination are configured. It never exposes the
 secret key to the phone UI.
 """
-import json, os, secrets, urllib.request, urllib.error
+import base64, json, os, secrets, urllib.request, urllib.error, uuid
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs
@@ -101,9 +101,13 @@ def execute_mtn(p):
         raise RuntimeError("Payout amount must be positive")
     token_url = os.getenv("MTN_TOKEN_URL", "https://api.mtn.com/oauth/client_credential/accesstoken?grant_type=client_credentials")
     withdrawal_url = os.getenv("MTN_WITHDRAWALS_URL", "")
+    subscription_key = os.getenv("MTN_SUBSCRIPTION_KEY", "")
+    target_environment = os.getenv("MTN_TARGET_ENVIRONMENT", "mtncameroon")
     if not withdrawal_url:
-        raise RuntimeError("MTN_WITHDRAWALS_URL is not configured; use the endpoint provided by the approved MTN Withdrawals V1 application")
-    token_req = urllib.request.Request(token_url, data=b"", headers={"Authorization":"Basic " + __import__('base64').b64encode((client_id+":"+client_secret).encode()).decode(), "Content-Type":"application/x-www-form-urlencoded"}, method="POST")
+        raise RuntimeError("MTN_WITHDRAWALS_URL is not configured; use the endpoint provided by the approved MTN Disbursement/Withdrawals application")
+    if not subscription_key:
+        raise RuntimeError("MTN_SUBSCRIPTION_KEY is not configured")
+    token_req = urllib.request.Request(token_url, data=b"", headers={"Authorization":"Basic " + base64.b64encode((client_id+":"+client_secret).encode()).decode(), "Content-Type":"application/x-www-form-urlencoded"}, method="POST")
     try:
         with urllib.request.urlopen(token_req, timeout=30) as r:
             token_data=json.loads(r.read().decode())
@@ -112,8 +116,9 @@ def execute_mtn(p):
     access_token=token_data.get("access_token")
     if not access_token:
         raise RuntimeError("MTN OAuth response did not contain an access_token")
-    payload={"amount":amount,"currency":"XAF","externalId":p["proposal_id"],"payee":{"partyIdType":"MSISDN","partyId":phone}}
-    req=urllib.request.Request(withdrawal_url,data=json.dumps(payload).encode(),headers={"Authorization":"Bearer "+access_token,"Content-Type":"application/json","X-Reference-Id":p["proposal_id"]},method="POST")
+    reference_id = str(p.get("provider_reference_id") or uuid.uuid4())
+    payload={"amount":str(amount),"currency":"XAF","externalId":p["proposal_id"],"payee":{"partyIdType":"MSISDN","partyId":phone},"payerMessage":str(p.get("title") or "Agent Evolution payout")[:160],"payeeNote":"Agent Evolution payout"}
+    req=urllib.request.Request(withdrawal_url,data=json.dumps(payload).encode(),headers={"Authorization":"Bearer "+access_token,"Content-Type":"application/json","Ocp-Apim-Subscription-Key":subscription_key,"X-Target-Environment":target_environment,"X-Reference-Id":reference_id},method="POST")
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             raw=r.read().decode(); result=json.loads(raw) if raw else {}
@@ -124,7 +129,8 @@ def execute_mtn(p):
         if x["proposal_id"]==p["proposal_id"]:
             x["execution_status"]="SUBMITTED"
             x["executed_at"]=now()
-            x["provider_transfer_id"]=result.get("referenceId") or result.get("transaction_id") or result.get("externalId") or p["proposal_id"]
+            x["provider_reference_id"]=reference_id
+            x["provider_transfer_id"]=result.get("referenceId") or result.get("transaction_id") or result.get("externalId") or reference_id
             x["error"]=None
             x["provider"]="mtn"
             x["provider_environment"]=env
