@@ -3,7 +3,7 @@ Every agent starts with nothing, has every skill available at level 0, discovers
 its own opportunities, competes, prepares work, owns businesses, and can earn
 only through externally verified payments. Owner rules are editable in rules.json.
 """
-import json, random, copy, os
+import json, random, copy, os, argparse, time
 from datetime import datetime, timezone
 from pathlib import Path
 from survival_core import apply_survival
@@ -54,51 +54,78 @@ def new_agent(used,parent=None, special=None):
       "main_character":False,"protected_identity":False,"memory_budget_mb":1
     }
 
-def fresh_state():
-    used=set()
-    agents=[new_agent(used) for _ in range(POPULATION_SIZE-1)]
-    cactus=new_agent(used, special={"name":"Cactus Needle","species":"ai"})
-    cactus["main_character"]=True
-    cactus["protected_identity"]=True
-    cactus["memory_budget_mb"]=14
-    cactus["brain"]["self_model"]={"identity":"Cactus Needle","role":"main_character_ai","memory_core":"14MB","mission":"learn, complete work, improve, compete, and survive"}
-    agents.append(cactus)
-    return {"schema_version":6,"day":0,"agents":agents,
-      "verified_revenue":0.0,"verified_payments":[],"completed_work_total":0,"unfinished_work_total":0,"currency_balances":{},"dead_count":0,"alive_count":POPULATION_SIZE,
-      "clone_count":0,"owner_directives":[],"leaderboard":[]}
+def _new_base_state():
+    return {"schema_version":6,"day":0,"agents":[],"verified_revenue":0.0,"verified_payments":[],"completed_work_total":0,"unfinished_work_total":0,"currency_balances":{},"dead_count":0,"alive_count":0,"clone_count":0,"owner_directives":[],"leaderboard":[],"bootstrap_complete":False}
+
+def _ensure_cactus(s, used):
+    if any(a.get("name") == "Cactus Needle" for a in s.get("agents",[])): return
+    c=new_agent(used, special={"name":"Cactus Needle","species":"ai"})
+    c["main_character"]=True; c["protected_identity"]=True; c["memory_budget_mb"]=14
+    c["brain"]["self_model"]={"identity":"Cactus Needle","role":"main_character_ai","memory_core":"14MB","mission":"learn, complete work, improve, compete, and survive"}
+    s.setdefault("agents",[]).append(c)
+
+def fresh_state(): return _new_base_state()
+
+def _bootstrap_population(s):
+    target=max(1, POPULATION_SIZE)
+    batch=max(1,int(os.getenv("AGENT_BOOTSTRAP_BATCH",str(POPULATION_SIZE))))
+    budget=max(5.0,float(os.getenv("AGENT_BOOTSTRAP_SECONDS",str(45*60))))
+    checkpoint_every=max(5.0,float(os.getenv("AGENT_BOOTSTRAP_CHECKPOINT_SECONDS","30")))
+    used={a.get("name") for a in s.get("agents",[]) if a.get("name")}
+    _ensure_cactus(s,used)
+    started=time.monotonic()
+    last_checkpoint=started
+    created=0
+
+    while len(s["agents"])<target and created<batch and time.monotonic()-started<budget:
+        s["agents"].append(new_agent(used))
+        created+=1
+        now_mono=time.monotonic()
+
+        if now_mono-last_checkpoint>=checkpoint_every:
+            s["alive_count"]=sum(1 for a in s["agents"] if a.get("permanent_status")=="alive")
+            s["bootstrap_complete"]=len(s["agents"])>=target
+            s["bootstrap_target"]=target
+            s["bootstrap_created_last_run"]=created
+            s["bootstrap_updated_at"]=datetime.now(timezone.utc).isoformat()
+            s["bootstrap_elapsed_seconds"]=round(now_mono-started,2)
+            save(s)
+            print(f"BOOTSTRAP CHECKPOINT: {len(s['agents'])}/{target} agents saved", flush=True)
+            last_checkpoint=now_mono
+
+    s["alive_count"]=sum(1 for a in s["agents"] if a.get("permanent_status")=="alive")
+    s["bootstrap_complete"]=len(s["agents"])>=target
+    s["bootstrap_target"]=target
+    s["bootstrap_created_last_run"]=created
+    s["bootstrap_updated_at"]=datetime.now(timezone.utc).isoformat()
+    s["bootstrap_elapsed_seconds"]=round(time.monotonic()-started,2)
+    return created,s["bootstrap_complete"]
+
+def bootstrap_only():
+    s=load(); created,complete=_bootstrap_population(s); save(s)
+    print(f"POPULATION BOOTSTRAP: {len(s.get('agents',[]))}/{POPULATION_SIZE} agents; created={created}; complete={complete}")
+    return complete
 
 def load():
     try:
       s=json.loads(STATE_FILE.read_text())
-      if s.get("schema_version") in (5,6) and len(s.get("agents",[]))>0:
-        # Upgrade legacy farms without resetting their accumulated state.
-        if s.get("schema_version") == 5:
-            s["schema_version"] = 6
-        for a in s.get("agents",[]):
-            a.setdefault("main_character", False); a.setdefault("protected_identity", False); a.setdefault("memory_budget_mb", 1)
-            a.setdefault("brain", {}).setdefault("self_model", {}); a["brain"].setdefault("plans", []); a["brain"].setdefault("critic_notes", [])
-        # Scale an existing population forward without resetting accumulated state.
-        target = max(1, POPULATION_SIZE)
-        if len(s.get("agents", [])) < target:
-            used={a.get("name") for a in s.get("agents", [])}
-            while len(s["agents"]) < target:
-                s["agents"].append(new_agent(used))
-            s["alive_count"] = sum(1 for a in s["agents"] if a.get("permanent_status") == "alive")
-        elif len(s.get("agents", [])) > target:
-            # Never delete agents from an existing farm just because the target changed.
-            # A larger population can be requested later without losing history.
-            pass
-        if not any(a.get("name") == "Cactus Needle" for a in s.get("agents",[])):
-            used={a.get("name") for a in s.get("agents",[])}
-            c=new_agent(used, special={"name":"Cactus Needle","species":"ai"})
-            c["main_character"]=True; c["protected_identity"]=True; c["memory_budget_mb"]=14
-            c["brain"]["self_model"]={"identity":"Cactus Needle","role":"main_character_ai","memory_core":"14MB","mission":"learn, complete work, improve, compete, and survive"}
-            s["agents"].append(c)
+      if s.get("schema_version") in (5,6):
+        if s.get("schema_version")==5: s["schema_version"]=6
+        s.setdefault("agents",[])
+        for a in s["agents"]:
+            a.setdefault("main_character",False); a.setdefault("protected_identity",False); a.setdefault("memory_budget_mb",1)
+            a.setdefault("brain",{}).setdefault("self_model",{}); a["brain"].setdefault("plans",[]); a["brain"].setdefault("critic_notes",[])
+        used={a.get("name") for a in s["agents"] if a.get("name")}; _ensure_cactus(s,used)
+        s["alive_count"]=sum(1 for a in s["agents"] if a.get("permanent_status")=="alive")
+        s["bootstrap_complete"]=len(s["agents"])>=max(1,POPULATION_SIZE)
         return s
-    except Exception: pass
-    return fresh_state()
+    except Exception:
+      return fresh_state()
 
-def save(s): STATE_FILE.write_text(json.dumps(s,indent=2,ensure_ascii=False))
+def save(s):
+    tmp=STATE_FILE.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(s,indent=2,ensure_ascii=False))
+    os.replace(tmp,STATE_FILE)
 
 def load_opps():
     try: return json.loads((ROOT/"opportunities.json").read_text()).get("opportunities",[])
@@ -179,7 +206,12 @@ def clone_champion(s,today):
 CURRENT_DAY=0
 def main():
     global CURRENT_DAY
-    s=load(); s["day"]+=1; CURRENT_DAY=s["day"]
+    s=load()
+    if len(s.get("agents",[])) < max(1, POPULATION_SIZE):
+        created,complete=_bootstrap_population(s); save(s)
+        print(f"POPULATION BOOTSTRAP: {len(s.get('agents',[]))}/{POPULATION_SIZE} agents; created={created}; complete={complete}")
+        return 0
+    s["day"]+=1; CURRENT_DAY=s["day"]
     sync_from_state(s)
     opps=load_opps()
     # The world itself evolves before agents choose work. This changes demand,
@@ -363,4 +395,7 @@ def main():
     if s.get("leaderboard"): print("NUMBER ONE:",s["leaderboard"][0])
     if clone: print("CHAMPION CLONED:",clone["name"],"parent=",clone["parent"])
     if deaths: print("PERMANENT DEATHS:",", ".join(x["name"] for x in deaths))
-if __name__=="__main__": main()
+if __name__=="__main__":
+    parser=argparse.ArgumentParser(); parser.add_argument("--bootstrap-only",action="store_true"); args=parser.parse_args()
+    if args.bootstrap_only: raise SystemExit(0 if bootstrap_only() else 0)
+    main()
