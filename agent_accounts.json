@@ -57776,6 +57776,1070 @@
       "kind": "research",
       "status": "unconfigured",
       "credential_ref": null
+    },
+    {
+      "account_id": "e427b2fcee52f40d",
+      "agent_id": "agent-i-996697",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "4e83eff8ba8e3b42",
+      "agent_id": "agent-n-981973",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c180598f89e9fd03",
+      "agent_id": "agent-r-654647",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b0adf889694a891f",
+      "agent_id": "agent-d-873054",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "343edcb4ceb44fce",
+      "agent_id": "agent-n-100715",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c98683d62257fe24",
+      "agent_id": "agent-d-175992",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "17173926c6fdb859",
+      "agent_id": "agent-f-257397",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "278c666827f4e924",
+      "agent_id": "agent-t-104417",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c204e390697f2b30",
+      "agent_id": "agent-h-701313",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8b3aeda3a6e38f01",
+      "agent_id": "agent-e-249990",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "1550fe39b4285f35",
+      "agent_id": "agent-r-504964",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8a2c171edf300969",
+      "agent_id": "agent-h-665181",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "df2ff149f9066c00",
+      "agent_id": "agent-n-799878",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "bc07c019f73832ea",
+      "agent_id": "agent-i-299315",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "34c378cb7de21048",
+      "agent_id": "agent-k-126069",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8d6a833ead37303c",
+      "agent_id": "agent-h-781438",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "514c38384c309c48",
+      "agent_id": "agent-j-746672",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "751cc848fcbb6a3d",
+      "agent_id": "agent-d-691392",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f213be92ce62872f",
+      "agent_id": "agent-d-903928",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8837556b764bc6d1",
+      "agent_id": "agent-d-817884",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8319ab79115f8be8",
+      "agent_id": "agent-m-568639",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "65636c988f1962c4",
+      "agent_id": "agent-n-129434",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b1c3bf699aa76d1c",
+      "agent_id": "agent-t-163590",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8f20951bd8faa559",
+      "agent_id": "agent-n-925596",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "727427398f8d91f6",
+      "agent_id": "agent-b-719338",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "bd80792d1b5a370b",
+      "agent_id": "agent-k-243938",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8fa0cee17894a885",
+      "agent_id": "agent-b-967800",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "5268c88080517944",
+      "agent_id": "agent-j-762554",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b88f781876c85d42",
+      "agent_id": "agent-s-401339",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "bc7f9b21164a7f74",
+      "agent_id": "agent-c-702078",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "d2d55fe8b61e8b9b",
+      "agent_id": "agent-g-465355",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8283b703d07804ad",
+      "agent_id": "agent-s-903093",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "5daced40420da00e",
+      "agent_id": "agent-h-924714",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "763fad4b68efdff8",
+      "agent_id": "agent-o-677952",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "17c2a771c0e1fa2f",
+      "agent_id": "agent-g-181596",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c26713a96cf8b8c8",
+      "agent_id": "agent-o-688476",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "49bc78d2a55b451f",
+      "agent_id": "agent-j-332634",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c425f9e5d45f7cec",
+      "agent_id": "agent-b-367385",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "036b730dfc6d972e",
+      "agent_id": "agent-o-159627",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8545e36f89b8065f",
+      "agent_id": "agent-s-195629",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "856fbcdc67d266d7",
+      "agent_id": "agent-p-756383",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f319be60e2f105da",
+      "agent_id": "agent-k-951489",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f44ee1268691b1da",
+      "agent_id": "agent-s-744732",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "77be8397dc62b6d0",
+      "agent_id": "agent-t-661598",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "ca69b8df49a1e663",
+      "agent_id": "agent-d-177000",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "776090db252f54e7",
+      "agent_id": "agent-s-583216",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c423b43386c9ddfc",
+      "agent_id": "agent-m-549555",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "488e7aa104279da0",
+      "agent_id": "agent-j-817003",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f90370695ed30a6a",
+      "agent_id": "agent-f-650408",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "201e551434ef77d0",
+      "agent_id": "agent-c-499465",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "e65cdc1ed8595d72",
+      "agent_id": "agent-n-464932",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "ad177ffecd1c851b",
+      "agent_id": "agent-h-206426",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "417263b911f205f1",
+      "agent_id": "agent-t-737458",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "fbd41689b3572572",
+      "agent_id": "agent-s-206009",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "2fcc7cef56a49376",
+      "agent_id": "agent-e-936554",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "fd88f1e13538d4d1",
+      "agent_id": "agent-n-144855",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "25bfe37a5e50963a",
+      "agent_id": "agent-g-830790",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "35e229c3c59e8170",
+      "agent_id": "agent-h-645793",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "ace32f0aae31747e",
+      "agent_id": "agent-s-350935",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "af1493afc90a8d7e",
+      "agent_id": "agent-c-716978",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "32d3726a25f565ae",
+      "agent_id": "agent-q-267401",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "e08661d46f269422",
+      "agent_id": "agent-r-135229",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "12a02cc8aa6be871",
+      "agent_id": "agent-h-137894",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "29f2eb1f87a6fca1",
+      "agent_id": "agent-n-157204",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "59d3e25879f629f8",
+      "agent_id": "agent-t-481918",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "68f29798d7a357a4",
+      "agent_id": "agent-m-747528",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c91996dd7d99541b",
+      "agent_id": "agent-m-885909",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "ac2cf395557f2f2e",
+      "agent_id": "agent-q-913159",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f89bf9eca94eab28",
+      "agent_id": "agent-p-693622",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "02e9f45defb616dd",
+      "agent_id": "agent-t-678217",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "cafa2d6dd73b570c",
+      "agent_id": "agent-p-318502",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b623c515a1d36874",
+      "agent_id": "agent-r-478488",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "00bdf28bf77e5ce8",
+      "agent_id": "agent-e-997674",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c4ed3711303260d8",
+      "agent_id": "agent-i-322501",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "67d51c69b59c2470",
+      "agent_id": "agent-d-179114",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "3b68d57247ddeedb",
+      "agent_id": "agent-a-917439",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "37d7eb20e7597b91",
+      "agent_id": "agent-g-393257",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b73aa3e662fc680b",
+      "agent_id": "agent-p-278350",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c517c8e93ed54a13",
+      "agent_id": "agent-k-853261",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "abc089b08784423d",
+      "agent_id": "agent-s-688352",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "50c09e2eb982fca3",
+      "agent_id": "agent-d-251535",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "886f2a834557e61d",
+      "agent_id": "agent-k-587740",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "33ac5d1e2abb96d7",
+      "agent_id": "agent-r-619021",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8f558c14fc4b04f3",
+      "agent_id": "agent-t-626569",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "a15936a86a06cb39",
+      "agent_id": "agent-f-241862",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "0994ecf1204eba12",
+      "agent_id": "agent-f-263593",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "9b9dde50dc8c9f36",
+      "agent_id": "agent-p-144596",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "639bddf551873895",
+      "agent_id": "agent-i-476509",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "48c8a37cf58c5d9a",
+      "agent_id": "agent-k-870289",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f7d0ea4786275290",
+      "agent_id": "agent-p-454233",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "0542acec96c02dbd",
+      "agent_id": "agent-b-209718",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c9d96b60c29f173d",
+      "agent_id": "agent-e-550978",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "1bbcf811e0b851e2",
+      "agent_id": "agent-n-193725",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "482f08735803509a",
+      "agent_id": "agent-i-333476",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "e0500a7038cfae69",
+      "agent_id": "agent-a-149556",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "1e200423ccaaeea3",
+      "agent_id": "agent-a-270937",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f722eae645bb25ec",
+      "agent_id": "agent-g-631655",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f41517ba1eda1f5d",
+      "agent_id": "agent-m-174415",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "57f92c0ad3ce2d17",
+      "agent_id": "agent-b-904632",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "fa46360c136868a8",
+      "agent_id": "agent-h-253736",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8972a01b61092a53",
+      "agent_id": "agent-m-622984",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c08f6601033118ba",
+      "agent_id": "agent-i-861503",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "110d9ea9951204bf",
+      "agent_id": "agent-g-320332",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "2216bb6690ea0b87",
+      "agent_id": "agent-o-141226",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8c66a66358f0b1b8",
+      "agent_id": "agent-j-392064",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "4ecd79142256d4fb",
+      "agent_id": "agent-g-641205",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "9714d1aaab1de587",
+      "agent_id": "agent-k-796281",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "992073cc3574208e",
+      "agent_id": "agent-t-496043",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "7208d76bd08b7437",
+      "agent_id": "agent-p-233970",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "d71b13371a8454ec",
+      "agent_id": "agent-q-120997",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "85809b13b03d4392",
+      "agent_id": "agent-s-684187",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b38057d98dce6772",
+      "agent_id": "agent-i-466805",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c601e59701c1380d",
+      "agent_id": "agent-n-263714",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "8a6f64e805416d2e",
+      "agent_id": "agent-h-181247",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "013dde5ff2ee346b",
+      "agent_id": "agent-l-972563",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "6a80c7c37f3fdb46",
+      "agent_id": "agent-c-416622",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "af9fa19d2f287447",
+      "agent_id": "agent-g-927652",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "cea0457f6c78ab66",
+      "agent_id": "agent-s-271273",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "7a37ebfef3d538ff",
+      "agent_id": "agent-r-619914",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "c4ac56dc1388d458",
+      "agent_id": "agent-e-891385",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "14512532ddc7ceb9",
+      "agent_id": "agent-f-470039",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "6ed2f3a004f34b8c",
+      "agent_id": "agent-l-935799",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "b560643beb45f434",
+      "agent_id": "agent-j-424970",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "7d8d7eefb9b2fd54",
+      "agent_id": "agent-d-145621",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "2a96e396dac0b0a7",
+      "agent_id": "agent-h-894186",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "9631b3fdb35be978",
+      "agent_id": "agent-n-491603",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "ff7a71ca8d449c4a",
+      "agent_id": "agent-i-353488",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "796967b499b82091",
+      "agent_id": "agent-f-354894",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "f23225d46b18c74e",
+      "agent_id": "agent-s-931328",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "63ada85448d90585",
+      "agent_id": "agent-k-705131",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "510524448e1e8b6b",
+      "agent_id": "agent-r-697684",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "63d478c93d7f047e",
+      "agent_id": "agent-f-722177",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
+    },
+    {
+      "account_id": "45cd1ce88c453917",
+      "agent_id": "agent-a-280168",
+      "service": "web_research",
+      "kind": "research",
+      "status": "unconfigured",
+      "credential_ref": null
     }
   ]
 }

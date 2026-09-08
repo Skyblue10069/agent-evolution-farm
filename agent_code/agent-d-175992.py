@@ -4,4 +4,4 @@ def score_bonus(context):
     """Return a small strategy bonus from 0.0 to 5.0."""
     skill_total = float(context.get("skill_total", 0.0) or 0.0)
     recent_success = float(context.get("recent_success", 0.0) or 0.0)
-    return min(5.0, max(0.0, 0.141 + skill_total * 0.00230 + recent_success * 0.090))
+    return min(5.0, max(0.0, 0.699 + skill_total * 0.00254 + recent_success * 0.094))
