@@ -16,7 +16,7 @@ AUDIT = ROOT / "orchestrator_audit.jsonl"
 
 STAGES = [
     ("accounts", [sys.executable, "agent_accounts.py"], 60),
-    ("discovery", [sys.executable, "worldwide_discovery.py", "--max-results", "6", "--max-opportunities", "1000", "--time-limit-seconds", "540", "--max-queries", "16"], 570),
+    ("discovery", [sys.executable, "worldwide_discovery.py", "--max-results", "6", "--max-opportunities", "1000"], 570),
     ("opportunity_intelligence", [sys.executable, "opportunity_intelligence.py"], 120),
     ("adversarial_guard", [sys.executable, "adversarial_guard.py"], 120),
     ("environment", [sys.executable, "environment_engine.py"], 120),
