@@ -75,7 +75,6 @@ jobs:
           else
             echo "No state.json yet"
           fi
-
       - name: Persist farm state
         if: always()
         run: |
@@ -91,23 +90,26 @@ jobs:
 
           git commit -m "Autonomous farm state update $(date -u +%Y-%m-%d-%H%M%S)"
 
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             echo "Push attempt $attempt..."
 
             git fetch origin main
 
-            if git rebase origin/main; then
+            # Merge the newest remote commit.
+            # For generated farm-state files, keep this run's state
+            # when there is a conflict.
+            if git merge origin/main -X ours --no-edit; then
               if git push origin HEAD:main; then
                 echo "Push successful."
                 exit 0
               fi
             else
-              echo "Rebase failed."
-              git rebase --abort || true
+              echo "Merge failed. Aborting merge..."
+              git merge --abort || true
             fi
 
             sleep 10
           done
 
-          echo "Could not push after 3 attempts."
+          echo "Could not push after 5 attempts."
           exit 1
