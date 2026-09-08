@@ -1,9 +1,9 @@
-name: Agent Evolution - Autonomous Agent Farm
+name: Agent Evolution - Autonomous Agent Real-Money Survival Farm
 
 on:
   schedule:
     - cron: '17 0,4,8,12,16,20 * * *'
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -16,7 +16,6 @@ jobs:
   farm-run:
     runs-on: ubuntu-latest
     timeout-minutes: 50
-
     env:
       MTN_CLIENT_ID: ${{ secrets.MTN_CLIENT_ID }}
       MTN_CLIENT_SECRET: ${{ secrets.MTN_CLIENT_SECRET }}
@@ -27,60 +26,69 @@ jobs:
       PAYOUT_DESTINATION_ID: ${{ secrets.PAYOUT_DESTINATION_ID }}
       PAYOUT_MOBILE_MONEY_NETWORK: ${{ secrets.PAYOUT_MOBILE_MONEY_NETWORK }}
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: Setup Python
-        uses: actions/setup-python@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install core dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Install optional browser automation
+        if: ${{ vars.ENABLE_BROWSER_AUTOMATION == 'true' }}
         run: |
-          python -m pip install --disable-pip-version-check -r requirements.txt
+          python -m pip install --disable-pip-version-check -r browser_requirements.txt
+          python -m playwright install --with-deps chromium
 
       - name: Preflight integrity and security checks
         run: python integrity_check.py
 
-      - name: Run autonomous farm cycle
+      - name: Incrementally bootstrap the agent population
+        id: bootstrap
+        run: |
+          python simulate.py --bootstrap-only
+          COMPLETE=$(python - <<'PY'
+          import json
+          with open("state.json", "r", encoding="utf-8") as f:
+              print(str(json.load(f).get("bootstrap_complete", False)).lower())
+          PY
+          )
+          echo "complete=$COMPLETE" >> "$GITHUB_OUTPUT"
+          echo "Population bootstrap complete: $COMPLETE"
+
+      - name: Run complete autonomous farm cycle
+        if: ${{ steps.bootstrap.outputs.complete == 'true' }}
         run: python farm_orchestrator.py
 
-      - name: Clean Python caches
+      - name: Clean generated caches before persistence
         if: always()
         run: |
           find . -type d -name '__pycache__' -prune -exec rm -rf {} +
           find . -type f \( -name '*.pyc' -o -name '*.pyo' \) -delete
+          git ls-files -z | grep -zE '(^|/)__pycache__/|\.py[co]$' | xargs -0 -r git rm --cached --ignore-unmatch
 
-      - name: Show generated state
+      - name: Generate owner dashboard summary
         if: always()
         run: |
-          echo "=== STATE ==="
-          if [ -f state.json ]; then
-            python - <<'PY'
-          import json
+          python - <<'PY'
           from pathlib import Path
-
-          p = Path("state.json")
-          try:
-              data = json.loads(p.read_text())
-              agents = data.get("agents", [])
-              print("Agents currently saved:", len(agents))
-          except Exception as e:
-              print("Could not read state.json:", e)
+          print("Dashboard:", Path("dashboard.html").exists())
+          print("Checkpoints:", len(list(Path("checkpoints").glob("state-*.json"))) if Path("checkpoints").exists() else 0)
           PY
-          else
-            echo "No state.json yet"
-          fi
-      - name: Persist farm state
+
+      - name: Show persistence summary
+        if: always()
+        run: git status --short
+
+      - name: Persist farm state and audit trail
         if: always()
         run: |
-          git config user.name "agent-evolution-bot"
-          git config user.email "actions@github.com"
-
+          git config user.name 'agent-evolution-bot'
+          git config user.email 'actions@github.com'
           git add .
 
           if git diff --cached --quiet; then
@@ -88,23 +96,27 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Autonomous farm state update $(date -u +%Y-%m-%d-%H%M%S)"
+          git commit -m "Autonomous agent farm cycle: $(date -u +%Y-%m-%d-%H%M)"
 
           for attempt in 1 2 3 4 5; do
             echo "Push attempt $attempt..."
-
             git fetch origin main
 
-            # Merge the newest remote commit.
-            # For generated farm-state files, keep this run's state
-            # when there is a conflict.
             if git merge origin/main -X ours --no-edit; then
               if git push origin HEAD:main; then
                 echo "Push successful."
                 exit 0
               fi
             else
-              echo "Merge failed. Aborting merge..."
+              echo "Merge failed; aborting merge."
+              git merge --abort || true
+            fi
+
+            sleep 10
+          done
+
+          echo "Unable to persist farm state after 5 attempts."
+          exit 1
               git merge --abort || true
             fi
 
