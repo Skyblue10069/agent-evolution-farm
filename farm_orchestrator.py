@@ -16,11 +16,9 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-
 ROOT = Path(__file__).resolve().parent
 STATE = ROOT / "orchestrator_state.json"
 AUDIT = ROOT / "orchestrator_audit.jsonl"
-
 STAGES = [
     ("accounts", [sys.executable, "agent_accounts.py"], 60),
     ("discovery", [
@@ -79,7 +77,6 @@ STAGES = [
     ], 60),
 ]
 
-
 def now():
     return datetime.now(timezone.utc).isoformat()
 
@@ -103,7 +100,6 @@ def load_state():
             return json.loads(STATE.read_text())
         except Exception:
             pass
-
     return {
         "cycle": 0,
         "stages": {},
@@ -129,7 +125,6 @@ def audit(event):
 
 def run_stage(name, cmd, timeout_s):
     started = time.time()
-
     audit({
         "event": "stage_started",
         "stage": name,
@@ -148,7 +143,6 @@ def run_stage(name, cmd, timeout_s):
         )
 
         elapsed = round(time.time() - started, 3)
-
         result = {
             "status": (
                 "ok"
@@ -163,7 +157,6 @@ def run_stage(name, cmd, timeout_s):
 
     except subprocess.TimeoutExpired as e:
         elapsed = round(time.time() - started, 3)
-
         result = {
             "status": "timeout",
             "exit_code": None,
@@ -179,7 +172,6 @@ def run_stage(name, cmd, timeout_s):
                 else ""
             ),
         }
-
     audit({
         "event": "stage_finished",
         "stage": name,
@@ -196,7 +188,6 @@ def run_stage(name, cmd, timeout_s):
         print("EXIT CODE:", result["exit_code"])
         print("ELAPSED:", result["elapsed_s"], "seconds")
         print("-" * 70)
-
         if result["stdout_tail"]:
             print("STDOUT:")
             print(result["stdout_tail"])
@@ -223,7 +214,6 @@ def main():
     state["started_at"] = now()
 
     save_state(state)
-
     audit({
         "event": "cycle_started",
         "cycle": cycle,
@@ -248,7 +238,6 @@ def main():
         }
 
         save_state(state)
-
         if result["status"] != "ok":
             failures.append(name)
 
@@ -268,7 +257,6 @@ def main():
             "stages": failures,
             "at": state["finished_at"],
         }
-
         audit({
             "event": "cycle_failed",
             "cycle": cycle,
@@ -289,7 +277,6 @@ def main():
         print("=" * 70)
 
         return 1
-
     state["last_success"] = {
         "cycle": cycle,
         "at": state["finished_at"],
