@@ -20,8 +20,8 @@ jobs:
       MTN_CLIENT_ID: ${{ secrets.MTN_CLIENT_ID }}
       MTN_CLIENT_SECRET: ${{ secrets.MTN_CLIENT_SECRET }}
       MTN_SUBSCRIPTION_KEY: ${{ secrets.MTN_SUBSCRIPTION_KEY }}
-      MTN_ENV: ${{ vars.MTN_ENV || 'sandbox' }}
-      MTN_LIVE_PAYOUT_ENABLED: ${{ vars.MTN_LIVE_PAYOUT_ENABLED || 'false' }}
+      MTN_ENV: ${{ vars.MTN_ENV || 'Live' }}
+      MTN_LIVE_PAYOUT_ENABLED: ${{ vars.MTN_LIVE_PAYOUT_ENABLED || 'true' }}
       MTN_TARGET_ENVIRONMENT: ${{ vars.MTN_TARGET_ENVIRONMENT || 'mtncameroon' }}
       MTN_TOKEN_URL: ${{ vars.MTN_TOKEN_URL }}
       MTN_WITHDRAWALS_URL: ${{ vars.MTN_WITHDRAWALS_URL }}
